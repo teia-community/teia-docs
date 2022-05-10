@@ -1,0 +1,125 @@
+{
+    "createdBy": "Redirector v3.5.3",
+    "createdAt": "2022-05-10T21:06:18.249Z",
+    "redirects": [
+        {
+            "description": "discontinued hen mirrors to Teia",
+            "exampleUrl": "https://hicetnunc.xyz/objkt/729392",
+            "exampleResult": "https://teia.art/objkt/729392",
+            "error": null,
+            "includePattern": "https://hicetnunc.xyz/*",
+            "excludePattern": "",
+            "patternDesc": "redirect hicetnunc.xyz to teia",
+            "redirectUrl": "https://teia.art/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "discontinued hen mirrors to Teia",
+            "exampleUrl": "https://hicetnunc.art/objkt/729392",
+            "exampleResult": "https://teia.art/objkt/729392",
+            "error": null,
+            "includePattern": "https://hicetnunc.art/*",
+            "excludePattern": "",
+            "patternDesc": "redirect hicetnunc.art to teia",
+            "redirectUrl": "https://teia.art/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "discontinued hen mirrors to Teia",
+            "exampleUrl": "https://hen.teztools.io/objkt/729392",
+            "exampleResult": "https://teia.art/objkt/729392",
+            "error": null,
+            "includePattern": "https://hen.teztools.io/*",
+            "excludePattern": "",
+            "patternDesc": "redirect https://hen.teztools.io/ to teia",
+            "redirectUrl": "https://teia.art/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "discontinued hen mirrors to Teia",
+            "exampleUrl": "https://hen.hicathon.xyz/objkt/729392",
+            "exampleResult": "https://teia.art/objkt/729392",
+            "error": null,
+            "includePattern": "https://hen.hicathon.xyz/*",
+            "excludePattern": "",
+            "patternDesc": "redirect https://hen.hicathon.xyz/ to teia",
+            "redirectUrl": "https://teia.art/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "discontinued hen mirrors to Teia",
+            "exampleUrl": "https://hicetnunc.tez.page/objkt/729392",
+            "exampleResult": "https://teia.art/objkt/729392",
+            "error": null,
+            "includePattern": "https://hicetnunc.tez.page/*",
+            "excludePattern": "",
+            "patternDesc": "redirect https://hicetnunc.tez.page/ to teia",
+            "redirectUrl": "https://teia.art/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "old indexer hen mirrors to Teia",
+            "exampleUrl": "https://glry.art/objkt/729392",
+            "exampleResult": "https://teia.art/objkt/729392",
+            "error": null,
+            "includePattern": "https://glry.art/*",
+            "excludePattern": "",
+            "patternDesc": "redirect glry.xyz to teia",
+            "redirectUrl": "https://teia.art/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": true,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "old indexer hen mirrors to Teia",
+            "exampleUrl": "https://thenandnow.dev/729392",
+            "exampleResult": "https://teia.art/729392",
+            "error": null,
+            "includePattern": "https://thenandnow.dev/*",
+            "excludePattern": "",
+            "patternDesc": "redirect https://thenandnow.dev/ to teia",
+            "redirectUrl": "https://teia.art/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": true,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        }
+    ]
+}
