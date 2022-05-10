@@ -7,7 +7,7 @@
             "exampleUrl": "https://hicetnunc.xyz/objkt/729392",
             "exampleResult": "https://teia.art/objkt/729392",
             "error": null,
-            "includePattern": "https://hicetnunc.xyz/*",
+            "includePattern": "https://www.hicetnunc.xyz/*",
             "excludePattern": "",
             "patternDesc": "redirect hicetnunc.xyz to teia",
             "redirectUrl": "https://teia.art/$1",
@@ -21,7 +21,7 @@
         },
         {
             "description": "discontinued hen mirrors to Teia",
-            "exampleUrl": "https://hicetnunc.art/objkt/729392",
+            "exampleUrl": "https://www.hicetnunc.art/objkt/729392",
             "exampleResult": "https://teia.art/objkt/729392",
             "error": null,
             "includePattern": "https://hicetnunc.art/*",
