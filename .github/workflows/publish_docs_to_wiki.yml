@@ -6,8 +6,10 @@ on:
     paths:
       - docs/** # This includes all sub folders
     branches:
-      - main # This can be changed to any branch of your preference
-
+      - disabled # This can be changed to any branch of your preference
+        # ^ i.e. this branch doesn't exist
+        # not using this for now was just testing with it
+        # remove me later if the the other gh action is used
 env:
   USER_TOKEN: ${{ secrets.WIKI_ACTION_TOKEN }} # This is the repository secret
   USER_NAME: floydwilde # Enter the username of your (bot) account
