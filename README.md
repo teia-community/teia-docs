@@ -1,3 +1,3 @@
 **Teia Wiki &amp; Documentation**
 
-## [Teia Wiki](https://github.com/teia-community/teia-docs/wiki)
+## [This is just a fork](https://github.com/floydwilde/teia-docs/wiki)
