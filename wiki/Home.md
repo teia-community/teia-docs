@@ -18,5 +18,23 @@ To https://github.com/floydwilde/teia-docs.wiki.git
  * [new branch]      pre-wiki-sync-action-pr -> pre-wiki-sync-action-pr
 ```
 
-This will allow you to restore the wiki if you accidently commit this file to
-the master branch.
+Not really necessary, but nice to keep a backup branch.
+
+When the PR is merged, this placeholder will be commited to the wiki and all
+other files removed from the current commit.  Remember this Git, nothing is
+ever deleted.  Once the PR is merged, just roll back to the previous commit:
+
+
+`git reset --hard HEAD~1`
+
+In a test environment that looked like this for me:
+
+```
+$ git reset --hard HEAD~1
+HEAD is now at ee46600 Update wiki 5f13791640302fdd2cef63bd64d752049239c3c5
+✔ ~/Teia/floydwilde/teia-docs.wiki [master ↓·1|✔]
+$ git push origin master --force
+```
+
+That will erase the placeholder and rollback to the previous commit with all of
+the wiki files intact.
