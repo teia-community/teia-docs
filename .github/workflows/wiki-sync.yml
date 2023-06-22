@@ -1,0 +1,33 @@
+name: Sync Wiki
+
+on:
+  gollum:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Sync Wiki
+        run: |
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+
+          # Create a temporary directory to store the cloned wiki repository
+          mkdir wiki-repo
+          cd wiki-repo
+
+          # Clone the wiki repository into the temporary directory
+          git clone https://github.com/${{ github.repository }}.wiki.git .
+
+          # Copy the differences between the temp directory and /wiki
+          rsync -av --delete --exclude=".git" ./ ../wiki/
+
+          # Commit and push the changes using the GITHUB_TOKEN
+          cd ../wiki
+          git add .
+          git commit -m "Synced from the wiki repo"
+          git push origin HEAD:${{ github.ref }}
