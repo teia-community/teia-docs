@@ -1,43 +1,40 @@
-Welcome to the [teia.art](https://teia.art/) wiki!
+# Don't Worry This Is A Placeholder
 
-The Teia [DAO](https://github.com/teia-community/teia-docs/wiki/Governance-on-Teia) is ac community powered art platform the Tezos Blockchain.
+This file will not wipe out the wiki.
 
-It started as a fork of [Hic et Nunc/H=N](https://www.hicetnunc.xyz/) that aims to continue the spirit of H=N in a decentralised way and with sustainability, accessibility and equity in mind. 
+The wiki is a seperate repo, and will need to be synced up manually to this
+folder after this PR is accepted.
 
-Teia is an artwork made of artworks; A place where artists and collectors come together as equals in order to emancipate and democratize 
-art. We want to elevate art, no matter how known or unknown the artist. Everyone on earth should be able to have access to Teia.
-We want to protect our art. We
-want to fill the blank canvas that is Teia.
+Before merging this PR create a branch in the wiki repo like this:
 
-Teia is and always will be a work-in-progress, built and improved by its participants. We believe that we as a collective can be bigger than 
-the sum of our members. 
+```
+teia-docs.wiki [master|✔]
+$ git checkout -b pre-wiki-sync-action-pr
+Switched to a new branch 'pre-wiki-sync-action-pr'
+teia-docs.wiki [pre-wiki-sync-action-pr L|✔] 
+$ git push origin pre-wiki-sync-action-pr
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/floydwilde/teia-docs.wiki.git
+ * [new branch]      pre-wiki-sync-action-pr -> pre-wiki-sync-action-pr
+```
 
-## Enter the Teia Community
-- [teia.art (Main Page)](https://teia.art)
-- [The Teia Blog](https://blog.teia.art)
-- [Teia Community Discord Server](https://discord.gg/fmNTjfBdyV)
-- Get in touch via Mail: [info@teia.art](mailto:info@teia.art)
-- You can [Sign up at Teias own Mastodon Instance here](https://mastodon.teia.art/home) and [follow Teias Mastodon account](https://mastodon.teia.art/@TeiaCommunity)
-- [Discourse Forum](https://discourse.teia.art/)
-- [Teia Vote](https://vote.teia.art/)
+Not really necessary, but nice to keep a backup branch.
+
+When the PR is merged, this placeholder will be commited to the wiki and all
+other files removed from the current commit.  Remember this Git, nothing is
+ever deleted.  Once the PR is merged, just roll back to the previous commit:
 
 
-- [Report Harassent or Scams via the Report Form](https://docs.google.com/forms/d/e/1FAIpQLSeuBmNJjTiROSbHXXiQ5e-ia6fFywHKZ7Dj4-7sZtyltGY3yA/viewform)
+`git reset --hard HEAD~1`
 
-## Tezos
+In a test environment that looked like this for me:
 
-Teia is build on Tezos blockchain, “a pioneering layer 1 Proof-of-Stake 
-blockchain, has always been recognized as an energy-efficient alternative to more traditional Proof 
-of Work blockchains. The total annual carbon footprint of the Tezos blockchain is equivalent to the average energy footprint of 17 global citizens.” (Taken from [tezos.com](https://tezos.com/carbon/))
+```
+$ git reset --hard HEAD~1
+HEAD is now at ee46600 Update wiki 5f13791640302fdd2cef63bd64d752049239c3c5
+✔ ~/Teia/floydwilde/teia-docs.wiki [master ↓·1|✔]
+$ git push origin master --force
+```
 
-find out how to [get started with Tezos](https://github.com/teia-community/teia-docs/wiki/Getting-Started-with-Tezos)
-
-***
-## Something missing? Found an error in the wiki?
-While the site is being actively worked on by the community, we aim to keep this wiki in sync and up to date with the latest features. Please keep in mind that Teia run by contributors who work on a volunteer basis. If something doesn’t make sense, if you would like to see new content, or if you want to contribute, please submit a [issue report here](https://github.com/teia-community/teia-docs/issues) or come to the [Discord](https://discord.gg/JV2ehAn2).
-
-***
-
-**LINKS ARE IN SIDEBAR >>>>>>>**
-
-**AT THE BOTTOM ON MOBILE ↓↓↓↓↓↓↓↓**
+That will erase the placeholder and rollback to the previous commit with all of
+the wiki files intact.
