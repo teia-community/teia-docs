@@ -19,7 +19,7 @@ In the future we might adopt another documentation editing tool, but for now thi
 ### What if I want to create a PR for the change?
 Optionally if you want to create a PR for your update, you would go to the file you want to update in the Code Repository browser and this interface will provide the option of creating a PR on commit.  If you edit files directly in the code repository browser, you will find it doesn't have a handy toolbar for editing the file, but you may want to use this interface if you are just making some substantial text updates.  This way you can create a PR and ask someone to review and approve the changes.
 
-<insert image here>
+![A screenshot of the code repository browser.](https://raw.githubusercontent.com/teia-community/teia-docs/main/wiki/img/howto_teia_docs/updatedocs.png)
 
   Go to the Teia Docs code repository and find the /wiki folder mentioned above.  You will see
 a listing of .md files.  Click on the file name of any of those files and you
