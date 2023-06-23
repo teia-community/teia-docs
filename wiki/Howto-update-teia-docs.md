@@ -14,6 +14,8 @@ is for, how to update the documentation, and how to manage the documentation too
 ### Just use the wiki interface as usual
 For members of the Teia Community organization, you can update files using the GitHub wiki interface as usual.  You might want to do this if you normally use that interface which has a toolbar for adding headers, images and links etc...
 
+In the future we might adopt another documentation editing tool, but for now this option to use the Github Wiki editing interface is available to you. 
+
 ### What if I want to create a PR for the change?
 Optionally if you want to create a PR for your update, you would go to the file you want to update in the Code Repository browser and this interface will provide the option of creating a PR on commit.  If you edit files directly in the code repository browser, you will find it doesn't have a handy toolbar for editing the file, but you may want to use this interface if you are just making some substantial text updates.  This way you can create a PR and ask someone to review and approve the changes.
 
