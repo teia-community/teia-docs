@@ -27,7 +27,7 @@ And this will help you create a new branch and make a PR with a "Propose Changes
 
 ### I want to create a new page
 
-Use the wiki interface, in the code repository browser click the + sign above the file listing on the left side navigation menu and click "Add file", or clone the repository locally and add your file using your terminal or IDE.
+Use the wiki interface, or in the code repository browser click the + sign above the file listing on the left side navigation menu and click "Add file", or clone the repository locally and add your file using your terminal or IDE.
 
 ## For any GitHub user not a member of the Teia Organization
 
