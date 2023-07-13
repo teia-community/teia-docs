@@ -1,13 +1,8 @@
 ## Update Documentation in the Teia Docs Repository
 
-This guide provides step-by-step instructions on how to update a documentation file stored in the /wiki folder of this GitHub repository. The process involves navigating to the file, accessing the editing interface, and making changes using the built-in Markdown editor.
+This guide provides instructions on how to update a documentation file stored in the /wiki folder of this GitHub repository.
 
-Note that formerly files were stored in the wiki repo of this, the Teia Docs repository, but they have now been moved to the /wiki folder.  When you edit a file in the /wiki folder on the main branch, a GitHub action will be triggered and that file will be pushed to the internal GitHub wiki repo.  Likewise when any update is made using the GitHub wiki interface, that changed will be synced back to the /wiki folder.  This is only temporary until we have decied on another publishing workflow for our documentation using a tool like Docusaurus or Tinacms.
-
-Eventually this documentation, this page you are reading now, describing how to update the
-documentation, will be stored in the GitHub wiki for this repo, the Teia Docs
-repo. Along with maybe a few other pages which explain what the Teia Docs repo
-is for, how to update the documentation, and how to manage the documentation tools we decide to use.
+Note that formerly files were stored in the "internal wiki repo" of this, the Teia Docs repository, but they have now been moved to the /wiki folder.  When you edit a file in the /wiki folder on the main branch, a GitHub action will be triggered to push the change to the internal GitHub wiki repo.  Likewise when any update is made using the GitHub wiki interface, that change will be synced back to the /wiki folder.
 
 ## For Teia Organization members
 
@@ -43,4 +38,4 @@ Docs repository.
 Once you have your own fork, proceed to make the changes or updates you wish to
 make then commit your changes to your fork and issue a Pull Request.
 
-You can even use the wiki editing feature in your fork to edit files, which will be synced back to the main branch of your fork where you can prepare a PR back to the main Teia Docs repo. 
+You can even use the wiki editing feature in your fork to edit files, which will be synced back to the main branch of your fork where you can then prepare a PR back to the main Teia Docs repo. 
