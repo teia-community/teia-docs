@@ -38,6 +38,9 @@ find out how to [get started with Tezos](https://github.com/teia-community/teia-
 
 ***
 ## Something missing? Found an error in the wiki?
+
+* [[Howto-update-teia-docs]]
+
 While the site is being actively worked on by the community, we aim to keep this wiki in sync and up to date with the latest features. Please keep in mind that Teia run by contributors who work on a volunteer basis. If something doesn’t make sense, if you would like to see new content, or if you want to contribute, please submit a [issue report here](https://github.com/teia-community/teia-docs/issues) or come to the [Discord](https://discord.gg/JV2ehAn2).
 
 ***

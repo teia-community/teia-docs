@@ -2,8 +2,8 @@
 
 ## [Teia Wiki](https://github.com/teia-community/teia-docs/wiki)
 
-You can edit the wiki if you are a member of the Teia-Community organization
-using the GitHub inteface above or by editing the files in the /wiki directory
+You can edit the [wiki](https://github.com/teia-community/teia-docs/wiki) if you are a member of the Teia-Community organization
+using the GitHub wiki inteface or by editing the files in the [/wiki](https://github.com/teia-community/teia-docs/tree/main/wiki) directory
 of this repo.  Optionally, when you edit the files in the /wiki directory, you
 can create a PR and colloborate with others to review the change.
 
