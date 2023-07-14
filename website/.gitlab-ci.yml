@@ -1,0 +1,27 @@
+image: awesometic/docusaurus
+
+stages:
+  - test
+  - deploy
+
+test:
+  stage: test
+  script:
+  - cd website
+  - yarn install
+  - yarn build
+  except:
+    - main
+
+pages:
+  stage: deploy
+  script:
+  - cd website
+  - yarn install
+  - yarn build
+  - mv ./build ../public
+  artifacts:
+    paths:
+    - public
+  only:
+    - main

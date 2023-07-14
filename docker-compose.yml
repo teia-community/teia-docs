@@ -1,0 +1,8 @@
+---
+version: "3.8"
+services:
+  teia-wiki:
+    build: .
+    restart: unless-stopped
+    ports:
+      - 0.0.0.0:8080:80
