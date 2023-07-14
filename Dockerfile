@@ -1,4 +1,4 @@
-FROM node:lts as base
+FROM node:lts as builder
 ENV NPM_CONFIG_LOGLEVEL=warn
 ENV NPM_CONFIG_COLOR=false
 WORKDIR /app
@@ -8,7 +8,8 @@ RUN yarn install && yarn build
 
 FROM nginx:stable-alpine
 WORKDIR /home/node/app
-COPY --from=base /app/build /usr/share/nginx/html/
+COPY .github/workflows/nginx.conf /etc/nginx/conf.d/default.conf
+COPY --from=builder /app/build /usr/share/nginx/html/
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 
