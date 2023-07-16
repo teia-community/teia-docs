@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'Teia Docs',
   tagline: 'Wiki & documentation for teia.art',
-  url: 'https://teia-community.gitlab.io',
+  url: 'https://wiki.teia.rocks',
   baseUrl: '/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
