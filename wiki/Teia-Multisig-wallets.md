@@ -6,7 +6,7 @@ To create your own multisg you can use https://teia-multisig.onrender.com/origin
 For more info about the multisig smartcontract read the [multisig documentation](https://github.com/jagracar/multisign-app/blob/main/documentation.md)
 
 
-## Man Multisig: Core Team Multisig/Teia DAO/Treasury
+## Main Multisig: Core Team Multisig/Teia DAO/Treasury
 
 **KT1J9FYz29RBQi1oGLw8uXyACrzXzV1dHuvb** [(on tzkt)](https://mainnet.tzkt.io/KT1J9FYz29RBQi1oGLw8uXyACrzXzV1dHuvb)
 
