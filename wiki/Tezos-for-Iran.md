@@ -59,6 +59,7 @@ going forward, more orgs and causes could be added to the fund/split. If you hav
 
 - **transaction03: January 6th 2023:** [2377.782402 tez sent to Crypto4Charities Offramping account](https://tzkt.io/op1EjJkqrL6694oHV2hiz22CJqEzRmXAPwZhG62cXHdGoxHjpBp/11342041/3)
 
+- **transaction04: August 18th, 2023** [1029.112357 tez sent to Crypto4Charities Offramping account](https://tzkt.io/oockXGZEUqvSNhMRFYcsEdSbs4j7Qp5My8YSDjG8jEK8ngqwKnA/12334497/0)
 
 
  
