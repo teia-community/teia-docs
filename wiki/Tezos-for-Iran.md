@@ -14,7 +14,7 @@ This contract is the same type of contract that is also used for the SavePakista
 Currently, there is only one donation address to wich the above mentioned donation address withdraws to 
 (tz2XPwV4gWN5oereTidtqMvn9KDZtyph41WC). All funds sent to this address will be ramped off to Organisations that focus on supporting the iranian fight for freedom and documenting human rights issues in Iran. 
 
-The address is handled by [SimonSays](https://twitter.com/0xSimonSays) of [Crypto for Charity](https://www.cryptoforcharity.io/donate-crypto)
+The address is handled by Omar of [Crypto for Charity](https://www.cryptoforcharity.io/donate-crypto)
 
 ## How to contribute
 
