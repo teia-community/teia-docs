@@ -117,23 +117,10 @@ There will be a % (currently suggested 30%) of either quorum votes or overall vo
 
 Discussions are currently ongoing if we should allow core team members into a representative role or not. As things stand, it looks like a few reps might indeed be part of the core team but this might be revisited in the future as DAO evolves.
 
-However, in order to make this work, there needs to be a solid structure/procedure for the rep setup in place, this is currently being worked on by the reporesentatives working group
-
-
-
-
+However, in order to make this work, there needs to be a solid structure/procedure for the rep setup in place, this is currently being worked on by the reporesentatives working group.
 Leaders within these groups are being nominated by the community and [will 
 be included in the weaving of the new Teia DAO](https://github.com/teia-community/teia-docs/wiki/Governance-on-Teia#representatives-contract).
 
-
-## Open Questions and Tasks for the DAO implementation
-
-The next big challenge will be setting the above mentioned parameters in the main DAO governance contract. 
-
-Some open questions need to be answered, such as:
-
-- due to low response from contacted representatives, it is currently not clear if there will be enough represetentative figures at lauch to make the representative voting possible. However, there is a dedicated place for representatives in the contracts that can be activated as soon as there is a substantial amount of self-organised representatives that are willing and ready to take the responsibility.
-- Improving the User Interfaces for all DAO sites (looking for frontend DEVs)
 
 
 ## DAO Smart-Contract Development
