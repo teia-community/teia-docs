@@ -86,6 +86,7 @@ DAO proposals are mostly intended to define roadmaps/general directions the LLC 
 ### Teia DAO Token Distribution
 
 **We published an extensive [fact sheet with a FAQ section on our blog](https://blog.teia.art/blog/fact-sheet-token-drop)**
+The $TEIA DAO tokens are being distributed among the community via the **ONLY** §TEAI claim page at https://wwww.teia.art/claim between August 20th, 2023 to November 20th, 2023. After the claiming period, unclaimed tokens will remain in the treasury for future distribution events.
 
 Note that no token value above being a voting token is implied. The Teia DAO Token is solely intended as a governance token and should not be treated as a financial/investment asset. Due to its non-profit nature, Teia can't and won't distribute profits and can only use funds generated to maintain operations, fund exhibitions, and support education, art, and cultural exchange in general.
 
@@ -98,21 +99,13 @@ All eligible Tezos wallets will be invited to claim their Teia tokens and partic
 
 650k Tokens are allocated as hDAO rewards, 300k Tokens are reserved for the Teia treasury (for fututre distribution(s) along with all unclaimed tokens) and 50k will be distributed between all wallets that participated in the community vote on total supply, adding up to 1 Million.
 
-After the claiming period of a few months, unclaimed tokens will remain in the treasury for future drops.
+For the total supply of 8 million tokens, we get the following split between the reward parameters:
 
-#### Example: 6 Million Tokens total supply
-
-If the community for example decides to go with 6 Million tokens as total supply, 5 Million will be reserved for activity with 8% of those 5 Million allocated to contribution, resulting in the following split:
-
-- 4.6 million tokens (~ 77%) will be distributed based on activity.
-- 650k (~ 11%) Tokens will be distributed based on hDAO ownership.
-- 400k Tokens (~ 7%) will be distributed based on contribution.
-- 300k Tokens (~ 5%) will be locked in the treasury for future drops.
-- 50k Tokkens (~0.8%) to be distributed among participants in the community vote about token supply.
-
-
-
-
+- 6.44 million tokens (~80%) will be distributed based on activity.
+- 650k (~8%) Tokens will be distributed based on hDAO ownership.
+- 560k Tokens (~7%) will be distributed based on contribution.
+- 300k Tokens (~4%) will be locked in the treasury for future drops.
+- 50k Tokens (~1%) to be distributed among participants in the community vote about token supply.
 
 
 ### Equity
@@ -140,7 +133,6 @@ The next big challenge will be setting the above mentioned parameters in the mai
 Some open questions need to be answered, such as:
 
 - due to low response from contacted representatives, it is currently not clear if there will be enough represetentative figures at lauch to make the representative voting possible. However, there is a dedicated place for representatives in the contracts that can be activated as soon as there is a substantial amount of self-organised representatives that are willing and ready to take the responsibility.
-- Deciding on the distribution models (see above) and doing the drop
 - Improving the User Interfaces for all DAO sites (looking for frontend DEVs)
 
 
