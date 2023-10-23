@@ -21,7 +21,7 @@ The decision-making process of TEIA is horizontal and will take into account the
 
 Teia is incorporated as a non-profit, limited liability corporation (LLC) on the Republic of Marshall islands (RMI) that [formely recognizes DAO governance](https://www.globenewswire.com/news-release/2022/02/15/2385589/0/en/The-Republic-of-the-Marshall-Islands-Formally-Recognizes-DAO-Incorporation.html) and digital ledger addresses as members. 
 
-This means that Teias "owners" (=members) can be defined by Token ownership or assignemnt to a multisig address without the need of members doing KYC (as long as they stay below 10% of voting power, which will be implemented on a smartcontract level)
+This means that Teias "owners" (=members) can be defined by Token ownership or assignemnt to a multisig address without the need of members doing KYC (as long as they stay below 10% of voting power, which is implemented on a smartcontract level)
 
 The DAO currently operates under the [Version 1.2 of the Teia DAO Operating Agreement](https://github.com/teia-community/teia-docs/blob/main/DocumentArchive/Teia%20Operating%20Agreement%20v1.2_noDoxx.pdf)
 
@@ -85,12 +85,14 @@ DAO proposals are mostly intended to define roadmaps/general directions the LLC 
 
 ### Teia DAO Token Distribution
 
-**We published an extensive [fact sheet with a FAQ section on our blog](https://blog.teia.art/blog/fact-sheet-token-drop)**
-The $TEIA DAO tokens are being distributed among the community via the **ONLY** §TEAI claim page at https://wwww.teia.art/claim between August 20th, 2023 to November 20th, 2023. After the claiming period, unclaimed tokens will remain in the treasury for future distribution events.
+
+**Whoever is in posession of $TEIA becomes a member of Teia DAO LLC.**
+
+We published an extensive [fact sheet with a FAQ section on our blog](https://blog.teia.art/blog/fact-sheet-token-drop)
+
+The $TEIA DAO tokens are being distributed among the community via the **ONLY** $TEIA claim page at https://wwww.teia.art/claim between August 20th, 2023 to November 20th, 2023. After the claiming period, unclaimed tokens will remain in the treasury for future distribution events.
 
 Note that no token value above being a voting token is implied. The Teia DAO Token is solely intended as a governance token and should not be treated as a financial/investment asset. Due to its non-profit nature, Teia can't and won't distribute profits and can only use funds generated to maintain operations, fund exhibitions, and support education, art, and cultural exchange in general.
-
-All eligible Tezos wallets will be invited to claim their Teia tokens and participate in the development and workings of the Teia DAO. The Teia team is working hard to make distribution as fair and effective as possible. Whoever claims their tokens becomes a member of Teia DAO LLC by virtue of token ownership. The Tokens won't be airdropped. Instead, there will be a website that lets community members claim the tokens based on the following main criteria:
 
 - **Activity**: Interaction with Teia’s and/or Hic et Nunc’s marketplace contracts. this is by far the biggest factor in the Token distribution ([see blog for details](https://blog.teia.art/blog/fact-sheet-token-drop#what-do-the-parameters-on-the-distribution-tables-mean-exactly))
 - **Contribution** to Teia and Hic et Nunc defined by many different distribution parameters ([see blog for details](https://blog.teia.art/blog/fact-sheet-token-drop#how-are-the-token-rewards-for-the-different-activity-and-contribution-weighted))
@@ -98,15 +100,6 @@ All eligible Tezos wallets will be invited to claim their Teia tokens and partic
 - **Additional voting reward** for participating in the community vote about the overall token supply.
 
 650k Tokens are allocated as hDAO rewards, 300k Tokens are reserved for the Teia treasury (for fututre distribution(s) along with all unclaimed tokens) and 50k will be distributed between all wallets that participated in the community vote on total supply, adding up to 1 Million.
-
-For the total supply of 8 million tokens, we get the following split between the reward parameters:
-
-- 6.44 million tokens (~80%) will be distributed based on activity.
-- 650k (~8%) Tokens will be distributed based on hDAO ownership.
-- 560k Tokens (~7%) will be distributed based on contribution.
-- 300k Tokens (~4%) will be locked in the treasury for future drops.
-- 50k Tokens (~1%) to be distributed among participants in the community vote about token supply.
-
 
 ### Equity
 
@@ -117,17 +110,25 @@ There will be a % (currently suggested 30%) of either quorum votes or overall vo
 
 Discussions are currently ongoing if we should allow core team members into a representative role or not. As things stand, it looks like a few reps might indeed be part of the core team but this might be revisited in the future as DAO evolves.
 
-However, in order to make this work, there needs to be a solid structure/procedure for the rep setup in place, this is currently being worked on by the reporesentatives working group.
 Leaders within these groups are being nominated by the community and [will 
 be included in the weaving of the new Teia DAO](https://github.com/teia-community/teia-docs/wiki/Governance-on-Teia#representatives-contract).
 
+However, in order to make this work, there needs to be a solid structure/procedure for the rep setup in place, this is currently being worked on by the reporesentatives working group and the team is looking for people interested in working on the equity governance for Teia: Both members of equity seeking communities as well as volunteers that are interested in helping with this are invited to join the discussion on discord.
 
+## Voting procedure
+
+### DAO proposals
+DAO proposals are legally binding for the Teia DAO LLC and can be submitted by ANY member via the DAO user interface on teia.art. DAO proposals can only have YES/NO options and need to pass the quorum in order to succeed.
+
+In practice, this will mean that DAO proposals will need a lot of attention and discussion to gather enough votes to pass the quorum and prevent unrealistic or short-sighted proposals from going through with only a few positive votes and without enough "no" votes.
+
+Of course, DAO proposals still need to be in line with Teia's core values and be lawful. To ensure this, the DAO guardian role will be able to cancel proposals (at least for now) - the guardian doesn't have to be an individual; it can also be another multisig, for example.
 
 ## DAO Smart-Contract Development
 
 Smart contract developer [Jagracar](https://twitter.com/jagracar) currently leads the smart-contract development needed for the tech side of Teia DAO, and the #smart-contract working group in Discord is currently discussing and improving those contract codes.
 
-### The DAO token
+### The $TEIA token contract
 
 code: https://github.com/teia-community/teia-smart-contracts/blob/main/python/contracts/daoToken.py
 
@@ -149,16 +150,6 @@ code: https://github.com/teia-community/teia-smart-contracts/blob/main/python/co
 
 The idea is that we will create a list of wallets with the number of DAO token editions that they will have: tz1aaa -> 10eds, tz1bbb -> 20eds
 From that final list we will build a Merkle tree that encapsules the DAO token distribution information. The root of the Merkle tree will be stored in the contract and will be used to verify that every token claim is correct. 
-
-We will set up a website where people will go to claim their tokens, similar to the tezDAO website:
-https://tezdao.org/
-
-There will be a claim button and people will be able claim their tokens. If people do not claim their tokens in a given period of time (6 months?), the tokens will go to the DAO treasury smart contract, and will be used for future distributions.
-
-We still need to develop the webpage to claim the DAO tokens. It's not as simple as just adding a button. It will need to download the Merkle tree from IPFS and calculate the Merkle proof for the given wallet. That will be sent to the DAO token drop contract and if the proof is correct, the editions will be transferred to the wallet.
-
-We can base our webpage in the following template by AnshuJalan 
-https://github.com/AnshuJalan/token-drop-template/tree/master/frontend
 
 
 ### Treasury contract
