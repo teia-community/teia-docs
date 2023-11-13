@@ -19,9 +19,9 @@ The decision-making process of TEIA is horizontal and will take into account the
 
 ## Legal status: Non-profit LLC DAO
 
-Teia is incorporated as a non-profit, limited liability corporation (LLC) on the Republic of Marshall islands (RMI) that [formely recognizes DAO governance](https://www.globenewswire.com/news-release/2022/02/15/2385589/0/en/The-Republic-of-the-Marshall-Islands-Formally-Recognizes-DAO-Incorporation.html) and digital ledger addresses as members. 
+Teia is incorporated as a non-profit, limited liability corporation (LLC) on the Republic of Marshall islands (RMI) that [formally recognizes DAO governance](https://www.globenewswire.com/news-release/2022/02/15/2385589/0/en/The-Republic-of-the-Marshall-Islands-Formally-Recognizes-DAO-Incorporation.html) and digital ledger addresses as members. 
 
-This means that Teias "owners" (=members) can be defined by Token ownership or assignemnt to a multisig address without the need of members doing KYC (as long as they stay below 10% of voting power, which is implemented on a smartcontract level)
+This means that Teias "owners" (=members) can be defined by Token ownership or assignment to a multisig address without the need of members doing KYC (as long as they stay below 10% of voting power, which is implemented on a smartcontract level).
 
 The DAO currently operates under the [Version 1.2 of the Teia DAO Operating Agreement](https://github.com/teia-community/teia-docs/blob/main/DocumentArchive/Teia%20Operating%20Agreement%20v1.2_noDoxx.pdf)
 
@@ -99,7 +99,7 @@ Note that no token value above being a voting token is implied. The Teia DAO Tok
 - **hDAO conversion** - a 1:1 hDAO for teia DAO Token reward. ([see blog for details](https://blog.teia.art/blog/fact-sheet-token-drop#hdao-rewards))
 - **Additional voting reward** for participating in the community vote about the overall token supply.
 
-650k Tokens are allocated as hDAO rewards, 300k Tokens are reserved for the Teia treasury (for fututre distribution(s) along with all unclaimed tokens) and 50k will be distributed between all wallets that participated in the community vote on total supply, adding up to 1 Million.
+650k Tokens are allocated as hDAO rewards, 300k Tokens are reserved for the Teia treasury (for future distribution(s) along with all unclaimed tokens) and 50k will be distributed between all wallets that participated in the community vote on total supply, adding up to 1 Million.
 
 ### Equity
 
@@ -212,7 +212,7 @@ All of those parameters, of course, can be adjusted over time. We will probably 
 
 ### Administrative Figures within the DAO
 
-As a safety measure, especially in the beginning when the DAO model is young and not fully tested, we need to implement some adminitrative figues: They can be eliminated later if we want to, by assigning them to a burn address or a dead contract.
+As a safety measure, especially in the beginning when the DAO model is young and not fully tested, we need to implement some administrative figures: They can be eliminated later if we want to, by assigning them to a burn address or a dead contract.
 
 UI: https://teia-multisig.onrender.com/
 
@@ -222,7 +222,7 @@ BCD (testnet): https://better-call.dev/ithacanet/tz1gnL9CeM5h5kRzWZztFYLypCNnVQZ
 
 The DAO admin figure will also be a teia multisig. The admin cannot create, vote, execute or cancel proposals, but it can modify the main DAO  governance parameters. It's a safety measure in case we choose some parameters that are not appropiate. For example, if we see that we start with a quorum that is too high, the admin can lower it to save time. By being able to modify the DAO parameters, the admin can also come into the rescue of the DAO. 
 
-For example, they could make proposals impossible to approve by setting the quorum or the supermajority to a extremelly high value.
+For example, they could make proposals impossible to approve by setting the quorum or the supermajority to a extremely high value.
 
 #### Guardian
 
@@ -230,7 +230,7 @@ BCD (testnet):https://better-call.dev/ithacanet/KT1RCXoax1uuWDLrK5n1AzLJMgQbg4D5
 
 The DAO guardian figure comes into action only in very special situations: When an attacker submits a proposal and manages to get enough votes to have it approved. 
 
-That could happen by sending a sybill attach or taking advantage of a period when the DAO participation is very low and the quorum requirements are also very low.In that attack situation, DAO guardians are able to cancel the attacker proposals before they can be executed.
+That could happen by sending a sybil attack or taking advantage of a period when the DAO participation is very low and the quorum requirements are also very low. In that attack situation, DAO guardians are able to cancel the attacker proposals before they can be executed.
 
 The DAO guardians contract is the same as the Teia multisig contract that we are already using. In order to cancel a proposal, guardians need to create a proposal in the multisig and execute it.
 
@@ -254,12 +254,12 @@ In the context of DAO voting, a supermajority refers to a higher threshold of su
 For the Teia DAO, the supermajority is calculated in the smart contract by dividing the number of "yes" votes by the sum of "yes" and "no" votes.  A common supermajority setting would be something around 60% or 70%, but we can adjust the values and experiment during the DAOS beta phase. Abstain votes do not count towards the supermajority calculation. They only contribute to meeting the quorum requirement, not the supermajority. 
 
 Finding the right balance is important to ensure that significant decisions require a broad consensus. One potential risk associated with a supermajority parameter set at, for instance, 70% is that a minority of 31% could block proposals indefinitely. This highlights the need for careful consideration and adjustment of the supermajority threshold to strike a balance between consensus and progress. 
-The DAO administrator, a designated figure within the organization, has the power to change the supermajority parameters if necessary. This provides flexibility to adapt the decision-making process and requirements as the DAO evolves.
 
+The DAO administrator, a designated figure within the organization, has the power to change the supermajority parameters if necessary. This provides flexibility to adapt the decision-making process and requirements as the DAO evolves.
 
 ## ORG-Structure suggestions
 
-for the structure of the Org there are two proposals that seem to be good corner stones reflecting what structure we want to build towards:
+for the structure of the Org there are two proposals that seem to be good cornerstones reflecting what structure we want to build towards:
 
 ### Malicious sheeps structure proposal:
 ![Organization_Proposal](https://user-images.githubusercontent.com/97635650/158018380-bde4d699-f204-4c8e-a592-4ff92aae64c1.png)
