@@ -32,15 +32,18 @@ Relevant legal texts (Marshall Islands law):
 * [LLC Act](https://www.google.com/url?q=https://rmiparliament.org/cms/images/LEGISLATION/PRINCIPAL/19/1990-93/LimitedLiabilityCompanyAct1990_2.pdf&sa=D&source=docs&ust=1672071429786540&usg=AOvVaw2tpz7VIluXJgiikzHW32Yv)
 * [Business Corporations Act  (pdf)](https://www.google.com/url?q=https://rmiparliament.org/cms/images/LEGISLATION/PRINCIPAL/1990/1990-0091/BusinessCorporationsAct1990_8.pdf&sa=D&source=docs&ust=1672071429786584&usg=AOvVaw042kKxetnvj5Ga9dSKpnbP)
 
-## Phase01: Proto DAO governed by a multisig 
-_(we are here currently)_
+## Current state: DAO beta phase with multisig as legal owner
 
-**During this initial phase, Teia will be operating under the [Teia Operating Agreement v1.2](https://github.com/teia-community/teia-docs/blob/main/DocumentArchive/Teia%20Operating%20Agreement%20v1.2_noDoxx.pdf)** this document will be updated for the next Phases of Teias DAO launch.
+**During this current phase, Teia will be operating under the [Teia Operating Agreement v1.2](https://github.com/teia-community/teia-docs/blob/main/DocumentArchive/Teia%20Operating%20Agreement%20v1.2_noDoxx.pdf)** this document will be updated for the next Phases of Teias DAO launch.
+
+On Nov 20th, 2023, the first TEIA token distribution has concluded with about 3 Million tokens claimed. and on Nov 24th, we started the DAO beta testing phase ([more info in thios blog article](https://blog.teia.art/blog/dao-test-launch)). This means TEIA holders can start using the Teia Voting tools for Polling and DAO gobrnance. 
+
+During the beta phase, the core team multisig will still be legally responsible and in charge so the DAO contracts can be used and tested without the risk of exploits and smart contract issues. Token votes by the DAO members will still be used to form decisions.
+
+During the current DAO testing phase, the ["Core Team Multisig"](https://github.com/teia-community/teia-docs/wiki/Teia-Multisig-wallets#man-multisig-core-team-multisig) will be the official owner of Teia's legal entity while testing and using the DAO smart contracts (see below) to get feedback from the community until the full DAO launch happens, at which point the DAO members will be the legal owners of Teia and can propose changes to the (executive) core team if needed.
 
 Take a look at the Multisig here:
 https://core-team-multisig.onrender.com/
-
-In the first phase, before the Teia DAO Tokens have been distributed, the ["Core Team Multisig"](https://github.com/teia-community/teia-docs/wiki/Teia-Multisig-wallets#man-multisig-core-team-multisig) will be the official owner of Teia's legal entity.
 
 The Multisig consists of approximately 20, but at least 11 addresses owned by highly active contributors to Teia. It will be used to vote on transactions involving Teia's assets, change the membership status of the core team multisig, and manage the Teia marketplace smart contracts. For instance, it can modify the [marketplace fee](https://github.com/teia-community/teia-docs/wiki/Marketplace-Fees) (requiring a quorum of 55% to complete transactions).
 
@@ -57,20 +60,15 @@ Currently, all major proposals and questions are discussed at the [Teia Communit
 
 ![ProtoDAO structure and procedure](https://github.com/teia-community/teia-docs/assets/97635650/6e991a86-16e0-417f-ab8d-442b69059e74)
 
-## Phase02 DAO beta
 
-After the Teia DAO Tokens have been distributed, we can start to vote with the DAO smart contracts (details see below).
-During the beta phase, the core team multisig will still be legally responsible and in charge so the DAO contracts can be used and tested without the risk of exploits and smart contract issues. Token votes by the DAO members will still be used to form decisions.
 
-so: legally, the core team from phase01 will still be in place, until at least phase03, at which point the DAO can propose changes to the core team if needed.
+## Next step: Full DAO launch
 
-## Phase03 Full DAO Launch
-
-After Phase02 we will adjust the operating agreement so that the DAO contracts will define the governance on chain and via DAO votes. DAO proposals can be set up by any DAO member and will be voted on by the DAO. DAO proposals in the current setup can only have a Yes/No option.
+After the beta testing phase, we will adjust the operating agreement so that the DAO contracts will define the governance on chain and via DAO votes. DAO proposals can be set up by any DAO member and will be voted on by the DAO. DAO proposals in the current setup can only have a Yes/No option.
 
 The core team multsig will no longer be the owner of the DAO, which will then be the DAO members. The core team will be responsible for day-to-day executive decisions, since DAO proposals and voting will not be feasible for smaller decisions. The core team will also be responsible for the LLCs operations and HR and will be able to represent Teia legally i.e. for paper work and propose community votes as well as the budget for operations.
 
-For now, we plan to start into phase03 with the same core team like in phase 01+02 and let the DAO decide on approving or changing the core team.
+For now, we plan to launch with the same core team that has been building the DAO and keeping Teia running since 2021 and let the DAO decide on approving or changing the core team.
 
 DAO proposals are mostly intended to define roadmaps/general directions the LLC should take and also montiroring the core team in their operational work and executive decisionmaking. of Course the DAO is free to change this setup via DAO proposals 
 
@@ -81,25 +79,24 @@ DAO proposals are mostly intended to define roadmaps/general directions the LLC 
 
 
 
-## Building towards Phase02 and Phase03
+### The Teia DAO Tokens
 
-### Teia DAO Token Distribution
-
-
-**Whoever is in posession of $TEIA becomes a member of Teia DAO LLC.**
-
-We published an extensive [fact sheet with a FAQ section on our blog](https://blog.teia.art/blog/fact-sheet-token-drop)
-
-The $TEIA DAO tokens are being distributed among the community via the **ONLY** $TEIA claim page at https://wwww.teia.art/claim between August 20th, 2023 to November 20th, 2023. After the claiming period, unclaimed tokens will remain in the treasury for future distribution events.
+The TEIA tokens are the governance tokens of the Teia DAO LLC. They will be mostly used for determining who is a DAO member and how much voting power for DAO proposals eacxh wallet has. Legally, all Token holders are also part of the Teia DAO LLC.
 
 Note that no token value above being a voting token is implied. The Teia DAO Token is solely intended as a governance token and should not be treated as a financial/investment asset. Due to its non-profit nature, Teia can't and won't distribute profits and can only use funds generated to maintain operations, fund exhibitions, and support education, art, and cultural exchange in general.
 
+3 Million $TEIA DAO tokens have been distributed among the community via the $TEIA claim page between August 20th, 2023 to November 20th, 2023. 5 Million unclaimed tokens have gone back to the Teia treasury for future distribution.
+
+Tokens have been distributed based on the following parameters
 - **Activity**: Interaction with Teia’s and/or Hic et Nunc’s marketplace contracts. this is by far the biggest factor in the Token distribution ([see blog for details](https://blog.teia.art/blog/fact-sheet-token-drop#what-do-the-parameters-on-the-distribution-tables-mean-exactly))
 - **Contribution** to Teia and Hic et Nunc defined by many different distribution parameters ([see blog for details](https://blog.teia.art/blog/fact-sheet-token-drop#how-are-the-token-rewards-for-the-different-activity-and-contribution-weighted))
 - **hDAO conversion** - a 1:1 hDAO for teia DAO Token reward. ([see blog for details](https://blog.teia.art/blog/fact-sheet-token-drop#hdao-rewards))
 - **Additional voting reward** for participating in the community vote about the overall token supply.
 
-650k Tokens are allocated as hDAO rewards, 300k Tokens are reserved for the Teia treasury (for fututre distribution(s) along with all unclaimed tokens) and 50k will be distributed between all wallets that participated in the community vote on total supply, adding up to 1 Million.
+We published an extensive [fact sheet with a FAQ section on our blog](https://blog.teia.art/blog/fact-sheet-token-drop)
+
+
+
 
 ### Equity
 
@@ -255,6 +252,10 @@ For the Teia DAO, the supermajority is calculated in the smart contract by divid
 
 Finding the right balance is important to ensure that significant decisions require a broad consensus. One potential risk associated with a supermajority parameter set at, for instance, 70% is that a minority of 31% could block proposals indefinitely. This highlights the need for careful consideration and adjustment of the supermajority threshold to strike a balance between consensus and progress. 
 The DAO administrator, a designated figure within the organization, has the power to change the supermajority parameters if necessary. This provides flexibility to adapt the decision-making process and requirements as the DAO evolves.
+
+### possible future escrow rule of TEIA for submitting DAO proposals
+
+In the Teia DAO voting system, the act of voting doesn't consume tokens. During the testing phase, creating proposals won't cost any tokens, but in the later official DAO, there might be a request for around 500 TEIA for each submitted DAO proposal (not poll) as escrow to prevent spam proposals. The Tokens will be sent to Teias Treasury if the DAO proposal fails to meet the quorum. The reasoning here would be to reduce spam proposals and avoid cluttering the UI with less important ones. 
 
 
 ## ORG-Structure suggestions
