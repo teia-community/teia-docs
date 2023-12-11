@@ -12,6 +12,12 @@ want to fill the blank canvas that is Teia.
 Teia is and always will be a work-in-progress, built and improved by its participants. We believe that we as a collective can be bigger than 
 the sum of our members. 
 
+## Imprint
+
+**Teia DAO LLC (at MIDAO registrar)**
+Principals office: PO Box 852, Long Island Rd Majuro, Marshall Islands MH 96960
+Registration Number: 10020-23 at MIDAO
+
 ## Enter the Teia Community
 - [teia.art (Main Page)](https://teia.art)
 - [The Teia Blog](https://blog.teia.art)
