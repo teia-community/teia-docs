@@ -18,7 +18,7 @@ the sum of our members.
 
 Principals office: PO Box 852, Long Island Rd Majuro, Marshall Islands MH 96960
 
-Registration Number: 10020-23 at MIDAO
+Registration Number: 10020-23 (MIDAO)
 
 ## Enter the Teia Community
 - [teia.art (Main Page)](https://teia.art)
