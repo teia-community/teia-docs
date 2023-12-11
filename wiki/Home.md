@@ -15,7 +15,9 @@ the sum of our members.
 ## Imprint
 
 **Teia DAO LLC (at MIDAO registrar)**
+
 Principals office: PO Box 852, Long Island Rd Majuro, Marshall Islands MH 96960
+
 Registration Number: 10020-23 at MIDAO
 
 ## Enter the Teia Community
