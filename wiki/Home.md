@@ -30,7 +30,7 @@ Registration Number: 10020-23 (MIDAO)
 - [Teia Vote](https://vote.teia.art/)
 
 
-- [Report Harassent or Scams via the Report Form](https://docs.google.com/forms/d/e/1FAIpQLSeuBmNJjTiROSbHXXiQ5e-ia6fFywHKZ7Dj4-7sZtyltGY3yA/viewform)
+[Report Harassent or Scams via the Report Form](https://docs.google.com/forms/d/e/1FAIpQLSeuBmNJjTiROSbHXXiQ5e-ia6fFywHKZ7Dj4-7sZtyltGY3yA/viewform)
 
 ## Tezos
 
