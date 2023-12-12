@@ -21,6 +21,12 @@ On Nov 20th, 2023, the first TEIA token distribution has concluded with about 3 
 
 During the current beta phase, the ["Core Team Multisig"](https://github.com/teia-community/teia-docs/wiki/Teia-Multisig-wallets#man-multisig-core-team-multisig) will still be legally responsible and in charge so the DAO contracts can be used and tested without the risk of exploits and smart contract issues. Token votes by the DAO members can still be used to form decisions or give feedback to the core team.
 
+The intermediate ways how community wide consensus is formed are via discussions, with soft consensus, a on-chain vote with [the core team voting tool](https://core-team-vote.onrender.com/proposals), discord polls for small decisions and for bigger decisions we use on-chain community voting via the [Teia communirty Polling Tool](https://teia.art/polls), where DAO members can take part in on-chain community voting and set up their own proposals.
+
+Currently, all major proposals and questions are discussed at the [Teia Community Discord Server](https://discord.gg/bXyTPRx2) and the [Community Discourse Forum/The TEia DAO agora](https://discourse.teia.art).
+
+![ProtoDAO structure and procedure](https://github.com/teia-community/teia-docs/assets/97635650/6e991a86-16e0-417f-ab8d-442b69059e74)
+
 
 ## Legal status: Non-profit LLC DAO
 
@@ -50,11 +56,7 @@ For instance, it can modify the [marketplace fee](https://github.com/teia-commun
 
 Tezos wallets can be proposed for addition or removal from the multisig through a majority vote of at least 55% among the multisig members. Added wallet addresses must accept the addition and can also leave the multisig without requiring a vote.
 
-The intermediate ways how community wide consensus is formed are via discussions, with soft consensus, a on-chain vote with [the core team voting tool](https://core-team-vote.onrender.com/proposals), discord polls for small decisions and for bigger decisions we use on-chain community voting via the [Teia communirty Polling Tool](https://teia.art/polls), where DAO members can take part in on-chain community voting and set up their own proposals.
 
-Currently, all major proposals and questions are discussed at the [Teia Community Discord Server](https://discord.gg/bXyTPRx2) and the [Community Discourse Forum/The TEia DAO agora](https://discourse.teia.art).
-
-![ProtoDAO structure and procedure](https://github.com/teia-community/teia-docs/assets/97635650/6e991a86-16e0-417f-ab8d-442b69059e74)
 
 
 ### The Teia DAO Tokens
@@ -98,6 +100,31 @@ Of course, DAO proposals still need to be in line with Teia's core values and be
 The Teia DAO token contract employs a snapshot mechanism that captures token balances at specific block levels for each user. Each time a user votes in a DAO proposal their TEIA balance is calculated at the exact block level/timestamp when the proposal was created. This ensures that voting weights are based on the token holdings of users at the time of the proposal's inception.
 
 For example, if a proposal is generated at block level 1200, the voting weight for each user is determined by their token balance at block level 1200, irrespective of subsequent transfers or changes. This approach prevents potential issues like flash loans or vote manipulation by locking in the user's balance at a fixed point, maintaining the integrity of the voting process. Any changes in token holdings after the proposal's creation won't influence their voting weight for that specific proposal.
+
+#### The quorum
+
+In the context of a DAO, a quorum refers to the minimum level of participation or voting power required for a proposal or decision to be considered valid. It ensures that decisions are made with sufficient consensus and involvement from the DAO's members or token holders.
+
+The Teia DAO smart contracts utilize a dynamic quorum system for proposal evaluation. Initially, a global quorum is set as a parameter, (for example 1000 votes needed). When a proposal is created, it uses the quorum value at the time of creation of said proposal.
+
+After a proposals voting period is over and votes are counted, a new quorum is calculated based on the previous quorum and the total number of votes received; If a proposal received significantly fewer votes than the quorum, the next quorum is adjusted slightly lower (e.g., from 1000 to 900) for the next proposal. Over time, this process aims to reach an equilibrium. Conversely, if the votes fall short, the new quorum decreases. The new quorum applies to all future proposals, while existing proposals maintain the quorum they were created with.
+
+To prevent manipulation, the quorum updates have restrictions. If a recent update has occurred, further updates are withheld. This precautionary measure prevents someone from intentionally creating numerous proposals with minimal votes to drastically reduce the quorum and gain easy approval for a subsequent proposal.
+
+The DAO administrator role has the authority to modify the quorum parameter, which is especially important in the early stages, to make sure the quorum is set realistically and based on current participation. The DAO administrator can utilize the multisig functionality to modify the required quorum and other parameters related to representative shares, supermajority, voting proposal duration, and more. If we switch from linear to quadratic voting, older proposals continue to use the old quorum and linear weight, while new proposals adopt the updated quorum and quadratic weight.
+
+#### Supermajority
+
+In the context of DAO voting, a supermajority refers to a higher threshold of support required for a proposal to pass and bring about significant changes within the organization. Unlike a simple majority where a proposal needs to receive more "yes" votes than "no" votes, a supermajority imposes a stricter requirement. The concept of quorum and supermajority is widely used in various DAOs, including Kolibri DAO and Tezos governance. 
+
+For the Teia DAO, the supermajority is calculated in the smart contract by dividing the number of "yes" votes by the sum of "yes" and "no" votes.  A common supermajority setting would be something around 60% or 70%, but we can adjust the values and experiment during the DAOS beta phase. Abstain votes do not count towards the supermajority calculation. They only contribute to meeting the quorum requirement, not the supermajority. 
+
+Finding the right balance is important to ensure that significant decisions require a broad consensus. One potential risk associated with a supermajority parameter set at, for instance, 70% is that a minority of 31% could block proposals indefinitely. This highlights the need for careful consideration and adjustment of the supermajority threshold to strike a balance between consensus and progress. 
+The DAO administrator, a designated figure within the organization, has the power to change the supermajority parameters if necessary. This provides flexibility to adapt the decision-making process and requirements as the DAO evolves.
+
+### possible future escrow rule of TEIA for submitting DAO proposals
+
+In the Teia DAO voting system, the act of voting doesn't consume tokens. During the testing phase, creating proposals won't cost any tokens, but in the later official DAO, there might be a request for around 500 TEIA for each submitted DAO proposal (not poll) as escrow to prevent spam proposals. The Tokens will be sent to Teias Treasury if the DAO proposal fails to meet the quorum. The reasoning here would be to reduce spam proposals and avoid cluttering the UI with less important ones. 
 
 
 
@@ -240,30 +267,7 @@ That could happen by sending a sybill attach or taking advantage of a period whe
 The DAO guardians contract is the same as the Teia multisig contract that we are already using. In order to cancel a proposal, guardians need to create a proposal in the multisig and execute it.
 
 
-#### The quorum
 
-In the context of a DAO, a quorum refers to the minimum level of participation or voting power required for a proposal or decision to be considered valid. It ensures that decisions are made with sufficient consensus and involvement from the DAO's members or token holders.
-
-The Teia DAO smart contracts utilize a dynamic quorum system for proposal evaluation. Initially, a global quorum is set as a parameter, (for example 1000 votes needed). When a proposal is created, it uses the quorum value at the time of creation of said proposal.
-
-After a proposals voting period is over and votes are counted, a new quorum is calculated based on the previous quorum and the total number of votes received; If a proposal received significantly fewer votes than the quorum, the next quorum is adjusted slightly lower (e.g., from 1000 to 900) for the next proposal. Over time, this process aims to reach an equilibrium. Conversely, if the votes fall short, the new quorum decreases. The new quorum applies to all future proposals, while existing proposals maintain the quorum they were created with.
-
-To prevent manipulation, the quorum updates have restrictions. If a recent update has occurred, further updates are withheld. This precautionary measure prevents someone from intentionally creating numerous proposals with minimal votes to drastically reduce the quorum and gain easy approval for a subsequent proposal.
-
-The DAO administrator role has the authority to modify the quorum parameter, which is especially important in the early stages, to make sure the quorum is set realistically and based on current participation. The DAO administrator can utilize the multisig functionality to modify the required quorum and other parameters related to representative shares, supermajority, voting proposal duration, and more. If we switch from linear to quadratic voting, older proposals continue to use the old quorum and linear weight, while new proposals adopt the updated quorum and quadratic weight.
-
-#### Supermajority
-
-In the context of DAO voting, a supermajority refers to a higher threshold of support required for a proposal to pass and bring about significant changes within the organization. Unlike a simple majority where a proposal needs to receive more "yes" votes than "no" votes, a supermajority imposes a stricter requirement. The concept of quorum and supermajority is widely used in various DAOs, including Kolibri DAO and Tezos governance. 
-
-For the Teia DAO, the supermajority is calculated in the smart contract by dividing the number of "yes" votes by the sum of "yes" and "no" votes.  A common supermajority setting would be something around 60% or 70%, but we can adjust the values and experiment during the DAOS beta phase. Abstain votes do not count towards the supermajority calculation. They only contribute to meeting the quorum requirement, not the supermajority. 
-
-Finding the right balance is important to ensure that significant decisions require a broad consensus. One potential risk associated with a supermajority parameter set at, for instance, 70% is that a minority of 31% could block proposals indefinitely. This highlights the need for careful consideration and adjustment of the supermajority threshold to strike a balance between consensus and progress. 
-The DAO administrator, a designated figure within the organization, has the power to change the supermajority parameters if necessary. This provides flexibility to adapt the decision-making process and requirements as the DAO evolves.
-
-### possible future escrow rule of TEIA for submitting DAO proposals
-
-In the Teia DAO voting system, the act of voting doesn't consume tokens. During the testing phase, creating proposals won't cost any tokens, but in the later official DAO, there might be a request for around 500 TEIA for each submitted DAO proposal (not poll) as escrow to prevent spam proposals. The Tokens will be sent to Teias Treasury if the DAO proposal fails to meet the quorum. The reasoning here would be to reduce spam proposals and avoid cluttering the UI with less important ones. 
 
 
 ## ORG-Structure suggestions
