@@ -65,6 +65,8 @@ The TEIA tokens are the governance tokens of the Teia DAO LLC. They will be most
 
 Note that no token value above being a voting token is implied. The Teia DAO Token is solely intended as a governance token and should not be treated as a financial/investment asset. Due to its non-profit nature, Teia can't and won't distribute profits and can only use funds generated to maintain operations, fund exhibitions, and support education, art, and cultural exchange in general.
 
+#### distribution
+
 3 Million $TEIA DAO tokens have been distributed among the community via the $TEIA claim page between August 20th, 2023 to November 20th, 2023. 5 Million unclaimed tokens have gone back to the Teia treasury for future distribution.
 
 Tokens have been distributed based on the following parameters
