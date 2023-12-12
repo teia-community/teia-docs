@@ -59,13 +59,13 @@ Tezos wallets can be proposed for addition or removal from the multisig through 
 
 
 
-### The Teia DAO Tokens
+## The Teia DAO Tokens
 
 The TEIA tokens are the governance tokens of the Teia DAO LLC. They will be mostly used for determining who is a DAO member and how much voting power for DAO proposals eacxh wallet has. Legally, all Token holders are also part of the Teia DAO LLC.
 
 Note that no token value above being a voting token is implied. The Teia DAO Token is solely intended as a governance token and should not be treated as a financial/investment asset. Due to its non-profit nature, Teia can't and won't distribute profits and can only use funds generated to maintain operations, fund exhibitions, and support education, art, and cultural exchange in general.
 
-#### distribution
+### Distribution
 
 3 Million $TEIA DAO tokens have been distributed among the community via the $TEIA claim page between August 20th, 2023 to November 20th, 2023. 5 Million unclaimed tokens have gone back to the Teia treasury for future distribution.
 
@@ -77,7 +77,7 @@ Tokens have been distributed based on the following parameters
 
 We published an extensive [fact sheet with a FAQ section on our blog](https://blog.teia.art/blog/fact-sheet-token-drop)
 
-#### Staking TEIA tokens
+### Staking TEIA tokens
 
 Staking TEIA tokens in third-party contracts poses several drawbacks for Teia DAO members. Vote weights are calculated based on the  users TEIA balance at the moment of the DAO proposal creation. Staking TEIA in 3rd party contracts means that those tokens will not be counted in votes for proposals created while the tokens were staked. If you unstake your tokens and get them back into your wallet, this will only affect voting on proposals that are created after you have gotten your tokens back to your wallet.
 
@@ -85,25 +85,24 @@ Security concerns also arise, as these external contracts may lack the rigorous 
 
 Members should be aware that locking tokens in 3rd party contracts impacts their voting power, and simply unstaking them/realeasing them from the contracts does not mean you get the voting power back for proposals that are already set up.
 
+### possible future escrow rule of TEIA for submitting DAO proposals
 
-## Voting procedure
+In the Teia DAO voting system, the act of voting doesn't consume tokens. During the testing phase, creating proposals won't cost any tokens, but in the later official DAO, there might be a request for around 500 TEIA for each submitted DAO proposal (not poll) as escrow to prevent spam proposals. The Tokens will be sent to Teias Treasury if the DAO proposal fails to meet the quorum. The reasoning here would be to reduce spam proposals and avoid cluttering the UI with less important ones. 
 
-### DAO proposals
-DAO proposals are (soon) legally binding for the Teia DAO LLC and can be submitted by ANY member via the DAO user interface on teia.art. DAO proposals can only have YES/NO options and need to pass the quorum in order to succeed. 
 
-DAO proposals are mostly intended to define roadmaps/general directions the LLC should take and also monitroring the core team in their operational work and executive decisionmaking. of Course the DAO is free to change this setup via a sucessful DAO proposal.
+## DAO proposals
+DAO proposals are (soon) legally binding for the Teia DAO LLC and can be submitted by ANY member via the DAO user interface on teia.art.  It is the most fundamental instrument for our DAO governance: in it, a DAO member proposes a clear decision in the form of a Yes/No vote. The whole DAO is asked to vote on it and either accept the proposal or decline it. DAO poroposals need to pass the quorum (see below) in order to succeed. In practice, this will mean that DAO proposals will need a lot of attention and discussion to gather enough votes to pass the quorum and prevent unrealistic or short-sighted proposals from going through with only a few positive votes and without enough "no" votes.
 
-In practice, this will mean that DAO proposals will need a lot of attention and discussion to gather enough votes to pass the quorum and prevent unrealistic or short-sighted proposals from going through with only a few positive votes and without enough "no" votes.
+DAO proposals are intended to be used for significant decisions for the DAO and are legally binding for the DAO. This means if the community decides something via a successful DAO proposal, the Teia Team has to abide by it as long as it's legally clear to do so and in line with Teia's core values. 
+To ensure this, the DAO guardian role will be able to cancel proposals (at least for now) - the guardian doesn't have to be an individual; it can also be another multisig, for example. (more info below)
 
-Of course, DAO proposals still need to be in line with Teia's core values and be lawful. To ensure this, the DAO guardian role will be able to cancel proposals (at least for now) - the guardian doesn't have to be an individual; it can also be another multisig, for example.
-
-#### Token snapshot
+### Token snapshot
 
 The Teia DAO token contract employs a snapshot mechanism that captures token balances at specific block levels for each user. Each time a user votes in a DAO proposal their TEIA balance is calculated at the exact block level/timestamp when the proposal was created. This ensures that voting weights are based on the token holdings of users at the time of the proposal's inception.
 
 For example, if a proposal is generated at block level 1200, the voting weight for each user is determined by their token balance at block level 1200, irrespective of subsequent transfers or changes. This approach prevents potential issues like flash loans or vote manipulation by locking in the user's balance at a fixed point, maintaining the integrity of the voting process. Any changes in token holdings after the proposal's creation won't influence their voting weight for that specific proposal.
 
-#### The quorum
+### The quorum
 
 In the context of a DAO, a quorum refers to the minimum level of participation or voting power required for a proposal or decision to be considered valid. It ensures that decisions are made with sufficient consensus and involvement from the DAO's members or token holders.
 
@@ -115,7 +114,7 @@ To prevent manipulation, the quorum updates have restrictions. If a recent updat
 
 The DAO administrator role has the authority to modify the quorum parameter, which is especially important in the early stages, to make sure the quorum is set realistically and based on current participation. The DAO administrator can utilize the multisig functionality to modify the required quorum and other parameters related to representative shares, supermajority, voting proposal duration, and more. If we switch from linear to quadratic voting, older proposals continue to use the old quorum and linear weight, while new proposals adopt the updated quorum and quadratic weight.
 
-#### Supermajority
+### Supermajority
 
 In the context of DAO voting, a supermajority refers to a higher threshold of support required for a proposal to pass and bring about significant changes within the organization. Unlike a simple majority where a proposal needs to receive more "yes" votes than "no" votes, a supermajority imposes a stricter requirement. The concept of quorum and supermajority is widely used in various DAOs, including Kolibri DAO and Tezos governance. 
 
@@ -124,9 +123,11 @@ For the Teia DAO, the supermajority is calculated in the smart contract by divid
 Finding the right balance is important to ensure that significant decisions require a broad consensus. One potential risk associated with a supermajority parameter set at, for instance, 70% is that a minority of 31% could block proposals indefinitely. This highlights the need for careful consideration and adjustment of the supermajority threshold to strike a balance between consensus and progress. 
 The DAO administrator, a designated figure within the organization, has the power to change the supermajority parameters if necessary. This provides flexibility to adapt the decision-making process and requirements as the DAO evolves.
 
-### possible future escrow rule of TEIA for submitting DAO proposals
+## Teia Polls
 
-In the Teia DAO voting system, the act of voting doesn't consume tokens. During the testing phase, creating proposals won't cost any tokens, but in the later official DAO, there might be a request for around 500 TEIA for each submitted DAO proposal (not poll) as escrow to prevent spam proposals. The Tokens will be sent to Teias Treasury if the DAO proposal fails to meet the quorum. The reasoning here would be to reduce spam proposals and avoid cluttering the UI with less important ones. 
+tbc
+
+
 
 
 
