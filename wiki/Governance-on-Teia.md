@@ -95,7 +95,13 @@ Tokens have been distributed based on the following parameters
 
 We published an extensive [fact sheet with a FAQ section on our blog](https://blog.teia.art/blog/fact-sheet-token-drop)
 
+#### Staking TEIA tokens
 
+Staking TEIA tokens in third-party contracts poses several drawbacks for Teia DAO members. Since every DAO proposal is tied to a snapshot of each wallets TEIA amount at the time of the DAOs creation, staking TEIA in 3rd party contracts means that the voting power of the staked TEIA is lost for already created proposals. If you unstake your tokens and get them back into your wallet, this will only affect voting on proposals that are created after you have gotten your tokens back to your wallet.
+
+Security concerns also arise, as these external contracts may lack the rigorous auditing and safety measures endorsed by the Teia DAO, potentially jeopardizing the safety of staked tokens. 
+
+Members should be aware that locking tokens in 3rd party contracts impacts their voting power, and simply unstaking them/realeasing them from the contracts does not mean you get the voting power back for proposals that are already set up.
 
 
 ### Equity
@@ -120,6 +126,13 @@ DAO proposals are legally binding for the Teia DAO LLC and can be submitted by A
 In practice, this will mean that DAO proposals will need a lot of attention and discussion to gather enough votes to pass the quorum and prevent unrealistic or short-sighted proposals from going through with only a few positive votes and without enough "no" votes.
 
 Of course, DAO proposals still need to be in line with Teia's core values and be lawful. To ensure this, the DAO guardian role will be able to cancel proposals (at least for now) - the guardian doesn't have to be an individual; it can also be another multisig, for example.
+
+#### Token snapshot
+
+The Teia DAO employs a voting snapshot mechanism that captures token balances at specific block levels for each user. When a proposal is created, the TEIA token contract registers the balance changes for all users at the block level corresponding to the proposal's creation. This ensures that voting weights are based on the token holdings of users at the time of the proposal's inception. 
+
+For example, if a proposal is generated at block level 1200, the voting weight for each user is determined by their token balance at block level 1000, irrespective of subsequent transfers or changes. This approach prevents potential issues like flash loans or vote manipulation by locking in the user's balance at a fixed point, maintaining the integrity of the voting process. Any changes in token holdings after the proposal's creation won't influence their voting weight for that specific proposal.
+
 
 ## DAO Smart-Contract Development
 
