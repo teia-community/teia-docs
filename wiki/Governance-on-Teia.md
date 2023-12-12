@@ -95,11 +95,11 @@ Of course, DAO proposals still need to be in line with Teia's core values and be
 
 #### Token snapshot
 
-The Teia DAO employs a voting snapshot mechanism that captures token balances at specific block levels for each user. When a proposal is created, the TEIA token contract registers the balance changes for all users at the block level corresponding to the proposal's creation. This ensures that voting weights are based on the token holdings of users at the time of the proposal's inception. 
+The Teia DAO token contract employs a snapshot mechanism that captures token balances at specific block levels for each user. Each time a user votes in a DAO proposal their TEIA balance is calculated at the exact block level/timestamp when the proposal was created. This ensures that voting weights are based on the token holdings of users at the time of the proposal's inception.
 
-For example, if a proposal is generated at block level 1200, the voting weight for each user is determined by their token balance at block level 1000, irrespective of subsequent transfers or changes. This approach prevents potential issues like flash loans or vote manipulation by locking in the user's balance at a fixed point, maintaining the integrity of the voting process. Any changes in token holdings after the proposal's creation won't influence their voting weight for that specific proposal.
+For example, if a proposal is generated at block level 1200, the voting weight for each user is determined by their token balance at block level 1200, irrespective of subsequent transfers or changes. This approach prevents potential issues like flash loans or vote manipulation by locking in the user's balance at a fixed point, maintaining the integrity of the voting process. Any changes in token holdings after the proposal's creation won't influence their voting weight for that specific proposal.
 
-However, in order to make this work, there needs to be a solid structure/procedure for the rep setup in place, this is currently being worked on by the reporesentatives working group and the team is looking for people interested in working on the equity governance for Teia: Both members of equity seeking communities as well as volunteers that are interested in helping with this are invited to join the discussion on discord.
+
 
 ## Next steps/ Under contruction
 
@@ -125,6 +125,8 @@ Discussions are currently ongoing if we should allow core team members into a re
 
 Leaders within these groups are being nominated by the community and [will 
 be included in the weaving of the new Teia DAO](https://github.com/teia-community/teia-docs/wiki/Governance-on-Teia#representatives-contract).
+
+However, in order to make this work, there needs to be a solid structure/procedure for the rep setup in place, this is currently being worked on by the reporesentatives working group and the team is looking for people interested in working on the equity governance for Teia: Both members of equity seeking communities as well as volunteers that are interested in helping with this are invited to join the discussion on discord.
 
 
 ## DAO Smart-Contract Development
