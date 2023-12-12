@@ -13,13 +13,18 @@ We want to be able to vote on fundamental decisions transparently and on-chain. 
 
 The [fundamental principles that shape the community](https://github.com/teia-community/teia-docs/wiki/Core-Values-Code-of-Conduct-Terms-and-Conditions#core-values) are the same as those for its governance: Inclusivity, Respect, Community/Solidarity, Decentralization, Simplicity, Accessibility, Sustainability and Creativity.
 
-Teia's final DAO setup is currently under construction, a process in which the whole community is invited to participate. We anticipate a long development phase in order to respect the main points of the Manifesto, such as recognizing diversity and facilitating inclusion. We anticipate that once created, the Teia DAO will continue to morph and improve, in order to respect the evolution of the platform and all of the communities to be represented.
-
 The decision-making process of TEIA is horizontal and will take into account the needs and policies decided by all the groups represented. These groups will also have some economic autonomy in decision-making. 
+
+## Current state: DAO beta phase with multisig as legal owner
+
+On Nov 20th, 2023, the first TEIA token distribution has concluded with about 3 Million tokens claimed. On Nov 24th, we started the DAO beta testing phase ([more info in thios blog article](https://blog.teia.art/blog/dao-test-launch)). This means TEIA holders can start using the Teia Voting tools for Polling and DAO governance. 
+
+During the current beta phase, the ["Core Team Multisig"](https://github.com/teia-community/teia-docs/wiki/Teia-Multisig-wallets#man-multisig-core-team-multisig) will still be legally responsible and in charge so the DAO contracts can be used and tested without the risk of exploits and smart contract issues. Token votes by the DAO members can still be used to form decisions or give feedback to the core team.
+
 
 ## Legal status: Non-profit LLC DAO
 
-Teia is incorporated as a non-profit, limited liability corporation (LLC) on the Republic of Marshall islands (RMI) that [formely recognizes DAO governance](https://www.globenewswire.com/news-release/2022/02/15/2385589/0/en/The-Republic-of-the-Marshall-Islands-Formally-Recognizes-DAO-Incorporation.html) and digital ledger addresses as members. 
+Teia is incorporated as a non-profit, limited liability corporation (LLC) on the Republic of Marshall islands (RMI) that [formely recognizes DAO governance](https://www.globenewswire.com/news-release/2022/02/15/2385589/0/en/The-Republic-of-the-Marshall-Islands-Formally-Recognizes-DAO-Incorporation.html) and digital ledger addresses as members. The Registration Number is 10020-23 (MIDAO)
 
 This means that Teias "owners" (=members) can be defined by Token ownership or assignemnt to a multisig address without the need of members doing KYC (as long as they stay below 10% of voting power, which is implemented on a smartcontract level)
 
@@ -32,51 +37,24 @@ Relevant legal texts (Marshall Islands law):
 * [LLC Act](https://www.google.com/url?q=https://rmiparliament.org/cms/images/LEGISLATION/PRINCIPAL/19/1990-93/LimitedLiabilityCompanyAct1990_2.pdf&sa=D&source=docs&ust=1672071429786540&usg=AOvVaw2tpz7VIluXJgiikzHW32Yv)
 * [Business Corporations Act  (pdf)](https://www.google.com/url?q=https://rmiparliament.org/cms/images/LEGISLATION/PRINCIPAL/1990/1990-0091/BusinessCorporationsAct1990_8.pdf&sa=D&source=docs&ust=1672071429786584&usg=AOvVaw042kKxetnvj5Ga9dSKpnbP)
 
-## Current state: DAO beta phase with multisig as legal owner
 
-**During this current phase, Teia will be operating under the [Teia Operating Agreement v1.2](https://github.com/teia-community/teia-docs/blob/main/DocumentArchive/Teia%20Operating%20Agreement%20v1.2_noDoxx.pdf)** this document will be updated for the next Phases of Teias DAO launch.
+## The core team Multisig
 
-On Nov 20th, 2023, the first TEIA token distribution has concluded with about 3 Million tokens claimed. and on Nov 24th, we started the DAO beta testing phase ([more info in thios blog article](https://blog.teia.art/blog/dao-test-launch)). This means TEIA holders can start using the Teia Voting tools for Polling and DAO gobrnance. 
+Take a look at the Multisig at https://core-team-multisig.onrender.com/
 
-During the beta phase, the core team multisig will still be legally responsible and in charge so the DAO contracts can be used and tested without the risk of exploits and smart contract issues. Token votes by the DAO members will still be used to form decisions.
+The Core team is currently in charge of Teias operations (on behalf of the Teia community) and is also teias current treasury address where the marketplace fees get directed to.
 
-During the current DAO testing phase, the ["Core Team Multisig"](https://github.com/teia-community/teia-docs/wiki/Teia-Multisig-wallets#man-multisig-core-team-multisig) will be the official owner of Teia's legal entity while testing and using the DAO smart contracts (see below) to get feedback from the community until the full DAO launch happens, at which point the DAO members will be the legal owners of Teia and can propose changes to the (executive) core team if needed.
+The Multisig consists of around 20, but at least 11 addresses owned by highly active contributors to Teia. It is used to vote on transactions involving Teia's assets, change the membership status of the core team multisig, and manage the Teia marketplace smart contracts. 
 
-Take a look at the Multisig here:
-https://core-team-multisig.onrender.com/
-
-The Multisig consists of approximately 20, but at least 11 addresses owned by highly active contributors to Teia. It will be used to vote on transactions involving Teia's assets, change the membership status of the core team multisig, and manage the Teia marketplace smart contracts. For instance, it can modify the [marketplace fee](https://github.com/teia-community/teia-docs/wiki/Marketplace-Fees) (requiring a quorum of 55% to complete transactions).
+For instance, it can modify the [marketplace fee](https://github.com/teia-community/teia-docs/wiki/Marketplace-Fees) (requiring a quorum of 55% to complete transactions). You can find a list of short bios of all core team members on the [Core team wiki page](https://github.com/teia-community/teia-docs/wiki/Core-Team/)
 
 Tezos wallets can be proposed for addition or removal from the multisig through a majority vote of at least 55% among the multisig members. Added wallet addresses must accept the addition and can also leave the multisig without requiring a vote.
 
-Certain members of the Core Team Multisig will be assigned coordinating roles for operations and tech developments. These coordinators are authorized to make smaller, day-to-day decisions regarding managing members and coordinators.
+The intermediate ways how community wide consensus is formed are via discussions, with soft consensus, a on-chain vote with [the core team voting tool](https://core-team-vote.onrender.com/proposals), discord polls for small decisions and for bigger decisions we use on-chain community voting via the [Teia communirty Polling Tool](https://teia.art/polls), where DAO members can take part in on-chain community voting and set up their own proposals.
 
-
-The intermediate ways how community wide consensus is formed are via discussions, with soft consensus, a on-chain vote with [the core team voting tool](https://core-team-vote.onrender.com/proposals), discord polls for small decisions and for bigger decisions we use on-chain community voting via the [Teia Vote Tool](https://vote.teia.art/), where everybody with a TEIA account (wallet) created before a set date has the right to vote. 
-
-Votes cast with the teia vote tool are recorded on the blockchain, and a script tallies and displays the votes on the website after the voting period ends. These results can be independently verified by the voters using the unchangeable blockchain data. 
-
-Currently, all major proposals and questions are discussed at the [Teia Community Discord Server](https://discord.gg/bXyTPRx2) and the [Community Discourse Forum](https://discourse.hencommunity.quest/) before being put up for a vote. Whoever wants to submit a proposal can access the TEIA Discord Channel where the proposal will be discussed by the entire community and taken to vote. A better solution for a proposal agora is on the roadmap, but we will focus on setting up the general structures and smartcontracts first.
+Currently, all major proposals and questions are discussed at the [Teia Community Discord Server](https://discord.gg/bXyTPRx2) and the [Community Discourse Forum/The TEia DAO agora](https://discourse.teia.art).
 
 ![ProtoDAO structure and procedure](https://github.com/teia-community/teia-docs/assets/97635650/6e991a86-16e0-417f-ab8d-442b69059e74)
-
-
-
-## Next step: Full DAO launch
-
-After the beta testing phase, we will adjust the operating agreement so that the DAO contracts will define the governance on chain and via DAO votes. DAO proposals can be set up by any DAO member and will be voted on by the DAO. DAO proposals in the current setup can only have a Yes/No option.
-
-The core team multsig will no longer be the owner of the DAO, which will then be the DAO members. The core team will be responsible for day-to-day executive decisions, since DAO proposals and voting will not be feasible for smaller decisions. The core team will also be responsible for the LLCs operations and HR and will be able to represent Teia legally i.e. for paper work and propose community votes as well as the budget for operations.
-
-For now, we plan to launch with the same core team that has been building the DAO and keeping Teia running since 2021 and let the DAO decide on approving or changing the core team.
-
-DAO proposals are mostly intended to define roadmaps/general directions the LLC should take and also montiroring the core team in their operational work and executive decisionmaking. of Course the DAO is free to change this setup via DAO proposals 
-
-(this section about phase03 is not completed yet and still under construction)
-
-![DAO_Structure](https://github.com/teia-community/teia-docs/assets/97635650/2e2fdcd1-8a13-4d3f-9c7b-087742e868d6)
-![DAOVote](https://github.com/teia-community/teia-docs/assets/97635650/8c3c5c67-a5fb-46c9-819f-5569acd79c44)
-
 
 
 ### The Teia DAO Tokens
@@ -97,31 +75,19 @@ We published an extensive [fact sheet with a FAQ section on our blog](https://bl
 
 #### Staking TEIA tokens
 
-Staking TEIA tokens in third-party contracts poses several drawbacks for Teia DAO members. Since every DAO proposal is tied to a snapshot of each wallets TEIA amount at the time of the DAOs creation, staking TEIA in 3rd party contracts means that the voting power of the staked TEIA is lost for already created proposals. If you unstake your tokens and get them back into your wallet, this will only affect voting on proposals that are created after you have gotten your tokens back to your wallet.
+Staking TEIA tokens in third-party contracts poses several drawbacks for Teia DAO members. Vote weights are calculated based on the  users TEIA balance at the moment of the DAO proposal creation. Staking TEIA in 3rd party contracts means that those tokens will not be counted in votes for proposals created while the tokens were staked. If you unstake your tokens and get them back into your wallet, this will only affect voting on proposals that are created after you have gotten your tokens back to your wallet.
 
-Security concerns also arise, as these external contracts may lack the rigorous auditing and safety measures endorsed by the Teia DAO, potentially jeopardizing the safety of staked tokens. 
+Security concerns also arise, as these external contracts may lack the rigorous auditing and safety measures endorsed by the Teia DAO, potentially jeopardizing the safety of staked tokens.
 
 Members should be aware that locking tokens in 3rd party contracts impacts their voting power, and simply unstaking them/realeasing them from the contracts does not mean you get the voting power back for proposals that are already set up.
 
 
-### Equity
-
-Our mission to reach true decentralization and equity includes a community-decided allotment to guarantee marginalized communities are 
-included in governance. We understand that now is the time to take a novel, genuine approach to equitable governance and acknowledging the needs of our most underrepresented communities in a concrete way. 
-
-There will be a % (currently suggested 30%) of either quorum votes or overall voting power for the so called "representatives" that are appointed to represent certain subcommunities and regions.
-
-Discussions are currently ongoing if we should allow core team members into a representative role or not. As things stand, it looks like a few reps might indeed be part of the core team but this might be revisited in the future as DAO evolves.
-
-Leaders within these groups are being nominated by the community and [will 
-be included in the weaving of the new Teia DAO](https://github.com/teia-community/teia-docs/wiki/Governance-on-Teia#representatives-contract).
-
-However, in order to make this work, there needs to be a solid structure/procedure for the rep setup in place, this is currently being worked on by the reporesentatives working group and the team is looking for people interested in working on the equity governance for Teia: Both members of equity seeking communities as well as volunteers that are interested in helping with this are invited to join the discussion on discord.
-
 ## Voting procedure
 
 ### DAO proposals
-DAO proposals are legally binding for the Teia DAO LLC and can be submitted by ANY member via the DAO user interface on teia.art. DAO proposals can only have YES/NO options and need to pass the quorum in order to succeed.
+DAO proposals are legally binding for the Teia DAO LLC and can be submitted by ANY member via the DAO user interface on teia.art. DAO proposals can only have YES/NO options and need to pass the quorum in order to succeed. 
+
+DAO proposals are mostly intended to define roadmaps/general directions the LLC should take and also monitroring the core team in their operational work and executive decisionmaking. of Course the DAO is free to change this setup via a sucessful DAO proposal.
 
 In practice, this will mean that DAO proposals will need a lot of attention and discussion to gather enough votes to pass the quorum and prevent unrealistic or short-sighted proposals from going through with only a few positive votes and without enough "no" votes.
 
@@ -132,6 +98,33 @@ Of course, DAO proposals still need to be in line with Teia's core values and be
 The Teia DAO employs a voting snapshot mechanism that captures token balances at specific block levels for each user. When a proposal is created, the TEIA token contract registers the balance changes for all users at the block level corresponding to the proposal's creation. This ensures that voting weights are based on the token holdings of users at the time of the proposal's inception. 
 
 For example, if a proposal is generated at block level 1200, the voting weight for each user is determined by their token balance at block level 1000, irrespective of subsequent transfers or changes. This approach prevents potential issues like flash loans or vote manipulation by locking in the user's balance at a fixed point, maintaining the integrity of the voting process. Any changes in token holdings after the proposal's creation won't influence their voting weight for that specific proposal.
+
+However, in order to make this work, there needs to be a solid structure/procedure for the rep setup in place, this is currently being worked on by the reporesentatives working group and the team is looking for people interested in working on the equity governance for Teia: Both members of equity seeking communities as well as volunteers that are interested in helping with this are invited to join the discussion on discord.
+
+## Next steps/ Under contruction
+
+### Full DAO launch
+
+After the beta testing phase has concluded, and the DAO runs stable and with enough participation, we will adjust the operating agreement so that the DAO contracts will define the governance on chain and via DAO votes and all Token holders become legal owners of Teia. 
+
+The core team will be responsible for day-to-day executive decisions, since DAO proposals and voting will not be feasible for smaller decisions and for the LLCs operations and HR and will be able to represent Teia legally i.e. for paper work and propose community votes as well as the budget for operations.
+
+For now, we plan to launch with the same core team that has been building the DAO and keeping Teia running since 2021 and let the DAO decide on approving or changing the core team in the future.
+
+![DAO_Structure](https://github.com/teia-community/teia-docs/assets/97635650/2e2fdcd1-8a13-4d3f-9c7b-087742e868d6)
+![DAOVote](https://github.com/teia-community/teia-docs/assets/97635650/8c3c5c67-a5fb-46c9-819f-5569acd79c44)
+
+### Equity Representatives setup
+
+Our mission to reach true decentralization and equity includes a community-decided allotment to guarantee marginalized communities are 
+included in governance. We understand that now is the time to take a novel, genuine approach to equitable governance and acknowledging the needs of our most underrepresented communities in a concrete way. 
+
+There will be a % (currently suggested 30%) of either quorum votes or overall voting power for the so called "representatives" that are appointed to represent certain subcommunities and regions.
+
+Discussions are currently ongoing if we should allow core team members into a representative role or not. As things stand, it looks like a few reps might indeed be part of the core team but this might be revisited in the future as DAO evolves.
+
+Leaders within these groups are being nominated by the community and [will 
+be included in the weaving of the new Teia DAO](https://github.com/teia-community/teia-docs/wiki/Governance-on-Teia#representatives-contract).
 
 
 ## DAO Smart-Contract Development
