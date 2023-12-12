@@ -89,7 +89,7 @@ Members should be aware that locking tokens in 3rd party contracts impacts their
 ## Voting procedure
 
 ### DAO proposals
-DAO proposals are legally binding for the Teia DAO LLC and can be submitted by ANY member via the DAO user interface on teia.art. DAO proposals can only have YES/NO options and need to pass the quorum in order to succeed. 
+DAO proposals are (soon) legally binding for the Teia DAO LLC and can be submitted by ANY member via the DAO user interface on teia.art. DAO proposals can only have YES/NO options and need to pass the quorum in order to succeed. 
 
 DAO proposals are mostly intended to define roadmaps/general directions the LLC should take and also monitroring the core team in their operational work and executive decisionmaking. of Course the DAO is free to change this setup via a sucessful DAO proposal.
 
