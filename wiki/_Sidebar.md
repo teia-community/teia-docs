@@ -1,7 +1,7 @@
 **General**
 * [Home](https://github.com/teia-community/teia-docs/wiki)
 * [Core Values/Code of Conduct/Terms & Conditions](https://github.com/teia-community/teia-docs/wiki/Core-Values-Code-of-Conduct-Terms-and-Conditions)
-* [Governance on the Teia (DAO Roadmap)](https://github.com/teia-community/teia-docs/wiki/Governance-on-Teia)
+* [DAO documentation/Governance on Teia](https://github.com/teia-community/teia-docs/wiki/Governance-on-Teia)
 * [The Core Team](https://github.com/teia-community/teia-docs/wiki/Core-Team/)
 * [User safety guide](https://github.com/teia-community/teia-docs/wiki/User-safety)
 * [Tools Made By the Community](https://github.com/teia-community/teia-docs/wiki/Tools-made-by-the-community)
