@@ -125,7 +125,18 @@ The DAO administrator, a designated figure within the organization, has the powe
 
 ## Teia Polls
 
-tbc
+Teia's community polling tool offers greater versatility than DAO proposals, allowing for more customizable voting options than the DAO porposals simple Yes/No votes and customizable voting parameters. 
+
+DAO members can create polls with voting parameters like [quadratic voting weight](https://en.wikipedia.org/wiki/Quadratic_voting) or a simple “1-vote-per-wallet” weighting. 
+
+Unlike legally binding DAO proposals, polls operate on a simple majority basis, making them more accessible for a successful outcome without the need for extensive participation to surpass a quorum requirement like with the DAO proposals. Polls are not binding for the core team to be executed, however the Team is expected to take polls into account in its day-to-day- decisionmaking.
+ 
+Anyone in the DAO can initiate polls on various topics, fostering an open and fun way of community participation: Polls can extend beyond DAO-related matters, enabling users to seek input on diverse subjects, from asking collectors for their prefernces to discussing current hot topics within the community, all on chain and set up in a few seconds. This tool has interesting potential for social interactions and we hope the community finds fun and exciting ways to use it.
+
+![snapshot of the poll creation form on teia.art/polls](https://github.com/teia-community/teia-docs/assets/97635650/0a05f6ea-27ed-43db-ac93-d0a478e39375)
+
+On [teia.art/polls/create](https://teia.art/polls/create), you can choose how long your poll should be live and the voting weights: either you chose equal which means one vote per wallet, or weighted by the amount of TEIA tokens or weighted by the square root of the amount of TEIA (=quadratic voting, which reduced the voting power of wallets that hold a lot of TEIA tokens and makes the token weight more equal)
+
 
 
 
