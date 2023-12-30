@@ -35,6 +35,7 @@
 ## hic et nunc 
 
 ### History of hic et nunc
+* [Hic et Nunca mais? (Portugese with English summary)](https://open.substack.com/pub/leablua/p/hic-et-nunca-mais) by [Lea Blua](https://substack.com/@leablua)
 * [HEN Timeline](https://github.com/i3games/hen-timeline/blob/main/timeline.md) by [crcdng](https://twitter.com/crcdng)
 * [On the Early Days of Hic Et Nunc - Tais Koshino and Michael Straeubig reflect on the moment when crypto art converged on Tezos](https://www.rightclicksave.com/article/on-the-early-days-of-hic-et-nunc) on rightclicksave.com
 * [From Here and Now to Infinity and Beyond](https://www.fxhash.xyz/article/from-here-and-now-to-infinity-and-beyond) by [Michael Nicolaou](https://twitter.com/koh_tza)
