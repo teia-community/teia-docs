@@ -16,7 +16,10 @@ the sum of our members.
 
 **Teia DAO LLC (at MIDAO registrar)**
 
-Principals office: PO Box 852, Long Island Rd Majuro, Marshall Islands MH 96960
+Principals office:
+PO Box 852 
+Long Island Rd Majuro 
+Marshall Islands MH 96960
 
 Registration Number: 10020-23 (MIDAO)
 

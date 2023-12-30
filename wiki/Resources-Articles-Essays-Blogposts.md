@@ -3,6 +3,7 @@
 ***
 
 ## Teia Articles
+* [Hic et Nunca mais? (Portugese with English summary)](https://open.substack.com/pub/leablua/p/hic-et-nunca-mais) by [Lea Blua](https://substack.com/@leablua)
 * [A Closer Look into Teia](https://news.tezoscommons.org/a-closer-look-into-teia-b85c031a85d6) by William McKenzie
 * [Introducing Teia](https://xtz.news/nft-news/introducing-teia/) by Lee Evans
 * [Press Release for the Teia Launch](https://blog.teia.art/blog/teia-launch-press-release)
