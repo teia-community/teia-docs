@@ -36,3 +36,29 @@ It might be useful to prepare a text file with all the information you will need
    You can upload display images/gifs depending on the media type (eg for mpgs). 
 
    You can also select a license (default is None (all rights reserved) and a language
+
+### **Text Mints on Teia**
+
+The Teia NFT marketplace now supports text mints of mimetype: text/plain. This allows for stories, poems, ASCII, and similar types of text-based art. The token's content is stored in IPFS.
+
+
+### **How to Mint Text**
+
+
+
+1. A new field on the minting page: "This is a text mint." Check this box.
+2. The text mint input will automatically hide and replace the description box.
+3. You will see the following fields on the minting form:
+    * A checkbox for "Monospace Font Required."
+    * There is a text area labeled "Typed Art Input." Depending on the monospace font required checkbox value, the text area renders the monospace (Iosevka font) or non-monospace (Source Sans Pro font).
+4. As you type text into the text area, a rendered preview of that text is displayed below it.
+5. The preview page is displayed once you click the "Submit" button.
+
+![textminting](https://github.com/teia-community/teia-docs/assets/564979/d339a271-6322-4b1f-b804-99423f2368ee)
+
+**Note:** The "monospace" tag is automatically added. The cover and thumbnail images are automatically generated based on the text input and the font selected. The description will also automatically be replaced by the text mint input.
+
+You can view an example: [OBJKT 850488](https://teia.art/objkt/850488)
+
+Source Sans Pro was selected for text mints as it's the default font (non-mono) on Objkt.com. This ensures text is encoded correctly and displayed as intended on Objkt.com and Teia.art. Currently, it seems that Objkt.com does not provide much monospace support for text mints, and a feature request has been raised here:[ https://roadmap.objkt.com/b/software-feature-request/use-a-monospaced-font-for-text-tokens/](https://roadmap.objkt.com/b/software-feature-request/use-a-monospaced-font-for-text-tokens/)
+
