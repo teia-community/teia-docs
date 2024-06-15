@@ -17,7 +17,7 @@ The decision-making process of TEIA is horizontal and will take into account the
 
 ## Current state: DAO beta phase with multisig as legal owner
 
-On Nov 20th, 2023, the first TEIA token distribution has concluded with about 3 Million tokens claimed. On Nov 24th, we started the DAO beta testing phase ([more info in this blog article](https://blog.teia.art/blog/dao-test-launch)). This means TEIA holders can start using the Teia Voting tools for Polling and DAO governance. 
+The community decided via an [on-chain vote that we should mint a total supply of 8 million tokens](https://vote.teia.art/vote/QmeJ9ATjn4ge9phDzvpmdZzRZdRoKJdyk4swPiVgaxAx6z). On Nov 20th, 2023, the first TEIA token distribution has concluded with about 3 Million tokens claimed. On Nov 24th, we started the DAO beta testing phase ([more info in this blog article](https://blog.teia.art/blog/dao-test-launch)). This means TEIA holders can start using the Teia Voting tools for Polling and DAO governance. 
 
 During the current beta phase, the ["Core Team Multisig"](https://github.com/teia-community/teia-docs/wiki/Teia-Multisig-wallets#man-multisig-core-team-multisig) will still be legally responsible and in charge so the DAO contracts can be used and tested without the risk of exploits and smart contract issues. Token votes by the DAO members can still be used to form decisions or give feedback to the core team.
 
