@@ -10,7 +10,7 @@ _[md – can this contain script or is it pretty safe?]_
 
 Here is an overview of the types of file you can mint or may encounter on teia.art, along with our current assessment of any security concerns.
 
-Teia allows **gif, jpg, png, svg, mp4, webm, glb, mp3, wav, flac, pdf, html, md** to be minted.
+Teia allows **gif, jpg, png, svg, mp4, webm, glb, mp3, wav, flac, pdf, html, md, text** to be minted.
 
 
 **jpg, png and gif** are known to be pretty safe.
