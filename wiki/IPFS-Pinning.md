@@ -9,7 +9,7 @@ According to IPFS, "_IPFS has a fairly aggressive caching mechanism that will ke
 
 ## Does Teia pin my OBJKTs for me?
 
-Metadata & OBJKT files are uploaded with Infura [(see github code here)](https://github.com/teia-community/teia-ui/blob/main/src/data/ipfs.js#L12), Infura automatically pins the data [(source)](https://infura.io/docs/ipfs#section/Getting-started/Add-a-file), then they're downloaded from ipfs.io, cloudflare or pinata public gateways [(see github code here)](https://github.com/teia-community/teia-ui/blob/main/src/pages/objkt-display/tabs/info.js#L11).
+Metadata & OBJKT files are uploaded with Teia's own IPFS node, ipfsproxy.teia.art (see [github code here](https://github.com/teia-community/ipfs-upload-proxy/)). OBJKT artifacts and metadata are automatically pinned. The Teia UI uses an image proxy,  imgproxy.teia.rocks, for fast access to thumbnails and uses cache.teia.rocks to download content from IPFS.
 
 ## Do I need to pin my own OBJKTs?
 
