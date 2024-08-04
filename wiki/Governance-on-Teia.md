@@ -276,7 +276,7 @@ BCD (testnet):https://better-call.dev/ithacanet/KT1RCXoax1uuWDLrK5n1AzLJMgQbg4D5
 
 The DAO guardian figure comes into action only in very special situations: When an attacker submits a proposal and manages to get enough votes to have it approved. 
 
-That could happen by sending a sybill attach or taking advantage of a period when the DAO participation is very low and the quorum requirements are also very low.In that attack situation, DAO guardians are able to cancel the attacker proposals before they can be executed.
+That could happen by sending a sybill attack or taking advantage of a period when the DAO participation is very low and the quorum requirements are also very low.In that attack situation, DAO guardians are able to cancel the attacker proposals before they can be executed.
 
 The DAO guardians contract is the same as the Teia multisig contract that we are already using. In order to cancel a proposal, guardians need to create a proposal in the multisig and execute it.
 
