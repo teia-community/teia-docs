@@ -41,14 +41,14 @@ Relevant legal texts (Marshall Islands law):
 * [Non-profit Entities Act  (PDF)](https://www.google.com/url?q=https://rmicourts.org/wp-content/uploads/2021/12/P.L.-2021-29-NB-No.-31ND1-Non-Profit-Entities-Act-2020-1.pdf&sa=D&source=docs&ust=1672071429786354&usg=AOvVaw0gFLR1lopeMUg7prehxSgj)  
 * [MIDAO’s Non-Profit Entities Act Amendment](https://www.google.com/url?q=https://drive.google.com/file/d/1dlLt8wKcDf99SKuii5SjLIzwkWI1_fwv/view?usp%3Dsharing&sa=D&source=docs&ust=1672071429786492&usg=AOvVaw1tjZoUR5eOHNzYNrK5WJnL)
 * [LLC Act](https://www.google.com/url?q=https://rmiparliament.org/cms/images/LEGISLATION/PRINCIPAL/19/1990-93/LimitedLiabilityCompanyAct1990_2.pdf&sa=D&source=docs&ust=1672071429786540&usg=AOvVaw2tpz7VIluXJgiikzHW32Yv)
-* [Business Corporations Act  (pdf)](https://www.google.com/url?q=https://rmiparliament.org/cms/images/LEGISLATION/PRINCIPAL/1990/1990-0091/BusinessCorporationsAct1990_8.pdf&sa=D&source=docs&ust=1672071429786584&usg=AOvVaw042kKxetnvj5Ga9dSKpnbP)
+* [Business Corporations Act  (PDF)](https://www.google.com/url?q=https://rmiparliament.org/cms/images/LEGISLATION/PRINCIPAL/1990/1990-0091/BusinessCorporationsAct1990_8.pdf&sa=D&source=docs&ust=1672071429786584&usg=AOvVaw042kKxetnvj5Ga9dSKpnbP)
 
 
 ## The core team Multisig
 
 Take a look at the Multisig at https://core-team-multisig.onrender.com/
 
-The Core team is currently in charge of Teia's operations (on behalf of the Teia community) and is also teias current treasury address where the marketplace fees get directed to.
+The Core team is currently in charge of Teia's operations (on behalf of the Teia community) and is also Teias current treasury address where the marketplace fees get directed to.
 
 The Multisig consists of around 20, but at least 11 addresses owned by highly active contributors to Teia. It is used to vote on transactions involving Teia's assets, change the membership status of the core team multisig, and manage the Teia marketplace smart contracts. 
 
@@ -61,7 +61,7 @@ Tezos wallets can be proposed for addition or removal from the multisig through 
 
 ## The Teia DAO Tokens
 
-The TEIA tokens are the governance tokens of the Teia DAO LLC. They will be mostly used for determining who is a DAO member and how much voting power for DAO proposals eacxh wallet has. Legally, all Token holders are also part of the Teia DAO LLC.
+The TEIA tokens are the governance tokens of the Teia DAO LLC. They will be mostly used for determining who is a DAO member and how much voting power for DAO proposals each wallet has. Legally, all Token holders are also part of the Teia DAO LLC.
 
 Note that no token value above being a voting token is implied. The Teia DAO Token is solely intended as a governance token and should not be treated as a financial/investment asset. Due to its non-profit nature, Teia can't and won't distribute profits and can only use funds generated to maintain operations, fund exhibitions, and support education, art, and cultural exchange in general.
 
@@ -129,8 +129,8 @@ Teia's community polling tool offers greater versatility than DAO proposals, all
 
 DAO members can create polls with voting parameters like [quadratic voting weight](https://en.wikipedia.org/wiki/Quadratic_voting) or a simple “1-vote-per-wallet” weighting. 
 
-Unlike legally binding DAO proposals, polls operate on a simple majority basis, making them more accessible for a successful outcome without the need for extensive participation to surpass a quorum requirement like with the DAO proposals. Polls are not binding for the core team to be executed, however the Team is expected to take polls into account in its day-to-day- decision making.
- 
+Unlike legally binding DAO proposals, polls operate on a simple majority basis, making them more accessible for a successful outcome without the need for extensive participation to surpass a quorum requirement like with the DAO proposals. Polls are not binding for the core team to be executed, however the Team is expected to take polls into account in its day-to-day decision making.
+
 Anyone in the DAO can initiate polls on various topics, fostering an open and fun way of community participation: Polls can extend beyond DAO-related matters, enabling users to seek input on diverse subjects, from asking collectors for their preferences to discussing current hot topics within the community, all on chain and set up in a few seconds. This tool has interesting potential for social interactions and we hope the community finds fun and exciting ways to use it.
 
 ![snapshot of the poll creation form on teia.art/polls](https://github.com/teia-community/teia-docs/assets/97635650/0a05f6ea-27ed-43db-ac93-d0a478e39375)
@@ -204,7 +204,7 @@ code: https://github.com/teia-community/teia-smart-contracts/blob/main/python/co
 
 BCD (testnet): https://better-call.dev/ithacanet/KT1PV1BjjVZUfbw79YJG3sPuHWQbAPNPan3i/storage
 
-This is the contract that will own the tezos coming from the Teia marketplace and donations and the DAO tokens that have not been claimed and/or are part of the reserve for future use.
+This is the contract that will own the Tezos coming from the Teia marketplace and donations and the DAO tokens that have not been claimed and/or are part of the reserve for future use.
 
 The only account that could interact with the DAO treasury is the DAO governance contract (see bellow). Any transfer of tez or tokens need to be approved by the DAO.
 
@@ -288,7 +288,7 @@ The DAO guardians contract is the same as the Teia multisig contract that we are
 
 for the structure of the Org there are two proposals that seem to be good cornerstones reflecting what structure we want to build towards:
 
-### Malicious sheeps structure proposal:
+### Malicious Sheep's structure proposal:
 ![Organization_Proposal](https://user-images.githubusercontent.com/97635650/158018380-bde4d699-f204-4c8e-a592-4ff92aae64c1.png)
 ![Rotation_and_Responsibilites-2](https://user-images.githubusercontent.com/97635650/158018396-261fc397-3c8e-4005-8c9a-6e54528c39c0.png)
 
