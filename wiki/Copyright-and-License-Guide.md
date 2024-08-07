@@ -84,6 +84,7 @@ This is particularly useful for artists who:
 #### How to use the custom licensing on Teia
 
 1.  **Minting Page:** Select "Custom License" from the "License" dropdown menu when minting an NFT. This will reveal a new section titled Custom License Generation Form.   
+![custom_license_selection](https://github.com/user-attachments/assets/241cc29f-3d36-4d29-80eb-98fedd1c886a)
  
 2.  **Form Fields:** The form includes checkboxes for common rights, such as:
 -   Right to Reproduce    
@@ -101,6 +102,7 @@ This is particularly useful for artists who:
 7.  **Agreement Generation:** Once you have selected the desired options, a Custom License Agreement will be generated. This agreement is displayed on the minting page for your review.
     
 8.  **Minting with Custom License:** When you mint the NFT, the Custom License Agreement is permanently associated with its metadata and viewable on the NFT's detail page.  
+![custom_license_agreement](https://github.com/user-attachments/assets/eecfb0ae-75d0-46f6-87e8-0b613ead5f99)
 
 **Important Notes:**
 -   This agreement is a direct, private agreement between the artist and collector(s). Teia and Tezos are not involved in the deal itself.    
