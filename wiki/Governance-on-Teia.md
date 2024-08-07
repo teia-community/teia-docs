@@ -3,7 +3,7 @@
 
 _(from the [Teia Core Values Manifesto](https://github.com/teia-community/teia-docs/wiki/Core-Values-Code-of-Conduct-Terms-and-Conditions#core-values))_
 
-## Dao as a Goal
+## DAO as a Goal
 
 > “Decentralized autonomous organization (DAO) governance is coordinated using tokens or NFTs that grant voting powers. Admission to a DAO is limited to people who have a confirmed ownership of these governance tokens in a cryptocurrency wallet, and membership may be exchanged. Governance is conducted through a series of proposals that members vote on through the blockchain, and the possession of more governance tokens often translates to greater voting power. Contributions from members towards the organizational goals of a DAO can sometimes be tracked and internally compensated.”
 
@@ -21,34 +21,34 @@ The community decided via an [on-chain vote that we should mint a total supply o
 
 During the current beta phase, the ["Core Team Multisig"](https://github.com/teia-community/teia-docs/wiki/Teia-Multisig-wallets#man-multisig-core-team-multisig) will still be legally responsible and in charge so the DAO contracts can be used and tested without the risk of exploits and smart contract issues. Token votes by the DAO members can still be used to form decisions or give feedback to the core team.
 
-The intermediate ways how community wide consensus is formed are via discussions, with soft consensus, a on-chain vote with [the core team voting tool](https://core-team-vote.onrender.com/proposals), discord polls for small decisions and for bigger decisions we use on-chain community voting via the [Teia communirty Polling Tool](https://teia.art/polls), where DAO members can take part in on-chain community voting and set up their own proposals.
+The intermediate ways how community wide consensus is formed are via discussions, with soft consensus, a on-chain vote with [the core team voting tool](https://core-team-vote.onrender.com/proposals), discord polls for small decisions and for bigger decisions we use on-chain community voting via the [Teia community Polling Tool](https://teia.art/polls), where DAO members can take part in on-chain community voting and set up their own proposals.
 
-Currently, all major proposals and questions are discussed at the [Teia Community Discord Server](https://discord.gg/bXyTPRx2) and the [Community Discourse Forum/The TEia DAO agora](https://discourse.teia.art).
+Currently, all major proposals and questions are discussed at the [Teia Community Discord Server](https://discord.gg/bXyTPRx2) and the [Community Discourse Forum/The Teia DAO agora](https://discourse.teia.art).
 
 ![ProtoDAO structure and procedure](https://github.com/teia-community/teia-docs/assets/97635650/6e991a86-16e0-417f-ab8d-442b69059e74)
 
 
 ## Legal status: Non-profit LLC DAO
 
-Teia is incorporated as a non-profit, limited liability corporation (LLC) on the Republic of Marshall islands (RMI) that [formely recognizes DAO governance](https://www.globenewswire.com/news-release/2022/02/15/2385589/0/en/The-Republic-of-the-Marshall-Islands-Formally-Recognizes-DAO-Incorporation.html) and digital ledger addresses as members. The Registration Number is 10020-23 (MIDAO)
+Teia is incorporated as a non-profit, limited liability corporation (LLC) on the Republic of Marshall islands (RMI) that [formally recognizes DAO governance](https://www.globenewswire.com/news-release/2022/02/15/2385589/0/en/The-Republic-of-the-Marshall-Islands-Formally-Recognizes-DAO-Incorporation.html) and digital ledger addresses as members. The Registration Number is 10020-23 (MIDAO)
 
-This means that Teias "owners" (=members) can be defined by Token ownership or assignemnt to a multisig address without the need of members doing KYC (as long as they stay below 10% of voting power, which is implemented on a smartcontract level)
+This means that Teia's "owners" (=members) can be defined by Token ownership or assignment to a multisig address without the need of members doing KYC (as long as they stay below 10% of voting power, which is implemented on a smartcontract level)
 
 The DAO currently operates under the [Version 1.2 of the Teia DAO Operating Agreement](https://github.com/teia-community/teia-docs/blob/main/DocumentArchive/Teia%20Operating%20Agreement%20v1.2_noDoxx.pdf)
 
 Relevant legal texts (Marshall Islands law):
 
-* [Non-profit Entities Act  (pdf)](https://www.google.com/url?q=https://rmicourts.org/wp-content/uploads/2021/12/P.L.-2021-29-NB-No.-31ND1-Non-Profit-Entities-Act-2020-1.pdf&sa=D&source=docs&ust=1672071429786354&usg=AOvVaw0gFLR1lopeMUg7prehxSgj)  
+* [Non-profit Entities Act  (PDF)](https://www.google.com/url?q=https://rmicourts.org/wp-content/uploads/2021/12/P.L.-2021-29-NB-No.-31ND1-Non-Profit-Entities-Act-2020-1.pdf&sa=D&source=docs&ust=1672071429786354&usg=AOvVaw0gFLR1lopeMUg7prehxSgj)  
 * [MIDAO’s Non-Profit Entities Act Amendment](https://www.google.com/url?q=https://drive.google.com/file/d/1dlLt8wKcDf99SKuii5SjLIzwkWI1_fwv/view?usp%3Dsharing&sa=D&source=docs&ust=1672071429786492&usg=AOvVaw1tjZoUR5eOHNzYNrK5WJnL)
 * [LLC Act](https://www.google.com/url?q=https://rmiparliament.org/cms/images/LEGISLATION/PRINCIPAL/19/1990-93/LimitedLiabilityCompanyAct1990_2.pdf&sa=D&source=docs&ust=1672071429786540&usg=AOvVaw2tpz7VIluXJgiikzHW32Yv)
-* [Business Corporations Act  (pdf)](https://www.google.com/url?q=https://rmiparliament.org/cms/images/LEGISLATION/PRINCIPAL/1990/1990-0091/BusinessCorporationsAct1990_8.pdf&sa=D&source=docs&ust=1672071429786584&usg=AOvVaw042kKxetnvj5Ga9dSKpnbP)
+* [Business Corporations Act  (PDF)](https://www.google.com/url?q=https://rmiparliament.org/cms/images/LEGISLATION/PRINCIPAL/1990/1990-0091/BusinessCorporationsAct1990_8.pdf&sa=D&source=docs&ust=1672071429786584&usg=AOvVaw042kKxetnvj5Ga9dSKpnbP)
 
 
 ## The core team Multisig
 
 Take a look at the Multisig at https://core-team-multisig.onrender.com/
 
-The Core team is currently in charge of Teias operations (on behalf of the Teia community) and is also teias current treasury address where the marketplace fees get directed to.
+The Core team is currently in charge of Teia's operations (on behalf of the Teia community) and is also Teias current treasury address where the marketplace fees get directed to.
 
 The Multisig consists of around 20, but at least 11 addresses owned by highly active contributors to Teia. It is used to vote on transactions involving Teia's assets, change the membership status of the core team multisig, and manage the Teia marketplace smart contracts. 
 
@@ -61,7 +61,7 @@ Tezos wallets can be proposed for addition or removal from the multisig through 
 
 ## The Teia DAO Tokens
 
-The TEIA tokens are the governance tokens of the Teia DAO LLC. They will be mostly used for determining who is a DAO member and how much voting power for DAO proposals eacxh wallet has. Legally, all Token holders are also part of the Teia DAO LLC.
+The TEIA tokens are the governance tokens of the Teia DAO LLC. They will be mostly used for determining who is a DAO member and how much voting power for DAO proposals each wallet has. Legally, all Token holders are also part of the Teia DAO LLC.
 
 Note that no token value above being a voting token is implied. The Teia DAO Token is solely intended as a governance token and should not be treated as a financial/investment asset. Due to its non-profit nature, Teia can't and won't distribute profits and can only use funds generated to maintain operations, fund exhibitions, and support education, art, and cultural exchange in general.
 
@@ -83,15 +83,15 @@ Staking TEIA tokens in third-party contracts poses several drawbacks for Teia DA
 
 Security concerns also arise, as these external contracts may lack the rigorous auditing and safety measures endorsed by the Teia DAO, potentially jeopardizing the safety of staked tokens.
 
-Members should be aware that locking tokens in 3rd party contracts impacts their voting power, and simply unstaking them/realeasing them from the contracts does not mean you get the voting power back for proposals that are already set up.
+Members should be aware that locking tokens in 3rd party contracts impacts their voting power, and simply unstaking them/releasing them from the contracts does not mean you get the voting power back for proposals that are already set up.
 
 ### possible future escrow rule of TEIA for submitting DAO proposals
 
-In the Teia DAO voting system, the act of voting doesn't consume tokens. During the testing phase, creating proposals won't cost any tokens, but in the later official DAO, there might be a request for around 500 TEIA for each submitted DAO proposal (not poll) as escrow to prevent spam proposals. The Tokens will be sent to Teias Treasury if the DAO proposal fails to meet the quorum. The reasoning here would be to reduce spam proposals and avoid cluttering the UI with less important ones. 
+In the Teia DAO voting system, the act of voting doesn't consume tokens. During the testing phase, creating proposals won't cost any tokens, but in the later official DAO, there might be a request for around 500 TEIA for each submitted DAO proposal (not poll) as escrow to prevent spam proposals. The Tokens will be sent to Teia's Treasury if the DAO proposal fails to meet the quorum. The reasoning here would be to reduce spam proposals and avoid cluttering the UI with less important ones. 
 
 
 ## DAO proposals
-DAO proposals are (soon) legally binding for the Teia DAO LLC and can be submitted by ANY member via the DAO user interface on teia.art.  It is the most fundamental instrument for our DAO governance: in it, a DAO member proposes a clear decision in the form of a Yes/No vote. The whole DAO is asked to vote on it and either accept the proposal or decline it. DAO poroposals need to pass the quorum (see below) in order to succeed. In practice, this will mean that DAO proposals will need a lot of attention and discussion to gather enough votes to pass the quorum and prevent unrealistic or short-sighted proposals from going through with only a few positive votes and without enough "no" votes.
+DAO proposals are (soon) legally binding for the Teia DAO LLC and can be submitted by ANY member via the DAO user interface on teia.art.  It is the most fundamental instrument for our DAO governance: in it, a DAO member proposes a clear decision in the form of a Yes/No vote. The whole DAO is asked to vote on it and either accept the proposal or decline it. DAO proposals need to pass the quorum (see below) in order to succeed. In practice, this will mean that DAO proposals will need a lot of attention and discussion to gather enough votes to pass the quorum and prevent unrealistic or short-sighted proposals from going through with only a few positive votes and without enough "no" votes.
 
 DAO proposals are intended to be used for significant decisions for the DAO and are legally binding for the DAO. This means if the community decides something via a successful DAO proposal, the Teia Team has to abide by it as long as it's legally clear to do so and in line with Teia's core values. 
 To ensure this, the DAO guardian role will be able to cancel proposals (at least for now) - the guardian doesn't have to be an individual; it can also be another multisig, for example. (more info below)
@@ -125,13 +125,13 @@ The DAO administrator, a designated figure within the organization, has the powe
 
 ## Teia Polls
 
-Teia's community polling tool offers greater versatility than DAO proposals, allowing for more customizable voting options than the DAO porposals simple Yes/No votes and customizable voting parameters. 
+Teia's community polling tool offers greater versatility than DAO proposals, allowing for more customizable voting options than the DAO proposals simple Yes/No votes and customizable voting parameters. 
 
 DAO members can create polls with voting parameters like [quadratic voting weight](https://en.wikipedia.org/wiki/Quadratic_voting) or a simple “1-vote-per-wallet” weighting. 
 
-Unlike legally binding DAO proposals, polls operate on a simple majority basis, making them more accessible for a successful outcome without the need for extensive participation to surpass a quorum requirement like with the DAO proposals. Polls are not binding for the core team to be executed, however the Team is expected to take polls into account in its day-to-day- decisionmaking.
- 
-Anyone in the DAO can initiate polls on various topics, fostering an open and fun way of community participation: Polls can extend beyond DAO-related matters, enabling users to seek input on diverse subjects, from asking collectors for their prefernces to discussing current hot topics within the community, all on chain and set up in a few seconds. This tool has interesting potential for social interactions and we hope the community finds fun and exciting ways to use it.
+Unlike legally binding DAO proposals, polls operate on a simple majority basis, making them more accessible for a successful outcome without the need for extensive participation to surpass a quorum requirement like with the DAO proposals. Polls are not binding for the core team to be executed, however the Team is expected to take polls into account in its day-to-day decision making.
+
+Anyone in the DAO can initiate polls on various topics, fostering an open and fun way of community participation: Polls can extend beyond DAO-related matters, enabling users to seek input on diverse subjects, from asking collectors for their preferences to discussing current hot topics within the community, all on chain and set up in a few seconds. This tool has interesting potential for social interactions and we hope the community finds fun and exciting ways to use it.
 
 ![snapshot of the poll creation form on teia.art/polls](https://github.com/teia-community/teia-docs/assets/97635650/0a05f6ea-27ed-43db-ac93-d0a478e39375)
 
@@ -142,7 +142,7 @@ On [teia.art/polls/create](https://teia.art/polls/create), you can choose how lo
 
 
 
-## Next steps/ Under contruction
+## Next steps/ Under construction
 
 ### Full DAO launch
 
@@ -167,7 +167,7 @@ Discussions are currently ongoing if we should allow core team members into a re
 Leaders within these groups are being nominated by the community and [will 
 be included in the weaving of the new Teia DAO](https://github.com/teia-community/teia-docs/wiki/Governance-on-Teia#representatives-contract).
 
-However, in order to make this work, there needs to be a solid structure/procedure for the rep setup in place, this is currently being worked on by the reporesentatives working group and the team is looking for people interested in working on the equity governance for Teia: Both members of equity seeking communities as well as volunteers that are interested in helping with this are invited to join the discussion on discord.
+However, in order to make this work, there needs to be a solid structure/procedure for the rep setup in place, this is currently being worked on by the representatives working group and the team is looking for people interested in working on the equity governance for Teia: Both members of equity seeking communities as well as volunteers that are interested in helping with this are invited to join the discussion on discord.
 
 
 ## DAO Smart-Contract Development
@@ -182,9 +182,9 @@ BCD (testnet): https://better-call.dev/ithacanet/KT1PA5vDBff1Tg7sSe8Xehmz3RbknWA
 
 A basic FA2 token contract, similar to hDAO, with some extra improvements:
 
-It takes the idea of balance checkpoints fron the [kolibri DAO token](https://governance.kolibri.finance/) implementation. With that we can know exactly the token balance of a given wallet at a given block level. Thanks to that it's not necessary to transfer the tokens to the DAO contract to avoid double voting: The DAO contract simply asks the DAO token contract how many tokens had the wallet that it's voting at the moment when the proposal was created. The DAO token contract returns the exact balance and that is used to calculate the vote weight. This is good, because we will have several proposals running at the same time. It would have created problems if we had to transfer the tokens to the DAO contract to vote. We wouldn't be able to vote with those tokens in other proposals.
+It takes the idea of balance checkpoints from the [kolibri DAO token](https://governance.kolibri.finance/) implementation. With that we can know exactly the token balance of a given wallet at a given block level. Thanks to that it's not necessary to transfer the tokens to the DAO contract to avoid double voting: The DAO contract simply asks the DAO token contract how many tokens had the wallet that it's voting at the moment when the proposal was created. The DAO token contract returns the exact balance and that is used to calculate the vote weight. This is good, because we will have several proposals running at the same time. It would have created problems if we had to transfer the tokens to the DAO contract to vote. We wouldn't be able to vote with those tokens in other proposals.
 
-It uses on-chain views instead of calback methods. On-chain views are relatively new and are a very good thing to have. For example, hDAO and kolibri DAO don't have on-chain views, and one needs to use callback functions with are a much worst solution. It's not their fault, on-chain views were not available when they implemented those tokens
+It uses on-chain views instead of callback methods. On-chain views are relatively new and are a very good thing to have. For example, hDAO and kolibri DAO don't have on-chain views, and one needs to use callback functions with are a much worst solution. It's not their fault, on-chain views were not available when they implemented those tokens
 
 The DAO Token contract has implemented a rule of a maximum possible balance of DAO Tokens per wallet. We need to decide a % of the total token amount that can be held per wallet (i.e. 2-3% of total Tokens) - This will avoid unfair voting power for "whales" and also make sure No Token holder will have to KYC if we incorporate in the Marshal Islands (-> a wallet that has 10% of all tokens will have to do KYC there)
 
@@ -195,7 +195,7 @@ If we register the DAO in the Marshall islands, members don't need to provide th
 code: https://github.com/teia-community/teia-smart-contracts/blob/main/python/contracts/daoTokenDrop.py
 
 The idea is that we will create a list of wallets with the number of DAO token editions that they will have: tz1aaa -> 10eds, tz1bbb -> 20eds
-From that final list we will build a Merkle tree that encapsules the DAO token distribution information. The root of the Merkle tree will be stored in the contract and will be used to verify that every token claim is correct. 
+From that final list we will build a Merkle tree that encapsulates the DAO token distribution information. The root of the Merkle tree will be stored in the contract and will be used to verify that every token claim is correct. 
 
 
 ### Treasury contract
@@ -204,7 +204,7 @@ code: https://github.com/teia-community/teia-smart-contracts/blob/main/python/co
 
 BCD (testnet): https://better-call.dev/ithacanet/KT1PV1BjjVZUfbw79YJG3sPuHWQbAPNPan3i/storage
 
-This is the contract that will own the tezos coming from the Teia marketplace and donations and the DAO tokens that have not been claimed and/or are part of the reserve for future use.
+This is the contract that will own the Tezos coming from the Teia marketplace and donations and the DAO tokens that have not been claimed and/or are part of the reserve for future use.
 
 The only account that could interact with the DAO treasury is the DAO governance contract (see bellow). Any transfer of tez or tokens need to be approved by the DAO.
 
@@ -232,14 +232,14 @@ BCD (testnet): https://better-call.dev/ithacanet/KT1SpmiaEkwEg9Q7wsb8G6noEpM5xcR
 
 This is the actual DAO. Here is where proposals are submitted, voted and executed. It contains references to the DAO token contract, the DAO treasury contract, the teia representatives contract and the DAO guardians and DAO admin multisigs.
 
-The governance contract currently has the following goveranance parameters:
+The governance contract currently has the following governance parameters:
 
 
 #### proposals
 - Proposal voting period in days
 - Proposal waiting period in days before it can be executed
 - Amount of DAO tokens to escrow to create a proposal
-- Minimum amout of DAO tokens needed to vote proposals
+- Minimum amount of DAO tokens needed to vote proposals
 #### quorum
 - quorum: the minimum number of votes (in terms of vote weight) that a proposal needs in order to be approved. This parameter adapts with time.
 - Minimum period between quorum updates in days
@@ -258,7 +258,7 @@ All of those parameters, of course, can be adjusted over time. We will probably 
 
 ### Administrative Figures within the DAO
 
-As a safety measure, especially in the beginning when the DAO model is young and not fully tested, we need to implement some adminitrative figues: They can be eliminated later if we want to, by assigning them to a burn address or a dead contract.
+As a safety measure, especially in the beginning when the DAO model is young and not fully tested, we need to implement some administrative figures: They can be eliminated later if we want to, by assigning them to a burn address or a dead contract.
 
 UI: https://teia-multisig.onrender.com/
 
@@ -266,9 +266,9 @@ UI: https://teia-multisig.onrender.com/
 
 BCD (testnet): https://better-call.dev/ithacanet/tz1gnL9CeM5h5kRzWZztFYLypCNnVQZjndBN/operations
 
-The DAO admin figure will also be a teia multisig. The admin cannot create, vote, execute or cancel proposals, but it can modify the main DAO  governance parameters. It's a safety measure in case we choose some parameters that are not appropiate. For example, if we see that we start with a quorum that is too high, the admin can lower it to save time. By being able to modify the DAO parameters, the admin can also come into the rescue of the DAO. 
+The DAO admin figure will also be a teia multisig. The admin cannot create, vote, execute or cancel proposals, but it can modify the main DAO  governance parameters. It's a safety measure in case we choose some parameters that are not appropriate. For example, if we see that we start with a quorum that is too high, the admin can lower it to save time. By being able to modify the DAO parameters, the admin can also come into the rescue of the DAO. 
 
-For example, they could make proposals impossible to approve by setting the quorum or the supermajority to a extremelly high value.
+For example, they could make proposals impossible to approve by setting the quorum or the supermajority to a extremely high value.
 
 #### Guardian
 
@@ -276,7 +276,7 @@ BCD (testnet):https://better-call.dev/ithacanet/KT1RCXoax1uuWDLrK5n1AzLJMgQbg4D5
 
 The DAO guardian figure comes into action only in very special situations: When an attacker submits a proposal and manages to get enough votes to have it approved. 
 
-That could happen by sending a sybill attach or taking advantage of a period when the DAO participation is very low and the quorum requirements are also very low.In that attack situation, DAO guardians are able to cancel the attacker proposals before they can be executed.
+That could happen by sending a sybill attack or taking advantage of a period when the DAO participation is very low and the quorum requirements are also very low.In that attack situation, DAO guardians are able to cancel the attacker proposals before they can be executed.
 
 The DAO guardians contract is the same as the Teia multisig contract that we are already using. In order to cancel a proposal, guardians need to create a proposal in the multisig and execute it.
 
@@ -286,9 +286,9 @@ The DAO guardians contract is the same as the Teia multisig contract that we are
 
 ## ORG-Structure suggestions
 
-for the structure of the Org there are two proposals that seem to be good corner stones reflecting what structure we want to build towards:
+for the structure of the Org there are two proposals that seem to be good cornerstones reflecting what structure we want to build towards:
 
-### Malicious sheeps structure proposal:
+### Malicious Sheep's structure proposal:
 ![Organization_Proposal](https://user-images.githubusercontent.com/97635650/158018380-bde4d699-f204-4c8e-a592-4ff92aae64c1.png)
 ![Rotation_and_Responsibilites-2](https://user-images.githubusercontent.com/97635650/158018396-261fc397-3c8e-4005-8c9a-6e54528c39c0.png)
 
