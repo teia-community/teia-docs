@@ -81,32 +81,28 @@ This is particularly useful for artists who:
 -   Want to maintain some control over how their work is reproduced or displayed    
 -   Need to establish clear terms for collaborations or derivative projects    
 
-#### How the custom license Works
+#### How to use the custom licensing on Teia
 
-1.  Minting Page: Select "Custom License" from the "License" dropdown menu when minting an NFT. This will reveal a new section titled Custom License Generation Form.    
-2.  Form Fields: The form includes checkboxes for common rights, such as:
-    
-
+1.  **Minting Page:** Select "Custom License" from the "License" dropdown menu when minting an NFT. This will reveal a new section titled Custom License Generation Form.   
+ 
+2.  **Form Fields:** The form includes checkboxes for common rights, such as:
 -   Right to Reproduce    
 -   Right to Broadcast    
 -   Right to Public Display    
 -   Right to Create Derivative Works    
 -   Release to Public Domain
-    
-
-4.  Exclusive Rights: You can also define exclusive rights based on ownership share, allowing for options like:    
-
+ 
+4.  **Exclusive Rights:** You can also define exclusive rights based on ownership share, allowing for options like:
 -   Majority Share (50%+)    
 -   Super-Majority Share (66.667%+)    
 
-6.  Addendum/Notes: An "Addendum/Notes" field allows for adding specific clauses, restrictions, and scopes to tailor the agreement further.
+6.  **Addendum/Notes:** An "Addendum/Notes" field allows for adding specific clauses, restrictions, and scopes to tailor the agreement further.
     
-7.  Agreement Generation: Once you have selected the desired options, a Custom License Agreement will be generated. This agreement is displayed on the minting page for your review.
+7.  **Agreement Generation:** Once you have selected the desired options, a Custom License Agreement will be generated. This agreement is displayed on the minting page for your review.
     
-8.  Minting with Custom License: When you mint the NFT, the Custom License Agreement is permanently associated with its metadata and viewable on the NFT's detail page.  
+8.  **Minting with Custom License:** When you mint the NFT, the Custom License Agreement is permanently associated with its metadata and viewable on the NFT's detail page.  
 
-Important Notes:  
-
+**Important Notes:**
 -   This agreement is a direct, private agreement between the artist and collector(s). Teia and Tezos are not involved in the deal itself.    
 -   The agreement is recorded on-chain as documentation but is not directly enforced by the Teia platform.    
 -   This feature is not retroactive; it only applies to new mints.    
