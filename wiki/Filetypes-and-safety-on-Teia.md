@@ -2,10 +2,10 @@ teia.art is an online platform giving access to art in a number of types. All fi
 
 Here is an overview of the types of file you can mint or may encounter on teia.art, along with our current assessment of any security concerns.
 
-Teia allows **gif, jpg, png, svg, mp4, webm, glb, mp3, wav, flac, pdf, html, md, text, midi** to be minted.
+Teia allows **gif, jpg, png, webp, svg, mp4, webm, glb, mp3, wav, flac, pdf, html, md, text, midi** to be minted.
 
 
-**jpg, png and gif** are known to be pretty safe.
+**jpg, png, gif and webp** are known to be pretty safe.
 
 **svg** can be compromised by scripts and you should be careful. Do you trust the minter of this objkt?
 
