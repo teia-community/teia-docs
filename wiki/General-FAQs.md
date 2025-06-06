@@ -1,10 +1,10 @@
 ## I received some tez, so I suppose I sold work. But where do I see which OBJKT I sold?
 
-First of all, congratulations. 
+First of all, congratulations.
 
-You can use the [hictory.glitch.me](https://hictory.glitch.me/) to check your sales, just add your wallet address and you will get a sales history of your NFTs.
+You can check your recent sales activity using your wallet interface (such as [Temple Wallet](https://templewallet.com/)). Click on your tez balance to open the **Activity** tab, which shows incoming and outgoing transactions. For more detail, click on a transaction to view it in a blockchain explorer like [TzKT.io](https://tzkt.io/) or [Better Call Dev](https://better-call.dev/), where you can see which specific OBJKT was transferred or sold.
 
-you can find more selling/notification tools on this [wiki article on community tools](https://github.com/teia-community/teia-docs/wiki/Tools-made-by-the-community#selling-tools)
+For more advanced tools, including notification bots and artist dashboards, see the [Selling Tools section](https://github.com/teia-community/teia-docs/wiki/Tools-made-by-the-community#selling-tools) of the community tools page.
 
 ## How do I get a notification when something sells?
 You can use the telegram notification bot or Cryptonoises bot that we have listed in the [Tools/Selling Tools](https://github.com/teia-community/teia-docs/wiki/Tools-made-by-the-community#selling-tools) section
