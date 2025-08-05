@@ -8,11 +8,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
-    defaults:
-      run:
-        working-directory: teia-docs
-
     permissions:
       contents: read
       pages: write
@@ -34,14 +29,16 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+        working-directory: teia-docs
 
       - name: Build website
         run: npm run build
+        working-directory: teia-docs
 
       - name: Upload build
         uses: actions/upload-pages-artifact@v3
         with:
-          path: teia-docs/build  # path is relative to the repo root
+          path: teia-docs/build
 
       - name: Deploy to GitHub Pages
         id: deployment
