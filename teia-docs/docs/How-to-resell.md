@@ -1,7 +1,7 @@
 How to sell an OBJKT created by another artist, that you own.
 
 ***
-If you've collected another artist's objkt then you own the right to resell it. 
+If you've collected another artist's objkt then you own the right to resell it.
 This is also referred to as placing your OBJKT on the secondary market. It's much the same as swapping one of your own creations, although a royalty will be paid to the artist.
 
 
@@ -24,7 +24,7 @@ _IMPORTANT: Once swapping something up for sale, it is held in the Teia escrow w
 
 ### How can I track what I've sold?
 
-You can use the tools on [hicdex.com](hicdex.com) to track transaction history
+You can use the tools on [hicdex.com](https://hicdex.com) to track transaction history
 
 ### How can I get notifications when I sell something?
 

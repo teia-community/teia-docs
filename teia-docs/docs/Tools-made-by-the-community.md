@@ -135,7 +135,7 @@ Move defunct tools to this section let's remember our fallen comrades.
 
 ### Follow / Favourites
 
-* [Henext.xyz](www.henext.xyz) by [xfunct](https://twitter.com/xsfunc) supports following artists
+* [Henext.xyz](https://www.henext.xyz) by [xfunct](https://twitter.com/xsfunc) supports following artists
 
 ### Selling Tools
 

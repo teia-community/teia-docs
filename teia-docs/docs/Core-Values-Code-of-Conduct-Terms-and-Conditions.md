@@ -220,7 +220,7 @@ The Teia community reserves its right to moderate content and ban/restrict walle
 
 The content moderation team operates on the following Terms and work voluntarily to protect TEIA collectors and artists from copyminting and other types of malicious activity.  
   
-Please understand their role and that processes like this do generate mistakes. The team investigates when alerted through the #report-copyminters channel in the [TEIA Discord](https://discord.gg/6yjT7qX8) or via [mail](teia.community.art@gmail.com). Please respect their work, and help them by being courteous and accurate with the information that will help your inquiry.  
+Please understand their role and that processes like this do generate mistakes. The team investigates when alerted through the #report-copyminters channel in the [TEIA Discord](https://discord.gg/6yjT7qX8) or via [mail](mailto:teia.community.art@gmail.com). Please respect their work, and help them by being courteous and accurate with the information that will help your inquiry.  
 
 Various other Tezos marketplaces also use the TEIA restricted list of accounts, which means that once TEIA restricts an account, other NFT marketplaces will likely follow suit.  
 
