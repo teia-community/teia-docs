@@ -7,9 +7,9 @@ const sidebars: SidebarsConfig = {
       label: 'General',
       items: [
         // 'home',
-        // 'core-values-code-of-conduct-terms-and-conditions',
+        'core-values-code-of-conduct-terms-and-conditions',
         'governance-on-teia',
-        // 'core-team',
+        'core-team',
         // 'user-safety',
       ],
     },
