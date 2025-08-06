@@ -1,3 +1,9 @@
+---
+id: collecting-nfts-safely
+title: Collecting NFTs Safely
+sidebar_label: Collecting NFTs Safely
+---
+
 On all uncurated platforms there is the problem of scammers who sell art that is not their own – often labelled copymints.
 If you collect this art, eventually it will become ‘banned’, ‘restricted’ or otherwise labelled as fake, and will have no value, either monetarily or art-wise.
 

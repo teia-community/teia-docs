@@ -10,19 +10,27 @@ const sidebars: SidebarsConfig = {
         'core-values-code-of-conduct-terms-and-conditions',
         'governance-on-teia',
         'core-team',
-        // 'user-safety',
+        'user-safety',
       ],
     },
-//    {
-//      type: 'category',
-//      label: 'Copyright, Moderation, Restrictions',
-//      items: [
-        // 'report-harassment-or-scams',
-        // 'account-restrictions-rules',
-        // 'copyright-and-license-guide',
-        // 'collecting-nfts-safely',
-//      ],
-//    },
+    {
+      type: 'category',
+      label: 'Copyright, Moderation, Restrictions',
+      items: [
+        {
+          type: 'link',
+          label: 'Report Harassment or Scams',
+          href: 'https://docs.google.com/forms/d/e/1FAIpQLSeuBmNJjTiROSbHXXiQ5e-ia6fFywHKZ7Dj4-7sZtyltGY3yA/viewform',
+        },
+        {
+          type: 'link',
+          label: 'Account restrictions / Rules (report abuse/request unban)',
+          href: '/teia-docs/docs/core-values-code-of-conduct-terms-and-conditions#content-moderation',
+        },
+        'copyright-and-license-guide',
+        'collecting-nfts-safely',
+      ],
+    },
 //    {
 //      type: 'category',
 //      label: 'Getting Started',
