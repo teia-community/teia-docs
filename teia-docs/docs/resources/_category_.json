@@ -1,0 +1,11 @@
+{
+  "label": "Resources/Lists",
+  "position": 6,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "title": "Resources and Lists",
+    "description": "This section contains various resources and lists that can help you in your Teia journey."
+  }
+}

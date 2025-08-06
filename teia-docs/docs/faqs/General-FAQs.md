@@ -1,3 +1,11 @@
+---
+id: general-faqs
+title: General FAQs
+sidebar_label: General FAQs
+sidebar_position: 1
+---
+
+
 ## I received some tez, so I suppose I sold work. But where do I see which OBJKT I sold?
 
 First of all, congratulations.

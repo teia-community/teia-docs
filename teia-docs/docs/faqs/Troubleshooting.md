@@ -1,3 +1,10 @@
+---
+id: troubleshooting
+title: Troubleshooting
+sidebar_label: Troubleshooting
+sidebar_position: 2
+---
+
 ## My profile isn't loading
 If you are using [Tezos Profiles](https://tzprofiles.com/), it might take some time for the profile to be activated.
 

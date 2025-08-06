@@ -1,3 +1,10 @@
+---
+id: pakistan-fundraiser
+title: SavePakistan
+sidebar_label: SavePakistan
+sidebar_position: 5
+---
+
 ## The Pakistani Flood Catastrophe
 
 In late August, torrential monsoon triggered the biggest climate related disasters in history: [a third of Pakistans landmass is submerged in water](https://www.esa.int/ESA_Multimedia/Images/2022/09/Pakistan_inundated) affecting tens of millions of people, washing away houses, destroying crops, hospitals, schools. To date, more than 1,500 people have lost their lives to the floods, including 552 children. Currently, 73% of the flood victims have inadequate access to necessities like food, water, medical aid, etc. 

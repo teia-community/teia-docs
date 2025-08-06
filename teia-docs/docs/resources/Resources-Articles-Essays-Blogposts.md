@@ -1,3 +1,10 @@
+---
+id: resources-articles-essays-blogposts
+title: Articles, Essays, Blogposts
+sidebar_label: Articles, Essays, Blogposts
+sidebar_position: 1
+---
+
 ## Tezos NFT art reading list
 (currently under construction) find a list of Blogs, Webzines, Interview series around the Tezos NFT ecosystem in our [Tezos reading list](https://github.com/teia-community/teia-docs/wiki/Tezos-reading-list)
 ***

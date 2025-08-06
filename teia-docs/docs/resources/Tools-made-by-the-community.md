@@ -2,6 +2,7 @@
 id: community-tools
 title: Tools Made by the Community
 sidebar_label: Community Tools
+sidebar_position: 6
 ---
 
 Due to the open source nature of Teia/hicetnunc, a lot of tools have been built around the Tezos NFT ecosystem. Here we try to compile a list of community built tools especially around the OBJKT Token standard. Please note that most of these tools are experimental and some might not be maintained or use outdated data. Please move defunct tools to the deprecated section at the end of this document. Found a new tool? Please add it to the list.

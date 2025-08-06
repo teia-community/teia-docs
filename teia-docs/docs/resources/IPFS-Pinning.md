@@ -1,3 +1,10 @@
+---
+id: ipfs-pinning
+title: IPFS Pinning
+sidebar_label: IPFS Pinning
+sidebar_position: 4
+---
+
 Your OBJKTs are uploaded to The Interplanetary File System, or [IPFS](https://www.ipfs.com/). The Teia smart contract stores the IPFS hash and a reference to IPFS metadata with information like title and description [(example)](https://ipfs.io/ipfs/QmbUHQWw1pQ7GwPxgDtAUdRKaJPQjsymKviZCcNEjMj1oM).
 
 ## What is IPFS and why is IPFS pinning important?

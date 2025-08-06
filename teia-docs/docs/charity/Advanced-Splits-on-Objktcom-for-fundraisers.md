@@ -1,3 +1,10 @@
+---
+id: advanced-splits-on-objktcom-for-fundraisers
+title: Advanced Splits on Objktcom for Fundraisers
+sidebar_label: Advanced Splits on Objktcom
+sidebar_position: 6
+---
+
 if you want to use objktcom to dedicate a % of your swap towards a given charity address, you can set up an "advanced" split swap. 
 This is especially useful when you want to donate a Token that you have already minted, so [Teias split contract](https://github.com/teia-community/teia-docs/wiki/Collab-contract-Guide#setting-up-a-contract-for-fundraisers) is not an option.
 

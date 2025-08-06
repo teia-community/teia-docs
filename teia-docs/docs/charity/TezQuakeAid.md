@@ -1,3 +1,10 @@
+---
+id: tezquakeaid
+title: TezQuakeAid
+sidebar_label: TezQuakeAid
+sidebar_position: 1
+---
+
 # #TezQuakeAid - Community fundraiser for Earthquake Relief (Turkey/Syria)
 
 ## Summary

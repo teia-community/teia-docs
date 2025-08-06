@@ -1,3 +1,10 @@
+---
+id: mirror-list
+title: Mirror List
+sidebar_label: Mirror List
+sidebar_position: 3
+---
+
 # Trusted Teia/Hicetnunc Mirrors, Clones and Spin-offs
 
 ### teia.art

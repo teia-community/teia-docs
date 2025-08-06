@@ -1,4 +1,12 @@
-## Currently: 2.5% fee 
+---
+id: marketplace-fees
+title: Marketplace Fees
+sidebar_label: Marketplace Fees
+sidebar_position: 3
+---
+
+
+## Currently: 2.5% fee
 
 Currently new swaps on Teia are carrying a 2.5% fee - as of 28 March 2023.
 The fees cover the maintenance costs for the non-profit Teia platform.

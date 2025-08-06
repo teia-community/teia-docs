@@ -1,3 +1,10 @@
+---
+id: tezos-for-iran
+title: Tezos4Iran
+sidebar_label: Tezos4Iran
+sidebar_position: 2
+---
+
 **Please [click here to jump to the Chinese translation](https://github.com/teia-community/teia-docs/wiki/Tezos-for-Iran#tezos4iran---chinese-translation) of this Article.**
 
 ***
