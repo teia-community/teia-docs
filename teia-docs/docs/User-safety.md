@@ -1,3 +1,9 @@
+---
+id: user-safety
+title: User Safety
+sidebar_label: User Safety
+---
+
 This page collects resources and guidelines for avoding scammers and common scam tactics. Currently an unbelievable amount of scams pop up everyday in the cryptosphere. Stay safe! If you come across a scam, help others and consider reporting it. See [reporting section](https://github.com/teia-community/teia-docs/wiki/User-safety/#reporting) 
 
 ## General:

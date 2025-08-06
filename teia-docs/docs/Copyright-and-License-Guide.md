@@ -1,3 +1,9 @@
+---
+id: copyright-and-license-guide
+title: Copyright and License Guide
+sidebar_label: Copyright and License Guide
+---
+
 _Use this as a guide for rights and licensing for minted and collected works on Teia and other nft platforms as well as creating art in general._
 
 As an artist creating new work or as a collector buying artistic work, certain rights to display and re-use apply.
