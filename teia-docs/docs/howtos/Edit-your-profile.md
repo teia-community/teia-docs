@@ -1,3 +1,10 @@
+---
+id: edit-your-profile
+title: Edit your profile
+sidebar_label: Edit your profile
+sidebar_position: 1
+---
+
 ## Settings > Config
 
 Profile information is useful in a number of ways. Most important, it can identify you to your potential collectors

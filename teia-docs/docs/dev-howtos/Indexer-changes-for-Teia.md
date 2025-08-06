@@ -1,3 +1,9 @@
+---
+id: indexer-changes-for-teia
+title: Indexer changes for Teia
+sidebar_position: 3
+---
+
 `api.hicdex.com` is currently not supporting the Teia marketplace contract, so if you are running/building a community tool and want to support teia swaps, you will need to switch to an indexer that supports the Teia marketplace and update your code a bit (see below)
 
 

@@ -2,6 +2,7 @@
 id: how-to-resell
 title: How to resell an OBJKT
 sidebar_label: How to resell 🏪
+sidebar_position: 6
 ---
 
 How to sell an OBJKT created by another artist, that you own.

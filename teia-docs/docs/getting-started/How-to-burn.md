@@ -2,6 +2,7 @@
 id: how-to-burn
 title: How to burn an OBJKT
 sidebar_label: How to burn 🔥
+sidebar_position: 5
 ---
 
 burn
