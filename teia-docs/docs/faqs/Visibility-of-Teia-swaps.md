@@ -1,10 +1,17 @@
+---
+id: visibility-of-teia-swaps
+title: Visibility of Teia Swaps
+sidebar_label: Visibility of Teia Swaps
+sidebar_position: 4
+---
+
 ## Background
 
 ### Funding through marketplace fees
-  
+
 One major difference between Web2 and Web3 platforms (such as NFT marketplaces) is the funding model: Web2 sustains through ads, data, or premium services (subscriptions). Blockchains and decentralised applications instead rely on fees paid by their users. On Tezos, most NFT marketplaces charge a 2.5% fee that is applied to each sale on the smart contract.
-  
-This results in a money flow dynamic that many participants miss out:  
+
+This results in a money flow dynamic that many participants miss out:
 **All of the platform fees, captured in the final step, need to fund all the preceding steps.**
 
 The sale of an NFT and resulting fees can be independent of where this NFT was created, seen, curated or hosted. In fact, each step of the process can execute independently in various interconnected platforms, tools and services.

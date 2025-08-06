@@ -1,3 +1,10 @@
+---
+id: ukrainian-fundraising
+title: Ukraine Fundraiser
+sidebar_label: Ukraine
+sidebar_position: 5
+---
+
 # Ukraine Fundraiser
 
 In support for our Ukrainian friends, brothers and sisters, [Veqtor](https://twitter.com/Veqtor/status/1497167740146266112?s=20&t=mmvu8KPxybOa0TQXX32nFw) from [Versum](https://twitter.com/versumofficial) in conjunction with [FxHash](https://twitter.com/fx_hash_/status/1497113572085751810?s=20&t=mmvu8KPxybOa0TQXX32nFw) set up a shared donation contract that will redirect tezos to multiple charity orgs (listed below) in support of Ukraine relief, and we want to help support this initiative.

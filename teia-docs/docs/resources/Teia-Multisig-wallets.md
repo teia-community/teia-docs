@@ -1,3 +1,10 @@
+---
+id: teia-multisig-wallets
+title: List of Multisig Wallets used by Teia
+sidebar_label: List of Multisig Wallets used by Teia
+sidebar_position: 2
+---
+
 use https://multisign.onrender.com/ to see the wallets that currently hold the keys to the multisig wallets/contracts.
 and for more info about the voting proposals, parameters, etc.
 

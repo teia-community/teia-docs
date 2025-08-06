@@ -1,3 +1,10 @@
+---
+id: tezospride
+title: Tezospride
+sidebar_label: Tezospride
+sidebar_position: 3
+---
+
 ## About the event
 
 **#TezosPride** is an ongoing event to celebrate Pride and to support our 2SLGBTQ+ siblings across the Tezos ecosystem. It was initially set up to celebrate Pride Month 2022 and has been continued as a separate [Teia feed](https://teia.art/feed/tezospride) for queer art.

@@ -1,0 +1,11 @@
+{
+  "label": "Charity Initiatives",
+  "position": 5,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "title": "Charity Initiatives",
+    "description": "Charity Initiatives and Fundraising Efforts"
+  }
+}
