@@ -31,18 +31,18 @@ const sidebars: SidebarsConfig = {
         'collecting-nfts-safely',
       ],
     },
-//    {
-//      type: 'category',
-//      label: 'Getting Started',
-//      items: [
-        // 'getting-started-with-tezos',
-        // 'how-to-mint',
-        // 'how-to-swap',
-        // 'how-to-cancel',
-        // 'how-to-burn',
-        // 'how-to-resell',
-//      ],
-//    },
+    {
+      type: 'category',
+      label: 'Getting Started',
+      items: [
+        'getting-started-with-tezos',
+        'how-to-mint',
+        'how-to-swap',
+        'how-to-cancel',
+        'how-to-burn',
+        'how-to-resell',
+      ],
+    },
 //    {
 //      type: 'category',
 //      label: 'How-Tos',

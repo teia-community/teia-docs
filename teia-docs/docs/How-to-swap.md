@@ -1,3 +1,9 @@
+---
+id: how-to-swap
+title: How to Swap OBJKTs
+sidebar_label: How to Swap 🔃
+---
+
 **swap**
 
 1: _(noun)_ an act, instance, or process of exchanging one thing for another
