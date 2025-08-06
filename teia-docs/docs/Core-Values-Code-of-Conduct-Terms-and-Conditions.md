@@ -1,3 +1,9 @@
+---
+id: core-values-code-of-conduct-terms-and-conditions
+title: Core Values, Code of Conduct & Terms and Conditions
+sidebar_label: Core Values, Code of Conduct & Terms and Conditions
+---
+
 These documents were drafted during the hic et nunc hicathon and got worked on since then by the Teia community. 
 Those are “living documents” that have not been voted on yet and will be subject to changes made by the "core values" working group of the teia community until finalized by an official vote. However they are put in place until consensus is reached as they reflect the current state of the discussion and are the result of a wide and long process with diverse contributors.
 

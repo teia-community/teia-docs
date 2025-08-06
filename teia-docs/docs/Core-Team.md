@@ -1,3 +1,9 @@
+---
+id: core-team
+title: Core Team
+sidebar_label: Core Team
+---
+
 In Nov 2021 a community of Tezos users banded together aiming to create an open source and inclusive NFT community platform, continuing Hic et nunc's legacy. Teia was born. We thought it was time to introduce you to Teia. The Core Team is a group of very active Teia comtributors from all over the world, who keep Teias Operations running and have executive power over Teia (via multisig votes) until the DAO Token voting contracts are ready and tested.
 
 
