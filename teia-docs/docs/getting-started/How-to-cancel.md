@@ -2,6 +2,7 @@
 id: how-to-cancel
 title: How to cancel an OBJKT swap
 sidebar_label: How to cancel ❌
+sidebar_position: 4
 ---
 
 ### **Cancel**

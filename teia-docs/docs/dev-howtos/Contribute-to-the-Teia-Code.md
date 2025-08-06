@@ -1,4 +1,10 @@
-# How to Contribute to Teias Code
+---
+id: how-to-contribute-to-teia-code
+title: How to Contribute to Teia's Code
+sidebar_position: 1
+---
+
+# How to Contribute to Teia's Code
 
 The Teia Marketplace is maintained by the community and relies on volunteer work for updates and new features. Every little help is welcome: No matter if you only have a little bit of your time to give or just want to bring in that one feature you want to contribute.
 If you are just getting started with coding or want to learn more about the Teia codebase, please feel free to come to the #general-dev channel of [the Teia Discord Server](https://discord.gg/QckkbVMcWu) and ask for assistance! If Git flow is something new to you, don't feel intimidated, come and join us on Discord and we'll take the time to help.

@@ -2,6 +2,7 @@
 id: how-to-mint
 title: How to mint OBJKTs
 sidebar_label: How to mint 🌿
+sidebar_position: 2
 ---
 
 ### **mint**

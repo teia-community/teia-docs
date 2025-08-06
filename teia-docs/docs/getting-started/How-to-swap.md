@@ -2,6 +2,7 @@
 id: how-to-swap
 title: How to Swap OBJKTs
 sidebar_label: How to Swap 🔃
+sidebar_position: 3
 ---
 
 **swap**

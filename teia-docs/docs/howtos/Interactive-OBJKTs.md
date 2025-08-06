@@ -1,3 +1,10 @@
+---
+id: interactive-objkts
+title: Interactive OBJKTs
+sidebar_label: Interactive OBJKTs
+sidebar_position: 2
+---
+
 Below is a guide to minting an interactive OBJKT.
 
 Also check out the [templates](https://github.com/teia-community/teia-templates) for p5.js, shaders, html, and svg.

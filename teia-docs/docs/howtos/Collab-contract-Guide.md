@@ -1,3 +1,10 @@
+---
+id: collab-contract-guide
+title: Collab contract Guide
+sidebar_label: Collab contract Guide
+sidebar_position: 3
+---
+
 ## Collab contract Guide
 This article covers how two or more wallets can collaborate to put up a work jointly on teia.art 
 It is based on this video by @ktorn:

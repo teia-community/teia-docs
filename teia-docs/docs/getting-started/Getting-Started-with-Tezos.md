@@ -1,7 +1,8 @@
 ---
 id: getting-started-with-tezos
 title: Getting Started with Tezos
-sidebar_label: Getting Started
+sidebar_label: Getting Started with Tezos
+sidebar_position: 1
 ---
 
 First, you will need a Tezos wallet and Tezos funds.

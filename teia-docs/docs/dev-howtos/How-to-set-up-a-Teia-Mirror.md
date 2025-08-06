@@ -1,3 +1,9 @@
+---
+id: how-to-set-up-a-teia-mirror
+title: How to Set Up a Teia Mirror
+sidebar_position: 1
+---
+
 ## Apache/Local Webserver/Traditional Web Host
 
 _by Manitcor_
