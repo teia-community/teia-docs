@@ -1,3 +1,9 @@
+---
+id: how-to-resell
+title: How to resell an OBJKT
+sidebar_label: How to resell 🏪
+---
+
 How to sell an OBJKT created by another artist, that you own.
 
 ***
@@ -17,8 +23,9 @@ This is also referred to as placing your OBJKT on the secondary market. It's muc
 
 6. Click on the "swap" button and confirm the transaction in your wallet app.
 
-_IMPORTANT: Once swapping something up for sale, it is held in the Teia escrow wallet while it is "on the market." Therefore, the OBJKT will disappear from your collections. Don't worry; it's still up for sale!_
+After your swap is active, the listing will show up in the **Curation** tab on your profile.
 
+_IMPORTANT: Once swapping something up for sale, it is held in the Teia escrow wallet while it is "on the market." Therefore, the OBJKT will disappear from your collections. Don't worry; it's still up for sale!_
 
 ***
 

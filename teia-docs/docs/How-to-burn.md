@@ -1,3 +1,11 @@
+---
+id: how-to-burn
+title: How to burn an OBJKT
+sidebar_label: How to burn 🔥
+---
+
+burn
+
 1: _(verb)_ to "delete" your OBJKT
 
 Transactions on the blockchain are irreversible, so you can't "delete" them. The "burn" button sends the OBJKT to the [burn address](https://tzkt.io/tz1burnburnburnburnburnburnburjAYjjX/operations/) - tz1burnburnburnburnburnburnburjAYjjX, or you can send it yourself using your wallet app. The burn address is an open address that nobody owns a key to, so objkts are never retrievable.

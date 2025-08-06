@@ -1,3 +1,9 @@
+---
+id: how-to-cancel
+title: How to cancel an OBJKT swap
+sidebar_label: How to cancel ❌
+---
+
 ### **Cancel**
 
 1. _(verb)_ to take your NFT off the market

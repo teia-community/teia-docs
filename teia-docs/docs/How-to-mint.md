@@ -1,3 +1,9 @@
+---
+id: how-to-mint
+title: How to mint OBJKTs
+sidebar_label: How to mint 🌿
+---
+
 ### **mint**
 
 1: _(verb)_ to create an OBJKT (NFT)
