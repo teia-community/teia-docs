@@ -148,7 +148,10 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Teia DAO LLC`,
+      copyright: `Copyright © ${new Date().getFullYear()} <strong>Teia DAO LLC</strong><br />
+      PO Box 852, Long Island Rd<br />
+      Majuro, Marshall Islands MH 96960<br />
+      Registration Number: 10020-23 (MIDAO Registry)`,
     },
     prism: {
       theme: prismThemes.github,

@@ -1,4 +1,21 @@
+---
+id: howto-update-teia-docs
+title: How to Update Teia Docs
+sidebar_position: 5
+---
+
+
 ## Update Documentation in the Teia Docs Repository
+
+*Note*: We are in the process of migrating the wiki documentation to a Docusaurus
+based site, so this guide may change in the future.  For now, the wiki
+documentation is still available and can be updated as described below.
+
+See:
+
+* https://github.com/teia-community/teia-docs/pull/18
+
+---
 
 This guide provides instructions on how to update a documentation file stored in the /wiki folder of this GitHub repository.
 
