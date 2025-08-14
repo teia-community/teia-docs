@@ -1,0 +1,11 @@
+{
+  "label": "Dev How-Tos",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "title": "Developer Guides",
+    "description": "How-to guides for developers working on Teia."
+  }
+}
