@@ -1,3 +1,12 @@
+> This page is now published on the [docs.teia.art](https://docs.teia.art) site here: https://teia-community.github.io/teia-docs/docs/core-values-code-of-conduct-terms-and-conditions
+> 
+> Changes to this wiki page are not reflected on the docs site.
+> You may wish to use this wiki page to propose changes to that page, but we prefer you open a PR to make changes to that page directly. Consult the [howto guide here](https://teia-community.github.io/teia-docs/docs/dev-howtos/howto-update-teia-docs) for how to make changes to the docs site.
+>
+> This document may eventually live at this url: https://docs.teia.art/core-values-code-of-conduct-terms-and-conditions
+>
+> Depending on the outcome of this poll: https://teia.art/poll/46
+
 These documents were drafted during the hic et nunc hicathon and got worked on since then by the Teia community. 
 Those are “living documents” that have not been voted on yet and will be subject to changes made by the "core values" working group of the teia community until finalized by an official vote. However they are put in place until consensus is reached as they reflect the current state of the discussion and are the result of a wide and long process with diverse contributors.
 
