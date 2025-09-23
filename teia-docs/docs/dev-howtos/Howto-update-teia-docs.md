@@ -4,55 +4,97 @@ title: How to Update Teia Docs
 sidebar_position: 5
 ---
 
+# How to Update Teia Docs
 
-## Update Documentation in the Teia Docs Repository
+Teia documentation is now published on our [Docusaurus site](https://docs.teia.art).
 
-*Note*: We are in the process of migrating the wiki documentation to a Docusaurus
-based site, so this guide may change in the future.  For now, the wiki
-documentation is still available and can be updated as described below.
+Drafts can be created anywhere you like—Google Docs, the GitHub wiki, Microsoft Word, or your favorite editor. Once a document is ready to be published, it should be added to the **`//teia-docs/docs/`** folder in this repository. Essentially, the documentation lives as Markdown files grouped in folders under this directory.
 
-See:
+Once your pull request is approved and merged into `main`, the Docusaurus site will rebuild and your changes will be published automatically.
 
-* https://github.com/teia-community/teia-docs/pull/18
+:::note Repo-root path syntax
+We use `//` as syntactical sugar to indicate the **root of the repository**.  
+For example, `//teia-docs/docs/` refers to the `docs/` folder inside the top-level `teia-docs/` directory at the repo root.
+:::
+
+For more information about the GitHub pull request workflow, see:
+- https://docs.github.com/en/pull-requests
 
 ---
 
-This guide provides instructions on how to update a documentation file stored in the /wiki folder of this GitHub repository.
+## Why Docusaurus?
 
-Note that formerly files were stored in the "internal wiki repo" of this, the Teia Docs repository, but they have now been moved to the /wiki folder.  When you edit a file in the /wiki folder on the main branch, a GitHub action will be triggered to push the change to the internal GitHub wiki repo.  Likewise when any update is made using the GitHub wiki interface, that change will be synced back to the /wiki folder.
+We chose [Docusaurus](https://docusaurus.io/) as the foundation for Teia Docs because it gives us:
 
-## For Teia Organization members
+- **A modern static site** – Documentation is built into a fast, searchable website.  
+- **Markdown-based workflow** – Writers can focus on simple Markdown files without worrying about web design.  
+- **Structure** – Content can be structured in folders with sidebars and navigation automatically generated.  
+- **Version control** – All docs live in Git, so we get history, reviews, and collaboration via pull requests.  
+- **Extensibility** – Docusaurus supports themes, plugins, and customizations if we need to expand in the future.  
 
-### Just use the wiki interface as usual
-For members of the Teia Community organization, you can update files using the GitHub wiki interface as usual.  You might want to do this if you normally use that interface which has a toolbar for adding headers, images and links etc...
+The goal is to make Teia’s documentation easy to maintain, easy to contribute to, and pleasant to read — while keeping everything in a single, open, and reviewable workflow.
 
-In the future we might adopt another documentation editing tool, but for now this option to use the Github Wiki editing interface is available to you. 
+---
 
-### What if I want to create a PR for the change?
+## Drafting Documentation
 
-Optionally if you want to create a PR for your update, you can go to the [Teia docs code repository](https://github.com/teia-community/teia-docs) and find the [/wiki](https://github.com/teia-community/teia-docs/tree/main/wiki) folder mentioned above.  You will see a listing of .md files.  Click on the file name of any of those files and you will be taken to a markdown editing interface for that page.  Click the pencil icon to edit the page.  You will find that the markdown editor in the code repository, does not have the handy wiki editing toolbar for adding headings, links, images etc... so you might prefer to continue to use the wiki for editing, and the changes you make there will be synced back to the /wiki folder.
+- **Google Docs**: [gdocs.teia.art](https://gdocs.teia.art)  
+- **GitHub Wiki**: The repo still has a [wiki](https://github.com/teia-community/teia-docs/wiki) if you prefer its interface.  
+- **Other Tools**: Use whatever writing environment works best for you.
 
-![A screenshot of the code repository browser.](https://raw.githubusercontent.com/teia-community/teia-docs/main/wiki/img/howto_teia_docs/updatedocs.png)
+The important step is moving your finished draft into this repo’s `//teia-docs/docs/` folder. This is the Docusaurus site content, where finished docs are approved and published.
 
-You may want to use this interface if you are making some substantial updates to the text of the document and would like to start a peer review process.  When you have made your edits click the green "Commit changes..." button: 
+---
 
-![Code repository editor screen.](https://raw.githubusercontent.com/teia-community/teia-docs/main/wiki/img/howto_teia_docs/updatedocs2.png)
+## Publishing Documentation (Teia Org Members)
 
-And this will help you create a new branch and make a PR with a "Propose Changes" dialog box.  Be sure to click the option for "create new branch" and Github will suggest a branch name for you.  
+1. Clone the [Teia Docs repository](https://github.com/teia-community/teia-docs) or edit directly in GitHub.  
+2. Create a branch for your changes:
 
-![Screenshot from 2023-06-23 10-42-54](https://github.com/floydwilde/teia-docs/assets/201620/30a608ef-fe15-4e48-93a8-cea4ccac3590)
+   ~~~bash
+   git checkout -b docs/update-howto-docusaurus
+   ~~~
 
-### I want to create a new page
+3. Add or update the appropriate Markdown file inside `//teia-docs/docs/`.  
+   - Example for this page’s location: `//teia-docs/docs/dev-howtos/Howto-update-teia-docs.md`  
+4. Commit your changes and push the branch.  
+5. Open a Pull Request.  
+   - Ask one or two reviewers from the Teia Community to check it.  
+   - Once merged, the Docusaurus site will rebuild and publish your changes.
 
-Use the wiki interface, or in the code repository browser click the + sign above the file listing on the left side navigation menu and click "Add file", or clone the repository locally and add your file using your terminal or IDE.
+---
 
-## For any GitHub user not a member of the Teia Organization
+## For Contributors Outside the Teia Org
 
-If you are not a member of the Teia Organization but you wish to contribute
-a documentation update, the process is similar but you must first fork the Teia
-Docs repository.
+If you’re not a member of the Teia GitHub organization:
 
-Once you have your own fork, proceed to make the changes or updates you wish to
-make then commit your changes to your fork and issue a Pull Request.
+1. Fork the Teia Docs repository.  
+2. Make your changes in your fork.  
+3. Open a Pull Request back to the main repo.
 
-You can even use the wiki editing feature in your fork to edit files, which will be synced back to the main branch of your fork where you can then prepare a PR back to the main Teia Docs repo. 
+---
+
+## Creating a New Page
+
+To add a new document:
+
+- Place the Markdown file in the most appropriate folder under `//teia-docs/docs/`.  
+- Use frontmatter at the top of the file to define its ID, title, and sidebar position, e.g.:
+
+  ~~~markdown
+  ---
+  id: new-doc-id
+  title: My New Documentation Page
+  sidebar_position: 3
+  ---
+  ~~~
+
+- Submit it through a PR as described above.
+
+---
+
+## Notes on Legacy Wiki Content
+
+Historically, Teia documentation lived in the GitHub wiki. That content was synced into this repo’s `/wiki` folder, but finished docs have since been migrated into the Docusaurus site (`//teia-docs/docs/`).
+
+You can still use the wiki (or any other tool you wish) for drafting, but if you want to update or work directly on the published site, new work should go into the `//teia-docs/docs/` folder.
