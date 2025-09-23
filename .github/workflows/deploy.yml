@@ -1,9 +1,12 @@
-name: Deploy to GitHub Pages
+name: Deploy teia-docs site to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
+    paths: # deploy only if Docusaurus site updated
+      - 'teia-docs/**'
+      - '.github/workflows/deploy.yml'
+    workflow_dispatch: # enables manual runs if needed
 
 jobs:
   deploy:
