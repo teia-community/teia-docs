@@ -1,10 +1,10 @@
 # Teia Documentation
 
-## Docs Site
+## Teia Docs Site
 
-The official Teia documentation is moving to [docs.teia.art](https://docs.teia.art), built with [Docusaurus](https://docusaurus.io/) and deployed to GitHub Pages from this repo.
+The official Teia documentation is now available at [docs.teia.art](https://docs.teia.art), built with [Docusaurus](https://docusaurus.io/) and deployed to GitHub Pages from this repo.
 
-This is the primary source for documentation going forward. 
+This is the primary source for documentation going forward.
 
 The migration is tracked in [issue #21](https://github.com/teia-community/teia-docs/issues/21).
 
