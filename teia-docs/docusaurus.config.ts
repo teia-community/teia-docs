@@ -15,15 +15,17 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://floydwilde.github.io',
+  url: 'https://docs.teia.art',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/teia-docs/',
+  // We want the docs at the root of the domain to avoid something like:
+  // https//docs.teia.art/teia-docs/blah
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   // organizationName: 'teia-community', // Usually your GitHub org/user name.
-  organizationName: 'floydwilde',
+  organizationName: 'teia-community',
   projectName: 'teia-docs', // Usually your repo name.
   // Github pages adds a trailing slash to the base URL, so we need to set this
   trailingSlash: false,
@@ -48,7 +50,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/teia-community/teia-docs',
+            'https://github.com/teia-community/teia-docs/edit/main/teia-docs/',
         },
           blog: false, // Disable the blog feature for now
         // blog: {
