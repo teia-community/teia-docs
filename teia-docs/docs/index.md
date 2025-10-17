@@ -1,11 +1,12 @@
 ---
-title: Welcome to Teia
+title: Teia Docs
+slug: /
 description: Teia is a community-powered art platform on the Tezos blockchain.
 ---
 
 # Welcome to the Teia Documentation Site
 
-The Teia [DAO](/teia-docs/docs/governance-on-teia) is a community-powered art platform on the Tezos blockchain.
+The Teia [DAO](/governance-on-teia) is a community-powered art platform on the Tezos blockchain.
 
 It started as a fork of **Hic et Nunc (H=N)** and continues its spirit with a focus on decentralization, sustainability, accessibility, and equity.
 
@@ -13,7 +14,7 @@ Teia is an artwork made of artworks — a place where artists and collectors mee
 
 > “Teia is and always will be a work-in-progress, built and improved by its participants.”
 
-👉 *Start Here*: [Core Values, Code of Conduct & Terms and Conditions](/teia-docs/docs/core-values-code-of-conduct-terms-and-conditions)
+👉 *Start Here*: [Core Values, Code of Conduct & Terms and Conditions](/core-values-code-of-conduct-terms-and-conditions)
 
 ---
 
@@ -36,13 +37,13 @@ Teia is built on [Tezos](https://tezos.com), a pioneering Proof-of-Stake blockch
 > *The total annual carbon footprint of the Tezos blockchain is equivalent to the average energy footprint of 17 global citizens.*
 > — [tezos.com/carbon](https://tezos.com/carbon/)
 
-👉 [Get started with Tezos](/teia-docs/docs/getting-started/getting-started-with-tezos)
+👉 [Get started with Tezos](/getting-started/getting-started-with-tezos)
 
 ---
 
 ## Something Missing?
 
-Check out [Howto-update-teia-docs](/teia-docs/docs/dev-howtos/howto-update-teia-docs) or
+Check out [Howto-update-teia-docs](/dev-howtos/howto-update-teia-docs) or
 [open an issue](https://github.com/teia-community/teia-docs/issues).  We’re
 volunteer-run, and welcome feedback and contributions via
 [Discord](https://discord.gg/JV2ehAn2).
