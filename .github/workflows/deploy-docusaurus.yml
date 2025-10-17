@@ -1,4 +1,4 @@
-name: Deploy teia-docs site to GitHub Pages
+name: Deploy teia-docs Docusaurus site to GitHub Pages
 
 on:
   push:
@@ -41,10 +41,10 @@ jobs:
       - name: Build website
         run: npm run build
 
-      - name: Upload build
+      - name: Upload built site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: teia-docs/build
+          path: build
 
       - name: Deploy to GitHub Pages
         id: deployment
