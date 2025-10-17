@@ -5,7 +5,7 @@ on:
     branches: [ main ]
     paths: # deploy only if Docusaurus site updated
       - 'teia-docs/**'
-      - '.github/workflows/deploy.yml'
+      - '.github/workflows/deploy-docusaurus.yml'
     workflow_dispatch: # enables manual runs if needed
 
 jobs:
