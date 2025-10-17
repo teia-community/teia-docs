@@ -25,7 +25,7 @@ const sidebars: SidebarsConfig = {
         {
           type: 'link',
           label: 'Account restrictions / Rules (report abuse/request unban)',
-          href: '/teia-docs/docs/core-values-code-of-conduct-terms-and-conditions#content-moderation',
+          href: '/core-values-code-of-conduct-terms-and-conditions#content-moderation',
         },
         'copyright-and-license-guide',
         'collecting-nfts-safely',
@@ -83,7 +83,7 @@ const sidebars: SidebarsConfig = {
         {
           type: 'link',
           label: 'How to set split sale swaps on objkt.com',
-          href: '/teia-docs/docs/howtos/collab-contract-guide#setting-up-a-contract-for-fundraisers',
+          href: '/howtos/collab-contract-guide#setting-up-a-contract-for-fundraisers',
         },
       ],
     },

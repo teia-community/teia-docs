@@ -46,6 +46,7 @@ const config: Config = {
       'classic',
       {
         docs: {
+          routeBasePath: '/',
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -72,6 +73,21 @@ const config: Config = {
           customCss: './src/css/custom.css',
         },
       } satisfies Preset.Options,
+    ],
+  ],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        createRedirects(existingPath) {
+          // Add legacy '/docs' prefix for all pages so old links keep working
+          if (existingPath.startsWith('/')) {
+            return [`/docs${existingPath}`];
+          }
+          return [];
+        },
+      },
     ],
   ],
 
