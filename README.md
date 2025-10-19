@@ -14,7 +14,7 @@ As decided in [poll #46](https://teia.art/poll/46), the GitHub Pages site is now
 
 ## Repository Structure
 
-- `DocumentArchive` — Historical and reference documents preserved for archival purposes (not actively maintained).
+- `DocumentArchive/` — Historical and reference documents preserved for archival purposes (not actively maintained).
 - `teia-docs/` — Source for the Docusaurus-powered documentation site.  
 - `wiki/` — Mirror of the GitHub Wiki for drafts and early notes.  
 - `.github/workflows/` — Actions to sync wiki content and deploy the docs site.
