@@ -107,18 +107,20 @@ We want Teia to be a safe and productive environment for everyone. This Code of 
 
 As artists and collectors of art, we want to acknowledge and protect intellectual property as it is crucial for our integrity and work but we also acknowledge that some forms of art need to use the works of others (i.e. remixes, tributes, quotes).
 
-- Artists should avoid uses of existing copyrighted material that do not generate new artistic meaning, being aware that a change of medium, without more, may not meet this standard. [[src]](#cc-annex)
+- Artists should avoid uses of existing copyrighted material that do not generate new artistic meaning, being aware that a change of medium, without more, may not meet this standard. [src](#cc-annex)
 
-- The use of a preexisting work, whether in part or in whole, should be justified by the artistic objective, and artists who deliberately repurpose copyrighted works should be prepared to explain their rationales both for doing so and for the extent of their uses. [[src]](#cc-annex)
+- The use of a preexisting work, whether in part or in whole, should be justified by the artistic objective, and artists who deliberately repurpose copyrighted works should be prepared to explain their rationales both for doing so and for the extent of their uses. [src](#cc-annex)
 
-- Artists should avoid suggesting that incorporated elements are original to them, unless that suggestion is integral to the meaning of the new work. [[src]](#cc-annex)
+- Artists should avoid suggesting that incorporated elements are original to them, unless that suggestion is integral to the meaning of the new work. [src](#cc-annex)
 
 - We suggest not to mint content that is in the public domain or under other similar licenses that allow reselling without creative changes or using it as a way of artistic expression.  
 While some content is free to be used and if specified in the license even commercially, there are problematic implications that come with minting unchanged content and selling it as a NFT, such as occurring double mints if multiple people mint the same public domain content (see [Terms & Conditions](#reasons-for-an-account-restrictionreview)). 
 
 - When creating a homage piece to somebody else’s work, an artist should seek consent from the creator of the original, clearly label it as a homage and name the original creator, unless there is an articulable aesthetic basis for not doing so (i.e. pastiche / sampling / collage / satire etc).
 
-<a name="cc-annex">[src]</a> see page 11 of [Digital Commons](https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1000&context=scholcom)
+#### Reference {#cc-annex}
+
+[src] see page 11 of [Digital Commons](https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1000&context=scholcom)
 
 
 ### Fair play on the marketplace
