@@ -1,32 +1,41 @@
 # Teia Documentation
 
-## Teia Docs Site
+Welcome to the official Teia documentation repository.  
+This repo hosts both the **Teia Docs Site** — published at [docs.teia.art](https://docs.teia.art) — and the **Teia Wiki** for early drafts and notes.
 
-The official Teia documentation is now available at [docs.teia.art](https://docs.teia.art), built with [Docusaurus](https://docusaurus.io/) and deployed to GitHub Pages from this repo.
+## ✍️ Teia Docs Site
 
-This is the primary source for documentation going forward.
+The official Teia documentation is built with [Docusaurus](https://docusaurus.io/) and deployed to GitHub Pages from the [`teia-docs/`](https://github.com/teia-community/teia-docs/tree/main/teia-docs) folder in this repository.
 
-The migration is tracked in [issue #21](https://github.com/teia-community/teia-docs/issues/21).
+As decided in [poll #46](https://teia.art/poll/46), the GitHub Pages site is now configured to use the **teia.art** domain.
 
-Read the howto guide on the docs site here:
+### 🛠️ How to Update Teia Docs
 
-* https://teia-community.github.io/teia-docs/docs/dev-howtos/howto-update-teia-docs
+➡️  https://docs.teia.art/dev-howtos/howto-update-teia-docs
 
-## Teia Wiki
+## Repository Structure
 
-The [Teia Wiki](https://github.com/teia-community/teia-docs/wiki) is a staging area for drafts and early notes.  
-It is not the final home for documentation. Use it to outline ideas or propose edits before they move to the docs site.  
+- `DocumentArchive` — Historical and reference documents preserved for archival purposes (not actively maintained).
+- `teia-docs/` — Source for the Docusaurus-powered documentation site.  
+- `wiki/` — Mirror of the GitHub Wiki for drafts and early notes.  
+- `.github/workflows/` — Actions to sync wiki content and deploy the docs site.
 
-- Members of the [Teia-Community](https://github.com/teia-community) GitHub organization can edit directly in the wiki.  
-- The wiki content is also stored in the [`//wiki`](https://github.com/teia-community/teia-docs/tree/main/wiki) folder of this repository. Edits there can be made through pull requests if you want review.  
-- Changes in the `//wiki` folder and the GitHub wiki associated with this repo stay in sync via GitHub actions.
+## 📚 Teia Wiki
 
-## Contributing
+The [Teia Wiki](https://github.com/teia-community/teia-docs/wiki) serves as a **staging area** for documentation drafts and early notes.  
+It is not the final home for documentation — use it to outline ideas or propose edits before they move to the main docs site.
 
-Ways to help with documentation:  
+- Members of the [Teia Community](https://github.com/teia-community) GitHub organization can edit the wiki directly.  
+- The wiki content is mirrored in the [`wiki/`](https://github.com/teia-community/teia-docs/tree/main/wiki) folder, so edits can also be made via pull requests if review is desired.  
+- A GitHub Action keeps the `wiki/` folder and the GitHub Wiki in sync automatically.
 
-- Open pull requests with improvements.  
-- Review and discuss PRs and issues.  
-- Contribute translations where possible.  
+## 🤝 Contributing
 
-The goal is to provide clear, accurate documentation for the Teia community.
+You can help improve Teia documentation in several ways:
+
+- 🛠️ [Follow the how-to guide](https://docs.teia.art/dev-howtos/howto-update-teia-docs) to update the docs site.  
+- ✍️ Draft or edit pages in the [Teia Wiki](https://github.com/teia-community/teia-docs/wiki).  
+- 💬 Review pull requests and participate in issue discussions.  
+- 🌍 Contribute translations and accessibility improvements.
+
+Together we’re building clear, welcoming documentation for the Teia community.
