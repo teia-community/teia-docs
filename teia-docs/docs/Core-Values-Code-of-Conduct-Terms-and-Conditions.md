@@ -10,7 +10,7 @@ Those are “living documents” that have not been voted on yet and will be sub
 If you want to add ideas/feedback - go to the #core-values-philosophy channel on the [Teia Discord](https://discord.gg/ueU7cVBF) and bring your input there!
 
 
-# **Table of Contents**
+**Table of Contents**
 
 1. [Core Values](#core-values)
 
@@ -20,9 +20,9 @@ If you want to add ideas/feedback - go to the #core-values-philosophy channel on
 
 3.1 [Account Restrictions and Content Moderation](#content-moderation)
 
-# Core Values
+## Core Values
 
-## PREAMBLE
+### PREAMBLE
 
 TEIA is an open, digital platform of ideas and works of creativity. It is an artwork made of artworks; Artists and collectors coming together as equal lovers of creativity in order to emancipate and democratize art.
 
@@ -34,19 +34,19 @@ TEIA is built and improved by its participants. We believe that we as a collecti
 
 We want, however, to protect and preserve the spirit of Teia. Those core values should guide our decisions moving forward in this rapidly evolving space. This manifesto, collectively written, tries to put this spirit into words.
 
-## §1 Inclusivity
+### §1 Inclusivity
 - 1.1 We believe in a community for all users and all art forms.
     - 1.1.1 Inclusive for everyone, no matter your race, ethnicity, religion, class, culture, national background and citizenship status, sexual orientation, gender identity and expression, age, or mental or physical disability, neurotype, health related issues, income level, mental health status or trauma
     - 1.1.2 Inclusive for all participants, no matter the social/economic status.
     - 1.1.3 inclusive for all art forms and mediums including but not limited to: digital, analog, graphics, vr, video, audio, music, fiber, physical and the ones to come.
 - 1.2 We want to reach a parity in voice and contribution between people from all communities and sorts of privileges and locations. This needs to be reached through concrete action and leveraging power
 
-## §2 Respect
+### §2 Respect
 - 2.1 We believe in a community that respects one another’s dignity, ideas, thoughts and art.
 - 2.3 We respect our community and value each person's contribution.
 - 2.4 We understand that this is, and always will be, a work in progress and we are empathetic and patient with this process.
 
-## §3 Community/Solidarity
+### §3 Community/Solidarity
 - 3.1 We are an egalitarian community. Our community is not about rank, status, or popularity. It’s about contributing, building together, fostering connections, encouraging community interactions, providing support, and growing together.
 - 3.2 The community must ensure the freedom of the individual, but this freedom ends where it endangers the well-being of the community (see [COC](#code-of-conduct))
 - 3.3 We want to
@@ -56,7 +56,7 @@ We want, however, to protect and preserve the spirit of Teia. Those core values 
     - 3.3.4 avoid systems that could be exclusive in any shape or form.
     - 3.3.5 Protect the community and their intellectual property from threats.
 
-## §4 Decentralization
+### §4 Decentralization
 We believe in shared ownership on the platform, no one should have exclusive rights over others. 
 - 4.1 We believe in a platform that radically dismantles and democratizes the established art market and methods of distribution.
 - 4.2 Teia should remain open source. We aim to create open solutions and look for ways to limit gate-keeping and share knowledge wherever possible.
@@ -67,43 +67,43 @@ We believe in shared ownership on the platform, no one should have exclusive rig
     - 4.6.3 Encourage and help all members to participate in community votes.
 - 4.5 The community should respect and encourage all opinions, even if they are against the consensus. The individual should respect consensus reached by the community in the same way.
 
-## §5 Simplicity and accessibility
+### §5 Simplicity and accessibility
 - 5.1 Teia should aim to be as accessible as possible. The creation of an account should be simple and fast and possible anonymously and without providing any personal information. Teia should not store or collect personal information about its members.
 - 5.2 We want to provide a simple and easy-to-use platform for all users, including those with accessibility needs.
 - 5.3 We want to help those without access to the platform to get the ability to participate. (i.e. via donations for people who can’t afford to mint)
 - 5.4 We believe in providing access to useful tools for all members of the community
 
-## §6 Sustainability
+### §6 Sustainability
 We believe in sustainability. With technology evolving, we as a community need to evolve too and build towards a more viable future. We shall be mindful of the consequences of our actions and evaluate our decisions with that in mind, always pursuing the least destructive path.
 - 6.1 Things that may look responsible now may be problematic for us and everyone in the future. Lifecycle impacts must be considered.
 - 6.2 With that in mind, we should always be open to the possibility of changing the technological foundations of Teia in order to ensure it stays sustainable, transparent and accessible to everyone.
 - 6.3 The community should ensure the security of all the data needed for the platform. This includes but is not limited to the data stored on blockchains. The media files of objkts should be stored in a decentralized and transparent way.
 
-## §7 Creativity
+### §7 Creativity
 - 7.1 Creativity has no borders. We want to encourage and organize events that bring the global community together and create bonds and collaborations between us and contribute to shaping the future of art as whole.
 - 7.2 We want to encourage and help the development of new forms and shapes of art through collaborations between the users.
 - 7.3 We believe in providing an open and supportive space for all artists and collectors to express themselves freely and without limitations.
 - 7.4 Creativity needs freedom, we want to make sure there are as few restrictions as possible in place to make Teia a place of creativity without limitations but also ensuring the intellectual rights of creators/artists.
 
 
-# Code of Conduct
+## Code of Conduct
 
 Teia is a community of artists, creators, and collectors from all around the world, who come together to grow and inspire others. All participants in the community are expected to act lawfully, honestly, ethically, and in the best interest of the project.
 We want Teia to be a safe and productive environment for everyone. This Code of Conduct offers guidelines designed to keep Teia a respectful, supportive, and open space. Remember, Teia is what you make of it, and as a community we can create a great experience for everyone.
 
-## Respect
+### Respect
 - We may have different values or viewpoints of the world but we have one thing in common: we love art.
 - Be civil and respect each other. Don't harass, impersonate, or belittle others. Respect each others personal boundaries.
 - Don't post spam or vandalize the space.
 
-## Contribute and help improve the community.
+### Contribute and help improve the community.
 - Look for ways to contribute and find positive solutions. Stay open minded and empathetic around areas of improvements. And take initiative to help out where you can.
 - Try to share your knowledge with the community.
 - Your participation matters. If you feel that you or the group you identify with is underrepresented or does not have a voice in the community, know that you are welcome here. Be the first to fill that gap, invite your peers, and make yourself heard.
 - Bugs and security flaws in the platform, blockchain or smart contract should be disclosed responsibly, according to regulations and best practices regarding those procedures.
 - If you see something wrong, voice it and try to help people without a voice. ( see [Reporting Guidelines](#reporting-guidelines))
 
-## Copyright and intellectual property
+### Copyright and intellectual property
 
 As artists and collectors of art, we want to acknowledge and protect intellectual property as it is crucial for our integrity and work but we also acknowledge that some forms of art need to use the works of others (i.e. remixes, tributes, quotes).
 
@@ -121,7 +121,7 @@ While some content is free to be used and if specified in the license even comme
 <a name="cc-annex">[src]</a> see page 11 of [Digital Commons](https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1000&context=scholcom)
 
 
-## Fair play on the marketplace
+### Fair play on the marketplace
 
 - In order to make collecting a good experience for everyone, collectors should voluntarily refrain from using automated tools for collecting, from hindering other participants from collecting and from interfering with the smart contract in any way.
 
@@ -129,9 +129,9 @@ While some content is free to be used and if specified in the license even comme
 
 
 
-# Terms and Conditions
+## Terms and Conditions
 
-## Rules of the Teia Platform
+### Rules of the Teia Platform
 
 - By agreeing with this Code of Conduct and Terms & Conditions you become a user of the Teia platform.
 
@@ -147,7 +147,7 @@ While some content is free to be used and if specified in the license even comme
 
 - This code of conduct/terms and Conditions and its related procedures also apply to unacceptable behavior occurring outside the scope of community activities when such behavior has the potential to adversely affect the safety and well-being of community members.
 
-## Limits of liability
+### Limits of liability
 
   
 - Use Teia at your own risk: Teia provides a User Interface for minting and trading, the users are fully responsible for their owned NFT Tokens and actions.
@@ -156,15 +156,15 @@ While some content is free to be used and if specified in the license even comme
 
 - Teia will not refund users for possible exploits and other losses directly caused by third parties or account restrictions.
 
-## Content Warning  
+### Content Warning
 
 The art on the Teia.art marketplace is user-created and some of it might not be suitable for all ages. If you are underaged, don’t use the platform without your legal guardians.
 
-##  Unacceptable behavior 
+### Unacceptable behavior
 
 We do not condone harassment or abuse against any member in any community environment, online or offline, for any reason. Abusive actors can get banned from any Teia related spaces. 
    
-###   Harassment includes
+#### Harassment includes
 
 -   targeting individuals in a manner that makes them feel uncomfortable, unwelcome, or afraid.
     
@@ -189,14 +189,14 @@ We do not condone harassment or abuse against any member in any community enviro
 -   Advocating for, or encouraging of any of the above behavior.
     
 
-### Abuse includes
+#### Abuse includes
 
 -   Using ones authority, reputation or knowledge to intimidate or threaten others.
     
 -   Maliciously causing someone to doubt their own perceptions, senses, or understanding with the objective to win an argument or force someone to behave the way you want.
   
 
-### Consequences of Unacceptable Behavior
+#### Consequences of Unacceptable Behavior
 
 - Unacceptable behavior from any community member, including sponsors and those with decision-making authority, will not be tolerated.
 
@@ -206,7 +206,7 @@ We do not condone harassment or abuse against any member in any community enviro
 
 - If a community manager does not actively investigate and fight reported unacceptable behavior fairly, they will need to be held responsible and might be removed from their position.
 
-## Reporting Guidelines
+### Reporting Guidelines
 
 If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community organizer as soon as possible either via the [report form](https://docs.google.com/forms/u/3/d/e/1FAIpQLSeuBmNJjTiROSbHXXiQ5e-ia6fFywHKZ7Dj4-7sZtyltGY3yA/viewform), the [discord](https://discord.gg/6yjT7qX8) channel #report or a mail to "info@teia.art" 
 
@@ -217,10 +217,10 @@ Additionally, community organizers are available to help community members engag
 If you feel you have been falsely or unfairly accused of violating this Code of Conduct, you should notify Teia with a concise description of your grievance. Your grievance will be handled in accordance with our existing governing policies. 
   
 
-## Content moderation  
+### Content moderation
 
 
-### Restricted accounts on the Teia marketplace.
+#### Restricted accounts on the Teia marketplace.
 
 The Teia community reserves its right to moderate content and ban/restrict wallets from the marketplace to make Teia a fair and safe experience for all. 
 
@@ -234,15 +234,15 @@ Note that other marketplaces, even those using the same minting contracts, may h
 
 Since TEIA is a decentralized application, restricted OBJKTs are only superficially restricted on Teia's user interface, meaning that they are still available through APIs and on-chain data etc.
 
-#### “Restricted account”
+##### “Restricted account”
 
 Accounts that TEIA restricts are labeled “restricted account,” and OBJKTs that a restricted account has minted are labeled “restricted OBJKT” on the marketplace.  
 
-#### “Account under review”
+##### “Account under review”
 
 Accounts that are marked as “under review” have been flagged for further investigation or minor misbehavior or general red flags. Accounts under review can still trade on the Teia UI and will be reviewed. Users who's account has ben put under review are asked to come to the #report-copyminters channel on the Teia community discourse for clarification.   
 
-### Reasons for an account restriction/review:  
+#### Reasons for an account restriction/review:
 
 -   **Copyminting:** Minting another artist(s) work without their consent. Copyminting can also include works based on another artist's work, with minimal filters or modifications applied
     
@@ -267,7 +267,7 @@ This rule might get lifted in the future with the implementation of new systems 
     
 -   **Missing classification of NSFW/Photosensitive content:** The content moderation team might restrict accounts that mint NSFW or photosensitive material without properly classifying it upon mint, the team can also add mints and accounts to that classification after the mint.  
 
-###   Procedure if your Teia account has been restricted
+#### Procedure if your Teia account has been restricted
 
 If you are banned, please don’t create new accounts to circumvent the account restriction but request for an un-ban first, those accounts might get automatically banned. If you want to keep on minting, please discuss with the content moderation team first and discuss the way forward.
 
