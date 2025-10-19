@@ -15,15 +15,16 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://floydwilde.github.io',
+  url: 'https://docs.teia.art',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/teia-docs/',
+  // Mount the docs at the domain root while keeping redirects in place.
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   // organizationName: 'teia-community', // Usually your GitHub org/user name.
-  organizationName: 'floydwilde',
+  organizationName: 'teia-community',
   projectName: 'teia-docs', // Usually your repo name.
   // Github pages adds a trailing slash to the base URL, so we need to set this
   trailingSlash: false,
@@ -44,11 +45,12 @@ const config: Config = {
       'classic',
       {
         docs: {
+          routeBasePath: '/',
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/teia-community/teia-docs',
+            'https://github.com/teia-community/teia-docs/edit/main/teia-docs/',
         },
           blog: false, // Disable the blog feature for now
         // blog: {
@@ -70,6 +72,21 @@ const config: Config = {
           customCss: './src/css/custom.css',
         },
       } satisfies Preset.Options,
+    ],
+  ],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        createRedirects(existingPath) {
+          // Add legacy '/docs' prefix for all pages so old links keep working
+          if (existingPath.startsWith('/')) {
+            return [`/docs${existingPath}`];
+          }
+          return [];
+        },
+      },
     ],
   ],
 
