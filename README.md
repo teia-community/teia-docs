@@ -1,7 +1,6 @@
 # Teia Documentation
 
-Welcome to the official Teia documentation repository.  
-This repo hosts both the **Teia Docs Site** — published at [docs.teia.art](https://docs.teia.art) — and the **Teia Wiki** for early drafts and notes.
+Welcome to the official Teia documentation repository. This repo hosts both the **Teia Docs Site** — published at [docs.teia.art](https://docs.teia.art) — and the **Teia Wiki** for early drafts and notes.
 
 ## ✍️ Teia Docs Site
 
