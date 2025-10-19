@@ -41,7 +41,7 @@ _by NFTBiker & mel_
 
 ### Requirements:
 
-- [Github](https://github.com/) Account (not mandatory for Vercel, see [Vercel (local)](#Vercel))
+- [Github](https://github.com/) Account (not mandatory for Vercel, see [Vercel (local)](#vercel-local))
 - Either a [Netlify](https://www.netlify.com/), [Cloudflare](https://www.cloudflare.com) or [Vercel](https://vercel.com/) free deployment account.
 - A [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) of [teia-ui](https://github.com/teia-community/teia-ui)'s repository in your own Github account
 
