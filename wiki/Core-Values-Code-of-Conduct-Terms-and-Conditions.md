@@ -91,6 +91,8 @@ We believe in sustainability. With technology evolving, we as a community need t
 
 # Code of Conduct
 
+> This page (or section of page) is now published on the [docs.teia.art](https://docs.teia.art/core-values-code-of-conduct-terms-and-conditions#code-of-conduct).
+
 Teia is a community of artists, creators, and collectors from all around the world, who come together to grow and inspire others. All participants in the community are expected to act lawfully, honestly, ethically, and in the best interest of the project.
 We want Teia to be a safe and productive environment for everyone. This Code of Conduct offers guidelines designed to keep Teia a respectful, supportive, and open space. Remember, Teia is what you make of it, and as a community we can create a great experience for everyone.
 
@@ -133,6 +135,8 @@ While some content is free to be used and if specified in the license even comme
 
 
 # Terms and Conditions
+
+> This page (or section of page) is now published on the [docs.teia.art](https://docs.teia.art) site [here](https://docs.teia.art/core-values-code-of-conduct-terms-and-conditions#terms-and-conditions).
 
 ## Rules of the Teia Platform
 
@@ -220,8 +224,9 @@ Additionally, community organizers are available to help community members engag
 If you feel you have been falsely or unfairly accused of violating this Code of Conduct, you should notify Teia with a concise description of your grievance. Your grievance will be handled in accordance with our existing governing policies. 
   
 
-## Content moderation  
+## Content moderation
 
+> This page (or section of page) is now published on the [docs.teia.art](https://docs.teia.art) site [here](https://docs.teia.art/core-values-code-of-conduct-terms-and-conditions#content-moderation).
 
 ### Restricted accounts on the Teia marketplace.
 
