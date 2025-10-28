@@ -8,7 +8,7 @@ sidebar_position: 5
 
 Teia documentation is now published on our [Docusaurus site](https://docs.teia.art).
 
-Drafts can be created anywhere you like—Google Docs, the GitHub wiki, Microsoft Word, or your favorite editor. Once a document is ready to be published, it should be added to the **`//teia-docs/docs/`** folder in this repository. Essentially, the documentation lives as Markdown files grouped in folders under this directory.
+Drafts can be created anywhere you like—Google Docs, the GitHub wiki, Microsoft Word, or your favorite editor. Once a document is ready to be published, it should be added to the **`//teia-docs/docs/`** folder in this repository. Essentially, the documentation lives as [Markdown](https://www.markdownguide.org/) files grouped in folders under this directory.
 
 Once your pull request is approved and merged into `main`, the Docusaurus site will rebuild and your changes will be published automatically.
 
