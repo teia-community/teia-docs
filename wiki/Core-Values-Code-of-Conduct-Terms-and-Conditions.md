@@ -91,6 +91,8 @@ We believe in sustainability. With technology evolving, we as a community need t
 
 # Code of Conduct
 
+> This page (or section of page) is now published on the [docs.teia.art](https://docs.teia.art/core-values-code-of-conduct-terms-and-conditions#code-of-conduct).
+
 Teia is a community of artists, creators, and collectors from all around the world, who come together to grow and inspire others. All participants in the community are expected to act lawfully, honestly, ethically, and in the best interest of the project.
 We want Teia to be a safe and productive environment for everyone. This Code of Conduct offers guidelines designed to keep Teia a respectful, supportive, and open space. Remember, Teia is what you make of it, and as a community we can create a great experience for everyone.
 
