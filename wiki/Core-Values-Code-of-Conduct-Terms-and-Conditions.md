@@ -224,8 +224,9 @@ Additionally, community organizers are available to help community members engag
 If you feel you have been falsely or unfairly accused of violating this Code of Conduct, you should notify Teia with a concise description of your grievance. Your grievance will be handled in accordance with our existing governing policies. 
   
 
-## Content moderation  
+## Content moderation
 
+> This page (or section of page) is now published on the [docs.teia.art](https://docs.teia.art) site [here](https://docs.teia.art/core-values-code-of-conduct-terms-and-conditions#content-moderation).
 
 ### Restricted accounts on the Teia marketplace.
 
