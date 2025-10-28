@@ -25,6 +25,8 @@ If you want to add ideas/feedback - go to the #core-values-philosophy channel on
 
 # Core Values
 
+> This page (or section of page) is now published on the [docs.teia.art](https://docs.teia.art) site [here](https://teia-community.github.io/teia-docs/docs/core-values-code-of-conduct-terms-and-conditions).
+
 ## PREAMBLE
 
 TEIA is an open, digital platform of ideas and works of creativity. It is an artwork made of artworks; Artists and collectors coming together as equal lovers of creativity in order to emancipate and democratize art.
