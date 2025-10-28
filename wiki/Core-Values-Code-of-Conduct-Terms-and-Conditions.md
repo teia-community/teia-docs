@@ -136,6 +136,8 @@ While some content is free to be used and if specified in the license even comme
 
 # Terms and Conditions
 
+> This page (or section of page) is now published on the [docs.teia.art](https://docs.teia.art) site [here](https://docs.teia.art/core-values-code-of-conduct-terms-and-conditions#terms-and-conditions).
+
 ## Rules of the Teia Platform
 
 - By agreeing with this Code of Conduct and Terms & Conditions you become a user of the Teia platform.
