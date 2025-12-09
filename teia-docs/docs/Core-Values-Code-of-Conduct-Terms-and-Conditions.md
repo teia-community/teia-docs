@@ -4,10 +4,13 @@ title: Core Values, Code of Conduct & Terms and Conditions
 sidebar_label: Core Values, Code of Conduct & Terms and Conditions
 ---
 
-These documents were drafted during the hic et nunc hicathon and got worked on since then by the Teia community. 
-Those are “living documents” that have not been voted on yet and will be subject to changes made by the "core values" working group of the teia community until finalized by an official vote. However they are put in place until consensus is reached as they reflect the current state of the discussion and are the result of a wide and long process with diverse contributors.
+:::info[Living document]
 
-If you want to add ideas/feedback - go to the #core-values-philosophy channel on the [Teia Discord](https://discord.gg/ueU7cVBF) and bring your input there!
+These documents were drafted during the hic et nunc hicathon and have been refined by the Teia community. They are “living documents” that have not been voted on yet and will be updated by the "core values" working group until finalized by an official vote. They reflect the current state of the discussion and result from a wide and long process with diverse contributors.
+
+If you want to add ideas or feedback, go to the #core-values-philosophy channel on the [Teia Discord](https://discord.gg/ueU7cVBF) and bring your input there!
+
+:::
 
 
 **Table of Contents**
