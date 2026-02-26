@@ -37,4 +37,21 @@ You can help improve Teia documentation in several ways:
 - 💬 Review pull requests and participate in issue discussions.  
 - 🌍 Contribute translations and accessibility improvements.
 
-Together we’re building clear, welcoming documentation for the Teia community.
+Together we're building clear, welcoming documentation for the Teia community.
+
+## 🔧 Updating Dependencies
+
+The docs site is a static Docusaurus build and not exposed to user input, so it's low-risk for security vulnerabilities. However, we aim to keep dependencies patched to track the latest stable versions.
+
+To update dependencies:
+
+```bash
+cd teia-docs # Docusaurus is in a sub directory of this repo
+rm package-lock.json  # Remove old lock file
+npm install           # Regenerate with latest compatible versions
+git add package.json package-lock.json
+git commit -m "chore: update npm dependencies"
+git push
+```
+
+Dependabot PRs are not always able to be created automatically so sometimes you have to do this.
