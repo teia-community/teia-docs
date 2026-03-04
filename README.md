@@ -47,7 +47,7 @@ To update dependencies:
 
 ```bash
 cd teia-docs # Docusaurus is in a sub directory of this repo
-rm package-lock.json  # Remove old lock file
+rm -rf node_modules package-lock.json  # Remove old packages and lock file
 npm install           # Regenerate with latest compatible versions
 git add package.json package-lock.json
 git commit -m "chore: update npm dependencies"
