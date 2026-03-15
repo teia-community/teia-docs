@@ -21,7 +21,7 @@ You will need to have basic Git skills and have a GitHub account.
 
 ## Getting started
 
-If you want to start helping with developing, you can take a look at the [Github issues tagges as "good firt issue"](https://github.com/teia-community/teia-ui/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) - those should be easy and quick to do and can help with getting started with the code base
+If you want to start helping with developing, you can take a look at the [Github issues tagges as "good first issue"](https://github.com/teia-community/teia-ui/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) - those should be easy and quick to do and can help with getting started with the code base
 
 ## How to set up a pull request
 
