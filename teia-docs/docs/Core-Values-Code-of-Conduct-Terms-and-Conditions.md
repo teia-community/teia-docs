@@ -121,7 +121,7 @@ While some content is free to be used and if specified in the license even comme
 
 - When creating a homage piece to somebody else’s work, an artist should seek consent from the creator of the original, clearly label it as a homage and name the original creator, unless there is an articulable aesthetic basis for not doing so (i.e. pastiche / sampling / collage / satire etc).
 
-#### Reference {#cc-annex}
+#### Reference {/* #cc-annex */}
 
 [src] see page 11 of [Digital Commons](https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1000&context=scholcom)
 
