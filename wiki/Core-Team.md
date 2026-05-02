@@ -63,7 +63,7 @@ zir0h-ledger (present) 4
 ### floydwilde
 <!-- multisig id: floydwilde -->
 
-[Floyd](https://mastodon.teia.art/@floydwilde) makes a daily collage from text and images he finds in his RSS reader. He came for the energy efficient Tezos blockchain and stayed because of the community which has built the Teia DAO.  Floyd maintains the [docs.teia.art](docs.teia.art) site and contributed the "Curation" tab in the profile which will show you a list of items you have collected from other artists and are now swapping.
+[Floyd](https://mastodon.teia.art/@floydwilde) makes a daily collage from text and images he finds in his RSS reader. He came for the energy efficient Tezos blockchain and stayed because of the community which has built the Teia DAO.  Floyd maintains the [docs.teia.art](https://docs.teia.art) site and contributed the "Curation" tab in the profile which will show you a list of items you have collected from other artists and are now swapping.
 
 ### Jagracar
 <!-- multisig id: jagracar -->
