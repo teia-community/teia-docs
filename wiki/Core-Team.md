@@ -143,7 +143,7 @@ Experimental photographer from Aotearoa [stusontier](https://twitter.com/stusont
 UFFFD is a helpful glitch. He was a volunteer for hicetnunc’s community, UI and copymint moderation, and now supports Teia by running the blog, Discourse, and voting platform.
 ![Fvrv7jHaAAMj-I-](https://github.com/teia-community/teia-docs/assets/97635650/e9f117f9-3683-4f47-950f-04ce96e367c7)
 
-### Zir0h-ledger 4
+### Zir0h-ledger
 <!-- multisig id: zir0h-ledger -->
 
 Belgium based @Zir0h is a middleware administrator. He tumbled into Tezos via Mike Shinoda and his wombats.
