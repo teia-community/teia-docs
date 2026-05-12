@@ -42,6 +42,7 @@ zir0h-ledger (present) 4
 <!-- multisig id: AliaK -->
 
 [AliaK](https://x.com/AliaK) // Kath O'Donnell (she/her) is a systems integration engineer, program manager, emerging artist and curator, life-long student and ARI gallery manager based in Gundungurra Country, south of Sydney, Australia. She uses technology, digital arts processes and systems to explore extinction, ecology, interconnectedness, decentralisation and our relationship to tech. She helps out part time with Teia projects
+
 <img width="332" height="285" alt="kath20240528" src="https://github.com/user-attachments/assets/aac489a2-fb16-456b-bcbf-19ccc36f3688" />
 
 
