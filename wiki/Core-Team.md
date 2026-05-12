@@ -41,7 +41,8 @@ zir0h-ledger (present) 4
 ### AliaK
 <!-- multisig id: AliaK -->
 
-[AliaK](https://x.com/AliaK)
+[AliaK](https://x.com/AliaK) // Kath O'Donnell (she/her) is a systems integration engineer, program manager, emerging artist and curator, and ARI gallery manager based in Gundungurra Country, south of Sydney, Australia. She uses technology, digital arts processes and systems to explore extinction, ecology, our relationship to tech and other ideas
+
 
 ### BabyCommando
 <!-- multisig id: babycommando -->
