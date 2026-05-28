@@ -23,7 +23,7 @@ The core team will use this contract to manage fees, the marketplace contract an
 * https://core-team-vote.onrender.com/proposals
 
 ## Current Core Team Introductions
-<!-- MultiSig list
+{/* MultiSig list
 # The trailing numbers are just identifiers so I can be sure all accounted for:
 AliaK (added) 15
 babycommando (present) 1
@@ -43,10 +43,10 @@ scott (added) 6
 s (stu) (present) 5
 ufffd (present) 17
 zir0h-ledger (present) 4
--->
+*/}
 
 ### AliaK
-<!-- multisig id: AliaK -->
+{/* multisig id: AliaK */}
 
 [AliaK](https://x.com/AliaK) // Kath O'Donnell (she/her) is a systems integration engineer, program manager, emerging artist and curator, life-long student and ARI gallery manager based in Gundungurra Country, south of Sydney, Australia. She uses technology, digital arts processes and systems to explore extinction, ecology, interconnectedness, decentralisation and our relationship to tech. She helps out part time with Teia projects
 
@@ -54,107 +54,107 @@ zir0h-ledger (present) 4
 
 
 ### BabyCommando
-<!-- multisig id: babycommando -->
+{/* multisig id: babycommando */}
 
 [BabyCommando](https://twitter.com/BabyCommando_) (he/him) is a DIY maker and multi-skilled human being, loves to build social experiments and make technology more and more pleasant, always starting with users, not bytes.
 
 ### Santiago Itzcoatl, /ɪts-kəʊ-æt/ aka santo.tez
-<!-- multisig id: ENTEROUT -->
+{/* multisig id: ENTEROUT */}
 
 [santiagoitzcoat](https://twitter.com/santiagoitzcoat) is a multimedia artist from Mexico. Has been involved in the context of Art and Technology since '00 and is an active observer of Crypto Art since 2019. TEIA has the ethos with which he best identifies and has tried to volunteer and collaborate with the platform on any field he could.
 
 ![Fvt45MTakAMA9pR](https://github.com/teia-community/teia-docs/assets/97635650/70a90239-f4b4-4336-bb55-dba03cc69429)
 
 ### Fendel
-<!-- multisig id: Fendel -->
+{/* multisig id: Fendel */}
 
 [Fendel](https://x.com/FendelMarc)
 
 ### floydwilde
-<!-- multisig id: floydwilde -->
+{/* multisig id: floydwilde */}
 
 [Floyd](https://mastodon.teia.art/@floydwilde) makes a daily collage from text and images he finds in his RSS reader. He came for the energy efficient Tezos blockchain and stayed because of the community which has built the Teia DAO.  Floyd maintains the [docs.teia.art](https://docs.teia.art) site and contributed the "Curation" tab in the profile which will show you a list of items you have collected from other artists and are now swapping.
 
 ### Jagracar
-<!-- multisig id: jagracar -->
+{/* multisig id: jagracar */}
 
 Javier, a.k.a. [jagracar](https://twitter.com/jagracar) (he/him). Astronomer, developer, and creative coder in his free time. Jumped into teia to help to write their smart contracts and stayed for the fun and friends he made. Pushing hard to discover the limits of DAOs and digital art.
 ![FvruSxBaYAAY8cJ](https://github.com/teia-community/teia-docs/assets/97635650/1c7088cc-64da-4f90-a639-7737e6a34147)
 
 ### jovinft
-<!-- multisig id: jovinft -->
+{/* multisig id: jovinft */}
 
 Jovi aka [jovinft](https://twitter.com/Jovinft) is a former senior management of a well-known communications company, running two companies in China for blockchain and digital art, creator and collector of Web3 world.
 
 ![FvruddsaUAAdCuV](https://github.com/teia-community/teia-docs/assets/97635650/e82dfce9-b964-4d2e-bc19-ad6378ee3600)
 
 ### ktorn
-<!-- multisig id: ktorn -->
+{/* multisig id: ktorn */}
 
 [ktorn](https://twitter.com/ktorn) is a crypto-enthusiast advocating for privacy and freedom since 2013. As an academic, ktorn teaches generative art, and researches decentralised systems. As a coder, ktorn is contributing with tools and infrastructure for the preservation of evolving digital art.
 
 ![FvrusYkakAEIz3a](https://github.com/teia-community/teia-docs/assets/97635650/b1a37a40-44de-49bd-8411-36bcc1567ee3)
 
 ### mel
-<!-- multisig id: mel -->
+{/* multisig id: mel */}
 
 From Paris comes [melmassadian](https://twitter.com/melmassadian), Teia's Github manager and one of the front-end developers. They're a VFX Supervisor and Technical Director with a passion for real-time tech and pipeline problem-solving.
 
 ![FvrvPJMaIAE1dT1](https://github.com/teia-community/teia-docs/assets/97635650/30aba876-a0cb-45c0-8a74-3c8e7d219f63)
 
 ### Merchant Coppola
-<!-- multisig id: merchant_coppola -->
+{/* multisig id: merchant_coppola */}
 
 German-based [MerchantCoppola](https://twitter.com/MerchantCoppola) (they/them) is a visual poet and visual effects artist doing NFTs on Tezos since May '21. Their artworks explore words, symbols, and the (de)construction of meaning. For Teia, their focus is helping with operations, DAO building, coordination and documentation.
 
 ![FvrvXHraUAAaQmY](https://github.com/teia-community/teia-docs/assets/97635650/2859be78-c66c-48e0-8331-7252de2e5dfa)
 
 ### Mumu_thestan
-<!-- multisig id: mumupixels -->
+{/* multisig id: mumupixels */}
 
 [mumu_thestan](https://twitter.com/mumu_thestan) is a Malaysian artist known for making pixels go brrr. You may also know her for dragging mikeshinoda to tezos, popularizing the aubergine meme, or her outspoken sass on twitter, championing diversity, inclusivity and open source in Web3.
 
 Photo: https://cdn.tatlerasia.com/tatlerasia/i/2022/10/26122534-munira-hamzah_cover_1200x1500.jpg
 
 ### NoRulesJustFeels
-<!-- multisig id: NoRulesJustFeels -->
+{/* multisig id: NoRulesJustFeels */}
 
 NoRulesJustFeels aka [FeelsNoRules](https://twitter.com/FeelsNoRules) has an engineering background and dabbles in 3D art. Helps Teia with bots, docs and a bit of coding.
 
 ### ryangtanaka
-<!-- multisig id: ryangtanaka -->
+{/* multisig id: ryangtanaka */}
 
 Ryan aka [ryangtanaka](https://twitter.com/ryangtanaka) is a classically trained musician & musicologist. Involved in crypto since 2014; began collecting NFTs in 2018 with CryptoPunk #8973 at ~$100. Ryan loves to improvise, both in music and IRL. Co-founder of [M1X_art](https://twitter.com/M1X_art), which is building a “Curation Layer” for NFTs.
 
 ![FvrvlbNaYAAQuWF](https://github.com/teia-community/teia-docs/assets/97635650/a5db63cc-41c5-4b32-bde4-3083b5d8ef8d)
 
 ### DenScimonk
-<!-- multisig id: Scalemodal -->
+{/* multisig id: Scalemodal */}
 
 Den aka [denscimonk](https://twitter.com/denscimonk) is a product designer and enthusiast in building informational architectures. He has been contributing to the HEN ecosystem since 2021, including the Hicathon and Henvote. On Teia, he is focusing on building the DAO, user interface, comms with other projects.
 
 ![Fvrt-AHaIAA4lZ9](https://github.com/teia-community/teia-docs/assets/97635650/378c30bc-5816-422a-a083-0945908a7db6)
 
 ### scott
-<!-- multisig id: scott -->
+{/* multisig id: scott */}
 
 [scott](https://x.com/spike_0124)
 
 ### S (Stu)
-<!-- multisig id: s -->
+{/* multisig id: s */}
 
 Experimental photographer from Aotearoa [stusontier](https://twitter.com/stusontier) fell in love with hicetnunc's low energy aspects and diverse art.  An activist and electronics engineering background helps with pedantic text proofing, removing 'z's and grinding copyminters down with rhetorical questions.
 
 ![Fvrvs0XaIAAKjP_](https://github.com/teia-community/teia-docs/assets/97635650/c86eafcd-66a4-4daf-ba4d-55edad410ec0)
 
 ### UFFFD
-<!-- multisig id: ufffd -->
+{/* multisig id: ufffd */}
 
 UFFFD is a helpful glitch. He was a volunteer for hicetnunc’s community, UI and copymint moderation, and now supports Teia by running the blog, Discourse, and voting platform.
 ![Fvrv7jHaAAMj-I-](https://github.com/teia-community/teia-docs/assets/97635650/e9f117f9-3683-4f47-950f-04ce96e367c7)
 
 ### Zir0h-ledger
-<!-- multisig id: zir0h-ledger -->
+{/* multisig id: zir0h-ledger */}
 
 Belgium based @Zir0h is a middleware administrator. He tumbled into Tezos via Mike Shinoda and his wombats.
 
