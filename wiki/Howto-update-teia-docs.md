@@ -1,14 +1,21 @@
-## This is a wiki
+# This is a Wiki
 
-Wiki's are a great way to write some quick docs, get feedback and collaborate with others.
+The Teia Wiki is a collaborative space for drafting ideas, gathering feedback, and developing documentation together.
 
-This is a [GitHub Wiki](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis) which is typically meant to be a documentation, it is a weird feature of GitHub and not a traditional wiki, it exists in a separate hidden repository alongside the main 
-project repo.  We've setup a "sync" action that whenever anyone writes in the hidden GitHub wiki repo, those changes are synced into the main repository, into the wiki/ folder in this repo.  This is just so we can see the wiki files better and understand better what changes are happening. 
+Although it uses GitHub's Wiki feature, think of it as a workshop rather than a publishing platform. Pages here are expected to evolve as ideas are discussed and refined.
 
-Weird GitHub antifeature or not, this was a tool the community that found the [Teia DAO](https://teia.art/dao) were able to come together and quickly draft some foundational documentation.  Now we are taking that to the next level, and have setup a documentation site using [Docusaurus](https://docusaurus.io/) because sometimes it's nice to have an upstream provider, kind of like Tezos itself, Docusaurus is an open source tool with an amazing community behind it, so we are really just experimenting with how our more stable documentation looks in it.
+As documents become more stable, they can be published to the Teia Docs site using Docusaurus. The Docs site is intended for documentation that is widely referenced and changes less frequently.
 
-If you have created a wiki page, and you think it's in a place where you want to publish it on the [Teia Docs](docs.teia.org) site, check this page here:
+## When should a Wiki page become a Docs page?
 
-- https://docs.teia.art/dev-howtos/howto-update-teia-docs
+A page may be ready for publication if:
 
-If no one has updated the page in a while, this is a good candidate to publish there, if the page is under review and heavy drafting, then wait awhile.
+* It has been reviewed by others.
+* The content is relatively stable.
+* It is likely to be useful as a long-term reference.
+
+If a page is still being actively drafted or debated, it is usually best to keep it in the Wiki for now.
+
+To learn how to publish content from the Wiki to the Docs site, see:
+
+* https://docs.teia.art/dev-howtos/howto-update-teia-docs
