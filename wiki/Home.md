@@ -1,6 +1,6 @@
 Welcome to the [teia.art](https://teia.art/) wiki!
 
-> We are in the process of moving docs to their new home at: https://docs.teia.art
+> You will find some more docs at: https://docs.teia.art
 
 > We will continue to use this wiki as a place for drafting and revising docs published there.
 
